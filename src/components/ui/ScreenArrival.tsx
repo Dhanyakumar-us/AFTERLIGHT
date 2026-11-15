@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Compass } from 'lucide-react';
+import { ArrowUpRight, Compass, Film } from 'lucide-react';
 import { useExperienceStore } from '../../store/useExperienceStore';
+import { navigation } from '../../navigation/navigationController';
 
 export const ScreenArrival: React.FC = () => {
   const beginArrival = useExperienceStore((s) => s.beginArrival);
@@ -56,12 +57,12 @@ export const ScreenArrival: React.FC = () => {
           Explore the hardware, the astronauts, and the historic sites of the first crewed landing on the Moon.
         </motion.p>
 
-        {/* Primary Action Button (Signal Vermilion) */}
+        {/* Primary Action Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.4, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-          className="pt-4"
+          className="pt-4 flex flex-wrap items-center gap-4"
         >
           <button
             type="button"
@@ -73,6 +74,17 @@ export const ScreenArrival: React.FC = () => {
               ENTER THE MISSION
             </span>
             <ArrowUpRight className="w-4 h-4 text-obsidian group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />
+          </button>
+
+          <button
+            type="button"
+            onClick={() => navigation.toArtifact('apollo11_eagle')}
+            className="pointer-events-auto group inline-flex items-center space-x-3 px-6 py-4 bg-surface-raised/90 hover:bg-surface border border-meteorite text-bone hover:border-signal/50 transition-all duration-300 font-semibold"
+          >
+            <Film className="w-4 h-4 text-signal group-hover:scale-110 transition-transform duration-200" />
+            <span className="font-mono text-xs uppercase tracking-wider font-semibold">
+              WATCH APOLLO 11 FILM
+            </span>
           </button>
         </motion.div>
       </div>

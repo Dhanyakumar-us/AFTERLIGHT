@@ -4,6 +4,8 @@ import {
   ArrowLeft,
   ArrowRight,
   Camera,
+  Film,
+  Play,
   Box,
   Volume2,
   VolumeX,
@@ -39,7 +41,7 @@ export const ScreenArtifactDetails: React.FC<ScreenArtifactDetailsProps> = ({ ar
   const toggleAudio = useExperienceStore((s) => s.toggleAudio);
   const reducedMotion = useExperienceStore((s) => s.reducedMotion);
 
-  const [viewMode, setViewMode] = useState<'photo' | '3d'>('photo');
+  const [viewMode, setViewMode] = useState<'photo' | '3d' | 'video'>('video');
   const [activePhotoIndex, setActivePhotoIndex] = useState(0);
   const [hoveredHotspotId, setHoveredHotspotId] = useState<string | null>(null);
 
@@ -74,9 +76,9 @@ export const ScreenArtifactDetails: React.FC<ScreenArtifactDetailsProps> = ({ ar
   // Reset active photo if artifact switches
   useEffect(() => {
     setActivePhotoIndex(0);
-    setViewMode('photo');
+    setViewMode(artifact?.videoUrl ? 'video' : 'photo');
     setHoveredHotspotId(null);
-  }, [activeArtifactId]);
+  }, [activeArtifactId, artifact?.videoUrl]);
 
   if (!artifact) {
     return (
@@ -213,6 +215,20 @@ export const ScreenArtifactDetails: React.FC<ScreenArtifactDetailsProps> = ({ ar
               {/* Controls bar above showcase */}
               <div className="flex items-center justify-end text-xs font-mono">
                 <div className="inline-flex items-center space-x-4 text-[10px] tracking-[0.16em] uppercase">
+                  {artifact.videoUrl && (
+                    <button
+                      type="button"
+                      onClick={() => setViewMode('video')}
+                      className={`inline-flex items-center space-x-1.5 pb-0.5 transition-colors ${
+                        viewMode === 'video'
+                          ? 'border-b font-semibold text-signal border-signal'
+                          : 'text-stone-muted hover:text-bone'
+                      }`}
+                    >
+                      <Film className="w-3 h-3 text-signal" />
+                      <span>MISSION FILM</span>
+                    </button>
+                  )}
                   <button
                     type="button"
                     onClick={() => setViewMode('photo')}
@@ -250,7 +266,24 @@ export const ScreenArtifactDetails: React.FC<ScreenArtifactDetailsProps> = ({ ar
 
               {/* Showcase Frame with Interactive Hotspots Overlay */}
               <div className="relative w-full aspect-[16/10] bg-surface overflow-hidden border border-meteorite shadow-2xl group">
-                {viewMode === '3d' ? (
+                {viewMode === 'video' ? (
+                  <div className="relative w-full h-full bg-black flex items-center justify-center">
+                    <video
+                      src={artifact.videoUrl || '/videos/apollo11_mission.mp4'}
+                      poster={currentPhoto.src}
+                      controls
+                      autoPlay
+                      playsInline
+                      className="w-full h-full object-contain"
+                    />
+                    <div className="absolute top-3 left-3 pointer-events-none z-10 flex items-center space-x-2 bg-obsidian/85 backdrop-blur-sm px-2.5 py-1 border border-meteorite">
+                      <span className="w-2 h-2 rounded-full bg-signal animate-pulse" />
+                      <span className="font-mono text-[10px] uppercase tracking-wider text-bone font-medium">
+                        APOLLO 11 HISTORIC ARCHIVAL FILM
+                      </span>
+                    </div>
+                  </div>
+                ) : viewMode === '3d' ? (
                   <Artifact3DStage
                     artifactId={artifact.id}
                     onSwitchToPhoto={() => setViewMode('photo')}

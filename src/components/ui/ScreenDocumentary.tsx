@@ -89,22 +89,34 @@ export const ScreenDocumentary: React.FC = () => {
 
   return (
     <div className="fixed inset-0 z-40 bg-obsidian text-bone overflow-hidden select-none flex flex-col justify-between">
-      {/* 1. FULL-SCREEN DOCUMENTARY BACKDROP (ARCHIVAL NASA PHOTOGRAPHY) */}
+      {/* 1. FULL-SCREEN DOCUMENTARY BACKDROP (ARCHIVAL NASA PHOTOGRAPHY & FILM) */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentChapter.id}
             initial={{ opacity: 0, scale: 1.05 }}
-            animate={{ opacity: 0.5, scale: 1 }}
+            animate={{ opacity: 0.65, scale: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
             className="w-full h-full"
           >
-            <img
-              src={currentChapter.archivalImage}
-              alt={currentChapter.imageCaption}
-              className="w-full h-full object-cover filter brightness-75 contrast-110"
-            />
+            {currentChapter.videoUrl ? (
+              <video
+                src={currentChapter.videoUrl}
+                poster={currentChapter.archivalImage}
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-cover filter brightness-80 contrast-115"
+              />
+            ) : (
+              <img
+                src={currentChapter.archivalImage}
+                alt={currentChapter.imageCaption}
+                className="w-full h-full object-cover filter brightness-75 contrast-110"
+              />
+            )}
           </motion.div>
         </AnimatePresence>
 

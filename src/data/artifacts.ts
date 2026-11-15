@@ -24,6 +24,7 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
     heroCaption:
       'Buzz Aldrin working beside the scientific equipment bay of Apollo 11 Lunar Module Eagle at Tranquility Base, July 20, 1969 (NASA AS11-40-5921).',
     heroNasaId: 'AS11-40-5921',
+    videoUrl: '/videos/apollo11_mission.mp4',
     galleryImages: [
       {
         src: '/images/apollo11_surface.jpg',
@@ -181,6 +182,7 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
           'The descent stage carried the heavy propellant tanks, landing legs, radar antenna, and storage bays; the ascent stage above carried the pressurized cockpit and return engine.',
         archivalImage: '/images/apollo11_surface.jpg',
         imageCaption: 'Apollo 11 Lunar Module Eagle on Mare Tranquillitatis (NASA AS11-40-5921).',
+        videoUrl: '/videos/apollo11_mission.mp4',
         keyMetric: { label: 'Dry Descent Mass', value: '2,034 kg' },
         audioFrequency: 220,
       },
@@ -195,6 +197,7 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
           'CAPCOM Charlie Duke replied from Mission Control: "Roger, Tranquility, we copy you on the ground. You got a bunch of guys about to turn blue. We\'re breathing again. Thanks a lot."',
         archivalImage: '/images/exhibits/apollo_boot.jpg',
         imageCaption: 'Crew bootprint documenting regolith compaction beside Eagle (NASA AS11-40-5877).',
+        videoUrl: '/videos/apollo11_mission.mp4',
         keyMetric: { label: 'Touchdown Time', value: '20:17:40 UTC • July 20, 1969' },
         audioFrequency: 293.66,
       },
@@ -209,6 +212,7 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
           'Decades later, NASA\'s Lunar Reconnaissance Orbiter photographed Eagle\'s descent stage shadow and astronaut footpaths clearly visible from lunar orbit.',
         archivalImage: '/images/exhibits/eagle_plaque.jpg',
         imageCaption: 'The Tranquility Base commemorative plaque attached to Eagle’s forward strut (NASA AS11-40-5899).',
+        videoUrl: '/videos/apollo11_mission.mp4',
         keyMetric: { label: 'Status', value: 'Protected Heritage Hardware' },
         audioFrequency: 440,
       },

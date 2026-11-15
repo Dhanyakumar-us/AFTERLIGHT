@@ -74,6 +74,7 @@ export interface StoryChapter {
   historicalContext: string;
   archivalImage: string;
   imageCaption: string;
+  videoUrl?: string;
   keyMetric?: { label: string; value: string };
   audioCuePrompt?: string;
   audioFrequency?: number;
@@ -113,6 +114,7 @@ export interface ArtifactData {
   heroImage: string;
   heroCaption: string;
   heroNasaId?: string;
+  videoUrl?: string;
   galleryImages?: GalleryImage[];
   has3DModel?: boolean;
   coordinates: {
