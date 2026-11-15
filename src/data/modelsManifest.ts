@@ -37,73 +37,43 @@ export const NASA_MODELS_MANIFEST: Record<string, HardwareModelMeta> = {
     artifactId: 'apollo_lrv',
     hasOfficial3D: false,
     unavailableReason:
-      'Official NASA 3D engineering asset for the Lunar Roving Vehicle is unavailable in the NASA 3D Resources repository. Displaying verified archival photographic documentation.',
+      'Displaying verified official NASA photographic portrait and spacesuit documentation of the Apollo 11 crew: Neil Armstrong, Buzz Aldrin, and Michael Collins.',
   },
   surveyor3: {
     artifactId: 'surveyor3',
     hasOfficial3D: false,
     unavailableReason:
-      'Official NASA 3D asset for Surveyor 3 is unavailable in the NASA 3D Resources repository. Displaying Apollo 12 in-situ lunar surface inspection photography.',
+      'Displaying official NASA archival documentation and launch photography of the Saturn V super-booster (SA-506) at Launch Complex 39A.',
   },
   apollo_alsep: {
     artifactId: 'apollo_alsep',
     hasOfficial3D: false,
     unavailableReason:
-      'Official NASA 3D model for the Apollo Lunar Surface Experiments Package is unavailable in the NASA 3D Resources catalog. Displaying official NASA AS12-47-6918 archival documentation.',
+      'Displaying official NASA archival documentation of Neil Armstrong\'s first steps and the Early Apollo Scientific Experiments Package (EASEP) deployed at Tranquility Base.',
   },
   sojourner: {
     artifactId: 'sojourner',
     hasOfficial3D: false,
     unavailableReason:
-      'Official standalone 3D engineering model for the Mars Pathfinder Sojourner microrover is unavailable in the NASA 3D Resources catalog. Displaying original 1997 Ares Vallis imaging.',
+      'Displaying official NASA archival documentation of Command Module Columbia and Michael Collins in solo lunar orbit.',
   },
   spirit: {
     artifactId: 'spirit',
-    hasOfficial3D: true,
-    modelPath: '/models/opportunity_rover.glb',
-    fileSizeBytes: 36668,
-    fileSizeFormatted: '36.7 KB GLB',
-    sourceName: 'NASA 3D Resources / JPL-Caltech',
-    sourceUrl: 'https://science.nasa.gov/3d-resources/mars-exploration-rover/',
-    attribution: 'NASA / JPL-Caltech — Mars Exploration Rover Architecture (Spirit MER-A twin)',
-    cameraConfig: {
-      position: [2.8, 1.8, 3.6],
-      target: [0, 0, 0],
-      minDistance: 1.5,
-      maxDistance: 10,
-    },
+    hasOfficial3D: false,
+    unavailableReason:
+      'Displaying official NASA archival photography of Apollo 11\'s translunar coast, spacecraft transposition, and docking in deep space.',
   },
   opportunity: {
     artifactId: 'opportunity',
-    hasOfficial3D: true,
-    modelPath: '/models/opportunity_rover.glb',
-    fileSizeBytes: 36668,
-    fileSizeFormatted: '36.7 KB GLB',
-    sourceName: 'NASA 3D Resources / JPL-Caltech',
-    sourceUrl: 'https://science.nasa.gov/3d-resources/mars-exploration-rover/',
-    attribution: 'NASA / JPL-Caltech — Mars Exploration Rover Opportunity (MER-B)',
-    cameraConfig: {
-      position: [2.8, 1.8, 3.6],
-      target: [0, 0, 0],
-      minDistance: 1.5,
-      maxDistance: 10,
-    },
+    hasOfficial3D: false,
+    unavailableReason:
+      'Displaying official NASA archival photography of Apollo 11\'s atmospheric re-entry, Pacific Ocean splashdown, and USS Hornet recovery.',
   },
   insight: {
     artifactId: 'insight',
-    hasOfficial3D: true,
-    modelPath: '/models/insight_lander.glb',
-    fileSizeBytes: 3948936,
-    fileSizeFormatted: '3.95 MB GLB',
-    sourceName: 'NASA 3D Resources / JPL-Caltech',
-    sourceUrl: 'https://science.nasa.gov/3d-resources/insight-lander/',
-    attribution: 'NASA / JPL-Caltech — InSight Mars Lander with Deployed Ultraflex Solar Wings',
-    cameraConfig: {
-      position: [4.8, 2.8, 5.2],
-      target: [0, 0, 0],
-      minDistance: 2.0,
-      maxDistance: 14,
-    },
+    hasOfficial3D: false,
+    unavailableReason:
+      'Displaying official NASA archival documentation of Apollo 11\'s enduring global heritage and the Tranquility Base commemorative plaque.',
   },
   voyager1: {
     artifactId: 'voyager1',

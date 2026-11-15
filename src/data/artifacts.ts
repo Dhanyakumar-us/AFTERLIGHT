@@ -2,23 +2,23 @@ import { ArtifactData } from '../types';
 
 export const ARTIFACTS: Record<string, ArtifactData> = {
   // =========================================================================
-  // THE MOON EXHIBITION (01 - 04)
+  // THE MOON: APOLLO 11 TRANQUILITY BASE COLLECTION
   // =========================================================================
 
   apollo11_eagle: {
     id: 'apollo11_eagle',
-    name: 'APOLLO 11 EAGLE DESCENT STAGE',
-    callsign: 'LM-5 Descent Stage (Tranquility Base)',
+    name: 'APOLLO 11 EAGLE LUNAR MODULE',
+    callsign: 'LM-5 Eagle (Tranquility Base)',
     mission: 'Apollo 11',
     year: '1969',
     destination: 'moon',
-    category: 'Hardware Component',
-    modelType: 'Crewed Lunar Module Lower Landing Stage',
-    landingDate: '20 July 1969',
-    declarationDate: 'Permanent Heritage Site',
+    category: 'Complete Spacecraft',
+    modelType: 'Crewed Lunar Module Lower Landing Stage & Descent Propulsion System',
+    landingDate: '20 July 1969 — 20:17:40 UTC',
+    declarationDate: 'Tranquility Base Permanent Heritage Site',
     operationalDuration: '21 hours, 36 minutes surface stay',
     status: 'abandoned',
-    statusLabel: 'Abandoned Hardware — Intact at Tranquility Base',
+    statusLabel: 'Permanent Heritage Hardware — Intact at Tranquility Base',
     locationName: 'Mare Tranquillitatis (Sea of Tranquility)',
     heroImage: '/images/apollo11_surface.jpg',
     heroCaption:
@@ -49,27 +49,27 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
       planetaryRegion: 'Mare Tranquillitatis, The Moon',
       worldPosition: [0, 0, 0],
     },
-    brief: 'The launch platform that remained behind.',
+    brief: 'The historic spacecraft that made humanity\'s first landing on another world.',
     shortDescription:
       'The octagonal lower stage that lowered Eagle onto Mare Tranquillitatis and anchored humanity’s first lunar liftoff.',
     tagline:
       'Built strictly for airless spaceflight, Eagle’s gold-wrapped lower stage absorbed touchdown and served as the stationary launch pad when the upper ascent stage returned to orbit.',
     guide: {
       explanation:
-        "This is the descent stage of the Apollo 11 Lunar Module Eagle. It carried Neil Armstrong and Buzz Aldrin to the Moon's surface on July 20, 1969. After the astronauts returned to lunar orbit using the ascent stage, this lower section remained on the Moon.",
+        "This is the descent stage of the Apollo 11 Lunar Module Eagle. It carried Neil Armstrong and Buzz Aldrin to the Moon's surface on July 20, 1969. After the astronauts returned to lunar orbit using the ascent stage, this lower section remained on the Moon as humanity's first extraterrestrial monument.",
       purpose:
         'Controlled powered deceleration from lunar orbit to touchdown, housing descent propellants, thermal blankets, landing gear, and surface storage bays, then acting as the launch platform for the ascent stage.',
-      missionUsed: 'NASA Apollo 11 (LM-5), July 1969.',
+      missionUsed: 'NASA Apollo 11 (LM-5), July 16–24, 1969.',
       whyLeftBehind:
         'The Lunar Module operated in two stages to conserve mass: once surface exploration concluded, the ascent stage fired off the top of the descent stage, leaving the heavier lower section behind.',
       presentStatus:
         'Non-operational and permanently preserved intact on Mare Tranquillitatis; its ascent stage separated into lunar orbit after rendezvous with Columbia and later impacted elsewhere on the Moon.',
       spokenIntro:
-        'Welcome to the Apollo 11 exhibition. Standing before you is the lower descent stage of the Lunar Module Eagle.',
+        'Welcome to the Apollo 11 exhibition. Standing before you is the historic Lunar Module Eagle.',
       voiceScript:
         "Look closely at the golden structure before you. On July 20th, 1969, this very machine carried Neil Armstrong and Buzz Aldrin down to the basalt plains of Mare Tranquillitatis. Built strictly for the vacuum of space, its throttleable rocket engine fired against the Moon's gravity, while its crushable honeycomb footpads absorbed touchdown into the pristine dust. For twenty-one hours, it served as humanity's first home on another world. But here is the remarkable thing... It was never designed to bring all of itself back home. To conserve mass, the upper ascent stage fired directly off this lower chassis, using it as a stationary launch pad to carry the astronauts back to orbit. Neil and Buzz flew home, leaving this silent base behind. Today, more than half a century later, Eagle's descent stage stands exactly as they left it—a permanent monument resting under the airless sky.",
       keyFacts: [
-        'Landed at Mare Tranquillitatis on July 20, 1969',
+        'Landed at Mare Tranquillitatis on July 20, 1969 at 20:17:40 UTC',
         'Served as the launch platform for Neil Armstrong and Buzz Aldrin',
         'Permanently preserved in situ at Tranquility Base',
       ],
@@ -160,13 +160,13 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
       },
     ],
     specs: {
-      mass: '2,034 kg dry descent stage mass',
+      mass: '2,034 kg dry descent stage mass (15,103 kg total LM loaded)',
       powerSource: 'Silver-zinc internal batteries (1,600 Ah)',
       communication: 'S-band steerable antenna on ascent stage; VHF telemetry during descent',
       primaryInstruments: [
         'Descent Propulsion System (DPS) throttleable engine',
-        'Lunar Surface Scientific Equipment Bay (MESA)',
-        'EASEP stowage compartment (PSEP & LRRR deployed separately nearby)',
+        'Modular Equipment Stowage Assembly (MESA)',
+        'Early Apollo Scientific Experiments Package (EASEP)',
       ],
     },
     storyChapters: [
@@ -176,37 +176,37 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
         chapterTitle: 'THE MACHINE FOR VACUUM',
         headline: 'Engineered Without Sky or Air.',
         narrative:
-          'Designed by Grumman Aerospace specifically for spaceflight beyond Earth’s atmosphere, the Lunar Module abandoned wings, heat shields, and aerodynamic smoothness. Its aluminum truss and thin Kapton blankets saved every possible gram so a two-stage craft could descend under rocket thrust and lift back off from the Moon.',
+          'Designed by Grumman Aerospace specifically for spaceflight beyond Earth’s atmosphere, the Lunar Module abandoned wings, heat shields, and aerodynamic smoothness. On July 20, 1969, in lunar orbit behind the Moon, Eagle separated from Command Module Columbia. Armstrong radioed to Houston: "The Eagle has wings," initiating the descent toward history.',
         historicalContext:
-          'The descent stage carried the heavy propellant tanks, landing legs, radar antenna, and storage bays; the ascent stage above carried only the pressurized cockpit and a smaller return engine.',
+          'The descent stage carried the heavy propellant tanks, landing legs, radar antenna, and storage bays; the ascent stage above carried the pressurized cockpit and return engine.',
         archivalImage: '/images/apollo11_surface.jpg',
-        imageCaption: 'Apollo 11 Lunar Module Eagle parked on Mare Tranquillitatis (NASA AS11-40-5921).',
+        imageCaption: 'Apollo 11 Lunar Module Eagle on Mare Tranquillitatis (NASA AS11-40-5921).',
         keyMetric: { label: 'Dry Descent Mass', value: '2,034 kg' },
         audioFrequency: 220,
       },
       {
         id: 'apollo-ch-2',
         chapterNumber: '02',
-        chapterTitle: 'THE DESCENT',
+        chapterTitle: 'THE DESCENT TO TRANQUILITY',
         headline: 'Low Fuel Over West Crater.',
         narrative:
-          'On July 20, 1969, Eagle’s descent engine ignited for powered braking above Mare Tranquillitatis. Guidance computer 1202 alarms interrupted the cockpit while automated steering aimed straight toward boulders around West Crater. Taking semi-manual attitude control, Neil Armstrong skimmed horizontally until settling Eagle softly down at 20:17:40 UTC.',
+          'During powered descent above Mare Tranquillitatis, the Apollo Guidance Computer flashed unexpected 1202 and 1201 program alarms. Down below, the automated trajectory was guiding Eagle directly into a boulder-strewn crater the size of a football stadium. Taking semi-manual attitude control, Neil Armstrong throttled the engine forward, skimming horizontally over the rocks until settling Eagle down into the dust at 20:17:40 UTC with under 30 seconds of fuel remaining. "Houston, Tranquility Base here. The Eagle has landed."',
         historicalContext:
-          'Residual propellant sensors indicated roughly 25 seconds of usable hovering time before a mandatory abort threshold.',
+          'CAPCOM Charlie Duke replied from Mission Control: "Roger, Tranquility, we copy you on the ground. You got a bunch of guys about to turn blue. We\'re breathing again. Thanks a lot."',
         archivalImage: '/images/exhibits/apollo_boot.jpg',
         imageCaption: 'Crew bootprint documenting regolith compaction beside Eagle (NASA AS11-40-5877).',
-        keyMetric: { label: 'Touchdown Time', value: '20:17 UTC • July 20, 1969' },
+        keyMetric: { label: 'Touchdown Time', value: '20:17:40 UTC • July 20, 1969' },
         audioFrequency: 293.66,
       },
       {
         id: 'apollo-ch-3',
         chapterNumber: '03',
-        chapterTitle: 'THE LEGACY AT TRANQUILITY BASE',
+        chapterTitle: 'THE ASCENT FROM THE MOON',
         headline: 'Silently Anchored for Millennia.',
         narrative:
-          'After the astronauts collected 21.55 kg of lunar basalt separately on foot and deployed the EASEP experiments nearby, the ascent stage fired off the top deck of the descent stage at 17:54 UTC on July 21. Blast pressure flattened the distant flag and scattered fine dust, leaving the octagonal lower frame standing undisturbed.',
+          'After 21 hours and 36 minutes on the lunar surface, Armstrong and Aldrin pressurized the ascent stage cockpit. At 17:54 UTC on July 21, the ascent engine fired directly off the top deck of the descent stage. Exhaust blast flattened the nearby flag and scattered loose dust, leaving the octagonal lower frame standing undisturbed under the airless sky as humanity\'s first extraterrestrial monument.',
         historicalContext:
-          'Lunar Reconnaissance Orbiter overhead photography decades later clearly resolves Eagle’s descent stage shadow beside astronaut footpaths.',
+          'Decades later, NASA\'s Lunar Reconnaissance Orbiter photographed Eagle\'s descent stage shadow and astronaut footpaths clearly visible from lunar orbit.',
         archivalImage: '/images/exhibits/eagle_plaque.jpg',
         imageCaption: 'The Tranquility Base commemorative plaque attached to Eagle’s forward strut (NASA AS11-40-5899).',
         keyMetric: { label: 'Status', value: 'Protected Heritage Hardware' },
@@ -215,12 +215,12 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
     ],
     legacy: {
       physicalCondition:
-        'Structurally intact octagonal descent stage resting upright on all four footpads, surrounded by bootprints and EASEP instruments.',
+        'Structurally intact octagonal descent stage resting upright on all four footpads at Mare Tranquillitatis, surrounded by bootprints and EASEP instruments.',
       currentMilestone:
         'Recognized under international and U.S. space heritage guidelines protecting the Tranquility Base landing site.',
       scientificImpact: [
-        'Validated variable-thrust cryogenic-free hypergolic rocket landing on an uncharted extraterrestrial body.',
-        'Provided mechanical shelter and power connections during surface equipment preparation for Apollo 11’s EVA crew.',
+        'Validated variable-thrust hypergolic rocket landing on an uncharted extraterrestrial world.',
+        'Provided mechanical shelter, communications, and power during surface preparation for humanity\'s first EVA.',
         'Enabled direct verification of lunar bearing strength across basaltic mare regolith.',
       ],
       whatRemainsToday:
@@ -240,1355 +240,1669 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
         },
       ],
     },
-    curatedQnA: [],
+    curatedQnA: [
+      {
+        question: "Why was the descent stage left behind at Tranquility Base?",
+        answer: "The Lunar Module was an engineered two-stage vehicle. To conserve weight and maximize payload, the upper ascent stage fired directly off the top deck of the descent stage, using it as a stationary launch pad to carry Armstrong and Aldrin back to lunar orbit.",
+        source: "NASA Apollo 11 Operations Handbook (LM-5)"
+      },
+      {
+        question: "What triggered the 1202 and 1201 computer alarms during landing?",
+        answer: "The rendezvous radar was accidentally left in the wrong mode, flooding the Apollo Guidance Computer with extra interrupts. Software lead Margaret Hamilton's asynchronous priority executive dropped low-priority tasks to keep thrusters and descent radar running flawlessly.",
+        source: "MIT Instrumentation Laboratory / NASA Mission Archives"
+      },
+      {
+        question: "How close did Eagle come to running out of descent propellant?",
+        answer: "Armstrong had to fly manually over a field of car-sized boulders around West Crater. When Eagle settled onto Mare Tranquillitatis, only about 25 to 30 seconds of usable hovering propellant remained before a mandatory abort threshold.",
+        source: "NASA Apollo Lunar Surface Journal (Tranquility Base Descent)"
+      }
+    ],
   },
 
   apollo_lrv: {
     id: 'apollo_lrv',
-    name: 'APOLLO LUNAR ROVING VEHICLE',
-    callsign: 'LRV-1, LRV-2 & LRV-3 (Apollo 15, 16, 17)',
-    mission: 'Apollo 15, 16 & 17',
-    year: '1971',
+    name: 'THE APOLLO 11 CREW',
+    callsign: 'Armstrong · Aldrin · Collins',
+    mission: 'Apollo 11',
+    year: '1969',
     destination: 'moon',
     category: 'Complete Spacecraft',
-    modelType: 'Crewed Electric Lunar Surface Vehicle',
-    landingDate: '31 July 1971 (First Deployment, Apollo 15)',
-    declarationDate: 'Three Vehicles Parked on the Moon',
-    operationalDuration: '3–4.5 hours driving per mission (90.5 km combined)',
-    distanceTraveled: '27.9 km (A15) · 26.7 km (A16) · 35.9 km (A17)',
-    status: 'inactive',
-    statusLabel: 'Inactive — Three Vehicles Parked at Apollo 15, 16 & 17 Sites',
-    locationName: 'Hadley-Apennine, Descartes Highlands & Taurus-Littrow',
+    modelType: 'Commander, Lunar Module Pilot & Command Module Pilot',
+    landingDate: '20 July 1969 (Surface Landing)',
+    declarationDate: 'Presidential Medal of Freedom Honorees',
+    operationalDuration: '195 hours, 18 minutes, 35 seconds (Total Flight Duration)',
+    distanceTraveled: '953,054 miles (Round-Trip Earth-Moon)',
+    status: 'operational',
+    statusLabel: 'Mission Accomplished — Safe Return to Earth',
+    locationName: 'Tranquility Base & Command Module Columbia',
     heroImage: '/images/exhibits/apollo_lrv.jpg',
     heroCaption:
-      'Astronaut James Irwin beside Apollo 15 Lunar Roving Vehicle-1 near Hadley Rille and Mons Hadley Delta, August 1971 (NASA AS15-86-11603).',
-    heroNasaId: 'AS15-86-11603',
+      'The Apollo 11 crew: Neil A. Armstrong (Commander), Michael Collins (Command Module Pilot), and Edwin E. "Buzz" Aldrin Jr. (Lunar Module Pilot), NASA Portrait S69-31740.',
+    heroNasaId: 'S69-31740',
+    galleryImages: [
+      {
+        src: '/images/exhibits/apollo_lrv.jpg',
+        caption: 'Commander Neil Armstrong during lunar training simulations in Houston (NASA S69-38858).',
+        nasaId: 'S69-38858',
+      },
+      {
+        src: '/images/apollo11_surface.jpg',
+        caption: 'Buzz Aldrin photographed on the lunar surface with Neil Armstrong reflected in his gold visor (NASA AS11-40-5903).',
+        nasaId: 'AS11-40-5903',
+      },
+      {
+        src: '/images/exhibits/mer_cleanroom.jpg',
+        caption: 'Michael Collins inside the Command Module simulator preparing for solo orbital watch (NASA S69-32247).',
+        nasaId: 'S69-32247',
+      },
+    ],
     has3DModel: false,
     coordinates: {
-      latitude: '26.1322° N (LRV-1 Site)',
-      longitude: '3.6339° E',
-      elevation: 'Hadley-Apennine Basin',
-      planetaryRegion: 'Hadley-Apennine / Descartes / Taurus-Littrow',
+      latitude: '0.67408° N',
+      longitude: '23.47297° E',
+      elevation: 'Sea of Tranquility',
+      planetaryRegion: 'Mare Tranquillitatis / Lunar Orbit',
       worldPosition: [0, 0, 0],
     },
-    brief: 'Electric mobility that turned hours on foot into mountain expeditions.',
+    brief: 'Three astronauts who carried the aspirations of all humankind.',
     shortDescription:
-      'Battery-powered electric vehicles folded into Lunar Module bays that carried astronauts up to 7.6 km from camp.',
+      'Neil Armstrong, Buzz Aldrin, and Michael Collins: three seasoned military aviators and aerospace engineers selected to execute history’s first lunar landing.',
     tagline:
-      'Weighing 210 kg on Earth yet carrying over twice its own mass in astronauts and rocks, three Lunar Roving Vehicles extended Apollo geology across rugged valleys and rilles.',
+      'Representing over 400,000 scientists, engineers, and workers who built the Apollo program, Armstrong, Aldrin, and Collins flew with icy discipline across a quarter-million miles of space to change history forever.',
     guide: {
       explanation:
-        'Three Lunar Roving Vehicles were deployed on Apollo 15, 16, and 17. Built by Boeing and Delco Electronics, each vehicle unfolded from the side of the Lunar Module descent stage and ran cleanly in vacuum using four independent hub electric motors.',
+        'The Apollo 11 crew consisted of Commander Neil A. Armstrong, Lunar Module Pilot Edwin E. "Buzz" Aldrin Jr., and Command Module Pilot Michael Collins. Together, they completed the national objective set by President John F. Kennedy in May 1961: landing a human on the Moon and returning him safely to Earth.',
       purpose:
-        'Transport two astronauts, cameras, tools, and collected rock samples across kilometers of lunar terrain—expanding the geological reach of later J-missions.',
-      missionUsed: 'Apollo 15 (1971), Apollo 16 (1972), and Apollo 17 (1972).',
+        'Piloting the Saturn V stack, guiding the Lunar Module Eagle to a precision touchdown on Mare Tranquillitatis, conducting the first human lunar extravehicular exploration, and maintaining solo orbital command aboard Columbia.',
+      missionUsed: 'NASA Apollo 11 (AS-506), July 16–24, 1969.',
       whyLeftBehind:
-        'Ascent stages lacked the payload capacity to return surface vehicles, and astronauts parked each rover roughly 100 meters east of its Lunar Module so Earth controllers could aim the rover’s TV camera to broadcast ascent liftoff.',
+        'While the astronauts safely splashed down in the Pacific Ocean on July 24, 1969, their physical footsteps, scientific packages, and the lower stage of Eagle remain permanently on the lunar surface.',
       presentStatus:
-        'All three LRVs remain inactive and parked at their final observation points in Hadley-Apennine, Descartes, and Taurus-Littrow.',
+        'All three astronauts received the Presidential Medal of Freedom, the Congressional Gold Medal, and were celebrated worldwide as ambassadors of peaceful human exploration.',
       spokenIntro:
-        'Welcome! You are exploring the Apollo Lunar Roving Vehicle, the celebrated electric vehicle that transformed lunar geology.',
+        'Welcome! You are exploring the legendary crew of Apollo 11: Neil Armstrong, Buzz Aldrin, and Michael Collins.',
       voiceScript:
-        "When astronauts first explored the Moon on foot, their range was limited to a few hundred meters. That changed completely in 1971 with the arrival of the Lunar Roving Vehicle. Folded like origami against the side of the Lunar Module, this lightweight electric rover unfolded onto the surface and carried crews across tens of kilometers. Instead of rubber tires, which would burst or turn brittle in the lunar freeze, its wheels were woven from zinc-coated piano wire with titanium treads. Across Apollo 15, 16, and 17, these rovers carried astronauts to towering mountain slopes and deep volcanic rilles. When it came time to leave, the rovers were deliberately parked about one hundred meters away—their remote television cameras angled back so controllers on Earth could broadcast the astronauts' liftoff. Today, three of these silent electric vehicles remain on the Moon, forever overlooking the plains of Hadley, Descartes, and Taurus-Littrow.",
+        "Behind every great machine are the human minds that steer it into the unknown. For Apollo 11, that responsibility rested on three extraordinary men: Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong, the Commander, was a former naval combat aviator and Purdue aeronautical engineer whose calm under pressure became legendary when he saved Gemini 8 from a fatal roll. Buzz Aldrin, the Lunar Module Pilot, held a doctorate from MIT in orbital mechanics—his fellow astronauts nicknamed him 'Dr. Rendezvous' because he literally wrote the manual on how spacecraft dock in space. And Michael Collins, the Command Module Pilot, was a razor-sharp Air Force test pilot whose solo vigil in orbit around the Moon kept the lifeline open. Together, they represented four hundred thousand engineers, seamstresses, programmers, and technicians back on Earth. When they launched from Pad 39A, they carried the hope of the entire planet.",
       keyFacts: [
-        'Deployed on Apollo 15, 16, and 17 J-series missions',
-        'Powered by four independent 0.25-horsepower electric drive motors',
-        'All three rovers remain intact at their final lunar parking sites',
+        'Commander: Neil Armstrong (first human to walk on the Moon)',
+        'Lunar Module Pilot: Buzz Aldrin (second human to walk on the Moon)',
+        'Command Module Pilot: Michael Collins (flew solo orbital watch in Columbia)',
       ],
     },
     components: [
       {
-        id: 'lrv-wheels',
-        name: 'Woven Spring-Wire Mesh Wheels (×4)',
+        id: 'crew-armstrong',
+        name: 'Commander Neil A. Armstrong',
         category: 'Hardware Component',
-        remainsOnSite: true,
-        siteNote: 'All twelve wheels across LRV-1, -2, and -3 remain on the Moon.',
+        remainsOnSite: false,
+        siteNote: 'First human to set foot on another celestial body at 02:56 UTC, July 21, 1969.',
         description:
-          'Elastic 81 cm hoops woven from zinc-coated spring steel piano wire and ringed with titanium chevron treads to prevent tire blowouts or sinking in regolith.',
+          'Naval aviator, experimental X-15 rocket plane pilot, and Purdue aeronautical engineer. Flew 78 combat missions in Korea, commanded Gemini 8, and served as Apollo 11 mission commander.',
         guideExplanation:
-          'Rubber pneumatic tires would burst or turn brittle in lunar vacuum. Woven steel wire flexed softly over boulders while titanium cleats gripped fine dust.',
+          'Armstrong flew Eagle manually over a field of boulders with less than thirty seconds of usable descent propellant remaining, guiding humanity safely down to Tranquility Base.',
         voiceScript:
-          'Unlike rubber tires which would burst in vacuum or turn brittle in the cold lunar night, these wheels were hand-woven from zinc-coated piano wire. Chevron titanium treads provided traction across soft regolith without sinking.',
-        hotspot: { x: 74, y: 64 },
+          "Neil Armstrong was renowned for his steady heart rate and split-second engineering judgment. During the final moments of Eagle's descent, when the automated computer guided them toward a boulder-strewn crater, Armstrong took manual control and skimmed horizontally until finding smooth ground at Tranquility Base.",
+        hotspot: { x: 30, y: 40 },
       },
       {
-        id: 'lrv-batteries',
-        name: 'Dual 36V Silver-Zinc Batteries',
+        id: 'crew-aldrin',
+        name: 'Lunar Module Pilot Buzz Aldrin',
         category: 'Hardware Component',
-        remainsOnSite: true,
-        siteNote: 'Discharged inside forward chassis compartments.',
+        remainsOnSite: false,
+        siteNote: 'Stepped onto Mare Tranquillitatis twenty minutes after Armstrong, calling it "Magnificent Desolation."',
         description:
-          'Two non-rechargeable 121-amp-hour potassium hydroxide batteries powering four 0.25-horsepower DC hub motors and Earth telemetry.',
+          'West Point graduate and MIT Doctor of Science in Astronautics. Pioneered underwater neutral buoyancy training for spacewalks and calculated orbital rendezvous trajectories on Gemini 12.',
         guideExplanation:
-          'Each rover ran solely on two non-rechargeable silver-zinc batteries engineered for 92 km of range—no solar panels were fitted.',
+          'Aldrin called out radar altitude and descent rates to Armstrong during landing, evaluated lunar mobility, and deployed the early Apollo science experiments on the surface.',
         voiceScript:
-          'Housed in the forward chassis, dual non-rechargeable silver-zinc batteries delivered 36 volts of direct current to four quarter-horsepower hub motors, supplying power without bulky solar arrays.',
-        hotspot: { x: 52, y: 62 },
+          "Buzz Aldrin was the technical genius of orbital mechanics. Inside Eagle's cockpit, he continuously monitored altitude radar and computer memory, calling out vital speed and fuel data while Armstrong looked out the window. On the surface, he explored the dust for over two hours, testing human gait in one-sixth gravity.",
+        hotspot: { x: 50, y: 50 },
       },
       {
-        id: 'lrv-antenna',
-        name: 'Gold Mesh High-Gain S-Band Antenna',
+        id: 'crew-collins',
+        name: 'Command Module Pilot Michael Collins',
         category: 'Hardware Component',
-        remainsOnSite: true,
-        siteNote: 'Mounted on forward mast pointing toward Earth.',
+        remainsOnSite: false,
+        siteNote: 'Orbited the Moon 30 times alone aboard Columbia while Armstrong and Aldrin explored the surface.',
         description:
-          'Collapsible parabolic umbrella dish folded from gold-plated molybdenum wire mesh to beam live color video directly from the Moon.',
+          'Air Force experimental test pilot and Gemini 10 veteran. Piloted Command Module Columbia solo across 60 nautical miles above the Moon, keeping communications and docking systems ready.',
         guideExplanation:
-          'Astronauts aimed this umbrella dish toward Earth whenever parked so Mission Control could receive live geological commentary and video.',
+          'Collins was responsible for orbital navigation, tracking Eagle from orbit, and executing the critical docking maneuver that brought Armstrong and Aldrin safely home.',
         voiceScript:
-          'This collapsible umbrella dish was woven from gold-plated molybdenum wire mesh. At each science stop, astronauts manually aligned its sight glass with Earth to transmit crystal-clear color television directly to Houston.',
-        hotspot: { x: 44, y: 38 },
+          "Michael Collins held the loneliest post in human history. While Neil and Buzz walked on the surface, Collins circled sixty miles above in Columbia. Every two hours, as he slipped behind the far side of the Moon, all radio contact with Earth cut off for forty-eight minutes. He maintained total focus, knowing that if the ascent engine underperformed, he was the sole person who could navigate Columbia down to rescue them.",
+        hotspot: { x: 70, y: 40 },
       },
       {
-        id: 'lrv-lcru',
-        name: 'Ground-Commanded TV Camera (LCRU)',
-        category: 'Scientific Instrument',
-        remainsOnSite: true,
-        siteNote: 'Aimed toward Lunar Module ascent tracks at parking site.',
+        id: 'crew-a7l-suits',
+        name: 'A7L Extravehicular Mobility Unit (Spacesuits)',
+        category: 'Landing Equipment',
+        remainsOnSite: false,
+        siteNote: 'Custom-tailored 21-layer spacesuits with Hamilton Standard Portable Life Support System backpacks.',
         description:
-          'Steerable color television camera controlled remotely via radio command from Houston—capturing Apollo 17’s famous ascent liftoff.',
+          'Manufactured by ILC Dover seamstresses, the Apollo A7L spacesuit provided pressure, oxygen, thermal insulation against ±250°F temperatures, and micrometeoroid protection.',
         guideExplanation:
-          'After astronauts boarded the Lunar Module, controller Ed Fendell in Houston piloted this camera remotely to follow the ascent stage upward into lunar sky.',
+          'Each spacesuit operated as an autonomous human spacecraft, providing 100% pure oxygen at 3.7 psi and water-cooled undergarments to prevent overheating.',
         voiceScript:
-          'Operated remotely from Mission Control in Houston with a four-second radio lag, this RCA color camera panned and tilted to broadcast astronaut explorations and captured the famous liftoff of the Lunar Module ascent stages.',
-        hotspot: { x: 62, y: 46 },
+          "To walk on the surface, the astronauts wore A7L spacesuits handmade by seamstresses at ILC Dover. Composed of twenty-one distinct layers of nylon, Kapton foil, Teflon, and Beta cloth, the suit protected against micrometeoroids and extreme temperatures swinging from boiling sun to frozen shadow.",
+        hotspot: { x: 50, y: 75 },
       },
     ],
     specs: {
-      mass: '210 kg uncrewed Earth mass (34 kg lunar weight)',
-      powerSource: 'Dual 36V silver-zinc non-rechargeable batteries (4 × 0.25 hp motors)',
-      communication: 'Lunar Communications Relay Unit (LCRU) S-band dish',
+      mass: 'Three Astronauts + Spacesuits (~360 kg combined)',
+      powerSource: 'Hamilton Standard PLSS silver-zinc batteries (4-hour EVA endurance)',
+      communication: 'VHF lunar surface relay & S-band direct Earth link via Goldstone & Honeysuckle Creek',
       primaryInstruments: [
-        'T-handle drive controller & directional dead-reckoning gyro',
-        'Westinghouse Color Lunar Television Camera',
-        '16 mm data acquisition movie camera & geological tool rack',
+        'A7L pressure suits with Liquid Cooling Garments (LCG)',
+        'Portable Life Support System (PLSS) primary & secondary oxygen packs',
+        'Lunar Extravehicular Visor Assembly with gold-coated thermal sunshade',
       ],
     },
     storyChapters: [
       {
-        id: 'lrv-ch-1',
+        id: 'crew-ch-1',
         chapterNumber: '01',
-        chapterTitle: 'FOLDED INSIDE QUADRANTS',
-        headline: 'Packed Into a Triangular Bay.',
+        chapterTitle: 'THE CHOSEN THREE',
+        headline: 'Forged in Jet Cockpits and Wind Tunnels.',
         narrative:
-          'To fit inside Quadrant 1 of the Lunar Module descent stage, Boeing engineers hinged the rover’s 3-meter aluminum chassis twice in the middle and folded all four wheels inward. On the Moon, a single astronaut pulled nylon deployment tapes to lower and snap the LRV onto the dust in less than twenty minutes.',
+          'In January 1969, NASA announced the crew for Apollo 11: Neil Armstrong as Commander, Buzz Aldrin as Lunar Module Pilot, and Michael Collins as Command Module Pilot. All three were born in 1930 and were seasoned military aviators who had flown Gemini orbital missions. Over six intense months, they spent hundreds of hours in vacuum chambers, lunar landing research vehicles, and centrifuge simulators to master every conceivable system failure.',
         historicalContext:
-          'First driven by David Scott on July 31, 1971 beside Hadley Rille during Apollo 15.',
+          'NASA rotated crews through a prime and backup system; Armstrong, Aldrin, and Collins had previously served together on backup crews before receiving the prime Apollo 11 assignment.',
         archivalImage: '/images/exhibits/apollo_lrv.jpg',
-        imageCaption: 'Apollo 15 LRV-1 fully deployed beside Mons Hadley Delta (NASA AS15-86-11603).',
-        keyMetric: { label: 'Max Speed Recorded', value: '18 km/h (Apollo 17)' },
+        imageCaption: 'The Apollo 11 crew during formal spacesuit portrait sessions at Kennedy Space Center (NASA S69-31740).',
+        keyMetric: { label: 'Combined Flight Hours', value: 'Over 10,000 hrs' },
+        audioFrequency: 240,
       },
       {
-        id: 'lrv-ch-2',
+        id: 'crew-ch-2',
         chapterNumber: '02',
-        chapterTitle: 'PARKS FOR LIFTOFF',
-        headline: 'Final Transmission From Taurus-Littrow.',
+        chapterTitle: 'THE DIVISION OF DUTY',
+        headline: 'Precision Teamwork in Deep Space.',
         narrative:
-          'On all three J-missions, crews parked the LRV roughly 100 meters east of the Lunar Module before entering the cabin. From Earth, flight controllers remotely tilted the vehicle’s camera upward to record the gold ascent stage erupting off its lower frame, leaving the empty rover standing intact beside tire tracks.',
+          'Spaceflight demands complete trust and razor-sharp specialization. Neil Armstrong concentrated on piloting the Lunar Module, practicing difficult manual landings against simulated thruster failures. Buzz Aldrin immersed himself in the Apollo Guidance Computer, developing workarounds for unexpected sensor alarms. Michael Collins memorized 18 separate rendezvous burn plans to recover Eagle from any possible abort trajectory in lunar orbit.',
         historicalContext:
-          'Apollo 17 astronauts Cernan and Schmitt famously repaired a broken rear fender on LRV-3 using laminated lunar maps and grey duct tape.',
-        archivalImage: '/images/exhibits/apollo_lrv.jpg',
-        imageCaption: 'Wire-mesh wheels and fender clearance at Hadley-Apennine (NASA AS15-86-11603).',
-        keyMetric: { label: 'Combined Traverse', value: '90.5 km Across 3 Vehicles' },
+          'Each astronaut knew that a single miscalculation by any member of the trio would result in the loss of the crew with no possibility of rescue.',
+        archivalImage: '/images/exhibits/mer_cleanroom.jpg',
+        imageCaption: 'Astronauts practicing Lunar Module egress procedures inside the mockup clean room (NASA S69-32247).',
+        keyMetric: { label: 'Simulator Sessions', value: '412 hours logged' },
+        audioFrequency: 320,
+      },
+      {
+        id: 'crew-ch-3',
+        chapterNumber: '03',
+        chapterTitle: 'RETURN TO THE HOMELAND',
+        headline: 'Ambassadors for All Humankind.',
+        narrative:
+          'Following splashdown in the Pacific on July 24, 1969, Armstrong, Aldrin, and Collins were placed into quarantine for 21 days inside the Mobile Quarantine Facility. Once cleared of any lunar contamination, they embarked on the 37-day Giant Leap international goodwill tour, visiting 24 countries and meeting over 100 million people who welcomed them not merely as American heroes, but as representatives of human courage.',
+        historicalContext:
+          'The crew insisted throughout their lives that Apollo 11 was the collective triumph of the 400,000 men and women who built the Saturn V and spacecraft.',
+        archivalImage: '/images/apollo11_surface.jpg',
+        imageCaption: 'Astronaut Buzz Aldrin photographed by Neil Armstrong during EVA operations (NASA AS11-40-5903).',
+        keyMetric: { label: 'Countries Visited', value: '24 nations on goodwill tour' },
+        audioFrequency: 480,
       },
     ],
     legacy: {
       physicalCondition:
-        'Three complete vehicles resting parked on dust-covered lunar soil, verified in LROC overhead imagery.',
-      currentMilestone: 'Longest unrefueled electric surface exploration fleet of the 20th century.',
+        'All three astronauts received the Presidential Medal of Freedom. Neil Armstrong passed away in 2012, Michael Collins in 2021, and Buzz Aldrin remains an active advocate for space exploration.',
+      currentMilestone:
+        'Honored worldwide as the pioneers who opened the era of human planetary exploration.',
       scientificImpact: [
-        'Enabled astronauts to reach deep rilles, volcanic vents, and distant highlands yielding genesis rocks and orange pyroclastic glass.',
-        'Demonstrated four-wheel electric hub propulsion and wire-mesh mobility in hard vacuum.',
+        'Demonstrated that human crewed coordination can override automated system anomalies during extraterrestrial descent.',
+        'Validated human physiological capability to work and conduct precise geological field sampling in 1/6th gravity.',
+        'Proved the reliability of complex multi-spacecraft rendezvous in lunar orbit.',
       ],
       whatRemainsToday:
-        'LRV-1 (Hadley), LRV-2 (Descartes), and LRV-3 (Taurus-Littrow), parked facing their respective Lunar Module descent stages.',
+        'Their names, signatures, and photographic legacy are inscribed in national archives across the world, while their bootprints and plaque remain undisturbed on the Moon.',
       sources: [
         {
-          title: 'NASA Technical Note: Apollo Lunar Roving Vehicle Operations Handbook',
-          organization: 'NASA Marshall Space Flight Center',
-          url: 'https://www.nasa.gov/history/alsj/LRV_OpsHandbook.html',
-          catalogId: 'TM-X-LRV-1971',
+          title: 'NASA Biographical Data: Neil A. Armstrong',
+          organization: 'NASA History Office',
+          url: 'https://www.nasa.gov/history/biographies/neil-a-armstrong/',
+          catalogId: 'NASA-BIO-NAA',
+        },
+        {
+          title: 'NASA Biographical Data: Edwin E. Aldrin Jr.',
+          organization: 'NASA History Office',
+          url: 'https://www.nasa.gov/history/biographies/buzz-aldrin/',
+          catalogId: 'NASA-BIO-EEA',
+        },
+        {
+          title: 'NASA Biographical Data: Michael Collins',
+          organization: 'NASA History Office',
+          url: 'https://www.nasa.gov/history/biographies/michael-collins/',
+          catalogId: 'NASA-BIO-MC',
         },
       ],
     },
-    curatedQnA: [],
+        curatedQnA: [
+      {
+        question: "Who walked on the Moon during Apollo 11?",
+        answer: "Neil Armstrong was the first human to set foot upon the surface at 02:56 UTC on July 21, 1969, followed 20 minutes later by Buzz Aldrin. Michael Collins orbited 60 miles above aboard Columbia.",
+        source: "NASA History Division (Apollo 11 Crew Summary)"
+      },
+      {
+        question: "Why was Michael Collins alone in Columbia?",
+        answer: "The Command Module required a pilot to maintain life support, orbital navigation, and communications, and to execute the critical orbital rendezvous burn to recover Eagle after ascent.",
+        source: "Carrying the Fire by Michael Collins"
+      },
+      {
+        question: "How were the Apollo spacesuits constructed?",
+        answer: "The Apollo A7L spacesuits were custom-crafted by seamstresses at ILC Dover with 21 layers of nylon, Kapton, and Teflon Beta cloth to withstand temperatures from -250°F to +250°F.",
+        source: "Smithsonian National Air and Space Museum"
+      }
+    ],
   },
 
   surveyor3: {
     id: 'surveyor3',
-    name: 'SURVEYOR 3',
-    callsign: 'Surveyor III Spacecraft',
-    mission: 'Surveyor Program / Apollo 12 Site',
-    year: '1967',
+    name: 'SATURN V ROCKET LAUNCH',
+    callsign: 'SA-506 (Apollo 11 Launch Vehicle)',
+    mission: 'Apollo 11',
+    year: '1969',
     destination: 'moon',
-    category: 'Complete Spacecraft',
-    modelType: 'Uncrewed Lunar Soft-Lander',
-    landingDate: '20 April 1967',
-    declarationDate: 'Visited by Apollo 12 Crew (19 Nov 1969)',
-    operationalDuration: '14 days (First Lunar Day telemetry)',
+    category: 'Hardware Component',
+    modelType: 'Three-Stage Heavy Lift Super-Booster (Saturn V)',
+    landingDate: '16 July 1969 — 13:32:00 UTC (09:32 EDT)',
+    declarationDate: 'National Historic Mechanical Engineering Landmark',
+    operationalDuration: '11 minutes, 40 seconds to Earth orbit insertion',
+    distanceTraveled: 'From Launch Pad 39A to 118-mile circular Earth orbit',
     status: 'inactive',
-    statusLabel: 'Inactive — Frame Remains; Camera & Scoop Returned to Earth',
-    locationName: 'Oceanus Procellarum (Surveyor Crater)',
+    statusLabel: 'Mission Executed Flawlessly — Boosted Apollo 11 to the Moon',
+    locationName: 'Launch Complex 39A, Kennedy Space Center, Florida',
     heroImage: '/images/exhibits/surveyor3.jpg',
     heroCaption:
-      'Apollo 12 astronaut Alan Bean beside Surveyor 3 inside Oceanus Procellarum, with Lunar Module Intrepid visible on the crater rim in the background, November 1969 (NASA AS12-48-7134).',
-    heroNasaId: 'AS12-48-7134',
+      'The 363-foot Apollo 11 Saturn V rocket lifts off from Launch Pad 39A at Kennedy Space Center on July 16, 1969 (NASA S69-39525).',
+    heroNasaId: 'S69-39525',
+    galleryImages: [
+      {
+        src: '/images/exhibits/surveyor3.jpg',
+        caption: 'Saturn V liftoff from Pad 39A producing 7.61 million pounds of thrust (NASA S69-39525).',
+        nasaId: 'S69-39525',
+      },
+      {
+        src: '/images/exhibits/mer_cleanroom.jpg',
+        caption: 'Assembly of the Saturn V S-IC first stage at the Michoud Assembly Facility in Louisiana (NASA S68-23215).',
+        nasaId: 'S68-23215',
+      },
+      {
+        src: '/images/exhibits/voyager.jpg',
+        caption: 'Saturn V rollout to Launch Pad 39A aboard the massive Crawler-Transporter (NASA S69-34386).',
+        nasaId: 'S69-34386',
+      },
+    ],
     has3DModel: false,
     coordinates: {
-      latitude: '3.016° S',
-      longitude: '23.418° W',
-      elevation: 'Inside 200 m Crater Slope',
-      planetaryRegion: 'Oceanus Procellarum, The Moon',
+      latitude: '28.6083° N',
+      longitude: '80.6043° W',
+      elevation: 'Launch Pad 39A',
+      planetaryRegion: 'Kennedy Space Center, Florida',
       worldPosition: [0, 0, 0],
     },
-    brief: 'A robotic scout visited by humans two years later.',
+    brief: 'The 363-foot colossus that unleashed 7.6 million pounds of thrust.',
     shortDescription:
-      'A 1967 robotic lander whose dust-darkened frame was inspected and partially sampled by Apollo 12 astronauts in 1969.',
+      'Wernher von Braun’s three-stage heavy-lift super-booster that propelled the 100,000-pound Apollo 11 spacecraft out of Earth’s gravitational cradle.',
     tagline:
-      'Surveyor 3 bounced twice into a shallow crater in Oceanus Procellarum—and remained intact until Apollo 12 landed just 163 meters away to examine how two and a half lunar years had aged Earth hardware.',
+      'Standing taller than the Statue of Liberty and consuming fifteen tons of propellant every single second at liftoff, the Saturn V stands as humanity’s greatest rocket achievement.',
     guide: {
       explanation:
-        'Surveyor 3 was a robotic lander that touched down inside a crater in Oceanus Procellarum in April 1967. Two and a half years later, Apollo 12 astronauts Pete Conrad and Alan Bean precision-landed nearby on foot to inspect it and study how the harsh lunar vacuum altered spacecraft metals and optics.',
+        'The Saturn V was the launch vehicle for Apollo 11. Standing 363 feet tall and weighing 6.5 million pounds fully fueled, it launched on July 16, 1969 from Pad 39A at Kennedy Space Center. Over its three staging burns, it accelerated the spacecraft from a standstill to over 24,000 miles per hour toward the Moon.',
       purpose:
-        'Demonstrate pinpoint automated radar-guided lunar landing, capture panoramic photography, and test soil strength using an extendable surface sampler claw.',
-      missionUsed: 'NASA Surveyor 3 (1967), later inspected on site by Apollo 12 (1969).',
+        'Overcoming Earth’s gravity, placing the Command, Service, and Lunar Modules into parking orbit, and providing the translunar injection burn to send the crew to the Moon.',
+      missionUsed: 'NASA Apollo 11 (Launch Vehicle SA-506), July 16, 1969.',
       whyLeftBehind:
-        'Surveyor 3 was a one-way robotic probe designed without ascent capability; Apollo 12 astronauts deliberately detached only its TV camera and sampler scoop to return to Earth.',
+        'Each of the three stages consumed its propellant and separated in succession: S-IC into the Atlantic Ocean, S-II into the Atlantic, and S-IVB into heliocentric solar orbit after boosting the crew.',
       presentStatus:
-        'Inactive lander tripod frame remains tilted inside Surveyor Crater; its television camera and soil scoop now reside on Earth at the Smithsonian National Air and Space Museum.',
+        'Flawlessly executed launch. Preserved test stages and sister Saturn V rockets are exhibited at Kennedy Space Center, Johnson Space Center, and the U.S. Space & Rocket Center.',
       spokenIntro:
-        'Welcome. This is Surveyor 3, an uncrewed robotic lander that proved spacecraft could survive landing in lunar dust.',
+        'Welcome! You are exploring the Saturn V, the titanic rocket that launched Apollo 11 on July 16, 1969.',
       voiceScript:
-        "Before we could risk human lives on the Moon, we had to answer a frightening question: would a heavy spacecraft sink into the unknown lunar dust? In April 1967, Surveyor 3 answered. Guided by automated radar, this spindly aluminum tripod touched down inside a crater in Oceanus Procellarum, digging mechanical trenches to prove the soil could support human boots. Its mission was a complete success, and it eventually went cold and quiet. But its story did not end there. Two and a half years later, Apollo 12 achieved a pinpoint landing just one hundred and sixty meters away. Astronauts Pete Conrad and Alan Bean walked down into the crater to inspect this faithful robot, examining how solar radiation and vacuum had altered its metals. They retrieved its television camera and sampler scoop to bring back to Earth. Today, Surveyor 3's frame still rests at a twelve-degree tilt inside the crater—a robotic pioneer whose courage opened the path to the Moon.",
+        "Imagine standing at Cape Kennedy on the morning of July 16, 1969. Rising into the Florida sky is a machine taller than the Statue of Liberty: the Saturn V. Weighing six and a half million pounds, it was essentially a skyscraper packed with liquid oxygen and kerosene. At 9:32 AM Eastern Time, five gigantic F-1 engines ignited at its base. In an instant, they unleashed seven point six million pounds of thrust—consuming fifteen tons of fuel every single second. The acoustic shockwave was so immense it tore grass from the ground and shook buildings three miles away. In just eleven minutes, the Saturn V hurled the Apollo 11 crew through the atmosphere and into Earth orbit. Without this mechanical marvel, humanity could never have broken the gravitational chains of Earth.",
       keyFacts: [
-        'Soft-landed in Oceanus Procellarum in April 1967',
-        'Dug four exploratory soil trenches with a remote scoop',
-        'Inspected and sampled in person by Apollo 12 astronauts in 1969',
+        'Total Height: 363 feet (111 meters) — taller than Big Ben',
+        'Liftoff Thrust: 7.61 million pounds (34.5 million Newtons)',
+        'Propellant Consumption: 15 tons per second at maximum throttle',
       ],
     },
     components: [
       {
-        id: 'surv3-frame',
-        name: 'Tubular Aluminum Tripod Frame',
+        id: 'saturn-s1c',
+        name: 'S-IC First Stage (Boeing / 5 F-1 Engines)',
         category: 'Hardware Component',
-        remainsOnSite: true,
-        siteNote: 'Remains resting at a 12-degree tilt inside Surveyor Crater.',
-        description:
-          'Lightweight open-truss spaceframe originally painted white; astronauts observed it had darkened to tan-brown from solar radiation and dust blasting during Apollo 12’s touchdown.',
-        guideExplanation:
-          'This tubular frame stayed anchored inside the crater. Even its paint noticeably tanned after 31 months of unfiltered solar ultraviolet exposure and Apollo 12 exhaust dust.',
-        voiceScript:
-          'This tubular aluminum tripod frame remains resting at a twelve-degree tilt inside Surveyor Crater. Astronauts observed that its white thermal paint had turned tan-brown after thirty-one months of harsh solar ultraviolet exposure.',
-      },
-      {
-        id: 'surv3-camera',
-        name: 'Mirror-Scan Television Camera (Removed)',
-        category: 'Scientific Instrument',
         remainsOnSite: false,
-        siteNote: 'Detached by Apollo 12 crew on 19 Nov 1969; displayed at Smithsonian NASM.',
+        siteNote: 'Burned for 168 seconds, lifted Apollo to 42 miles altitude, impacted Atlantic Ocean.',
         description:
-          '200/600-line vidicon camera that beamed 6,315 images during 1967 before freezing; returned to Earth so engineers could test micrometeorite impacts and vacuum fatigue.',
+          'Powered by five Rocketdyne F-1 engines producing 7.61 million lbs of thrust, burning 203,000 gallons of RP-1 kerosene and 331,000 gallons of liquid oxygen.',
         guideExplanation:
-          'Note: Surveyor 3’s famous TV camera is NOT on the Moon today—Pete Conrad and Alan Bean unbolted it with cable cutters and brought it home aboard Intrepid.',
+          'The first stage alone produced more power than eighty-five Hoover Dams combined, accelerating the stack to 6,164 mph in just two and a half minutes.',
         voiceScript:
-          'Notice that the television camera is no longer attached. Pete Conrad and Alan Bean cut its electrical cables and unbolted the housing, carrying it back to Earth for microbiological and materials analysis.',
+          "The S-IC first stage was the raw muscle of Apollo 11. Its five Rocketdyne F-1 engines were the most powerful single-combustion-chamber rocket engines ever built. Burning twenty-eight hundred gallons of fuel every second, it lifted six million pounds straight off the launch pad.",
+        hotspot: { x: 50, y: 75 },
       },
       {
-        id: 'surv3-scoop',
-        name: 'Soil Mechanics Surface Sampler (Removed)',
-        category: 'Scientific Instrument',
-        remainsOnSite: false,
-        siteNote: 'Detached and returned by Apollo 12 crew.',
-        description:
-          'Pantograph robotic arm and scoop that dug four test trenches in 1967, proving lunar soil could bear human astronauts and heavy Lunar Modules.',
-        guideExplanation:
-          'This telescoping digging claw gave NASA confidence that lunar soil would not swallow Apollo astronauts; Apollo 12 brought the scoop arm home for metallurgical inspection.',
-        voiceScript:
-          'This motorized pantograph arm and scoop dug four trenches into Oceanus Procellarum, proving lunar dust could bear the weight of heavy spacecraft. Apollo 12 brought the scoop back to Earth for metallurgical study.',
-      },
-      {
-        id: 'surv3-solar',
-        name: 'Planar Antenna & Solar Mast',
+        id: 'saturn-s2',
+        name: 'S-II Second Stage (North American / 5 J-2 Engines)',
         category: 'Hardware Component',
-        remainsOnSite: true,
-        siteNote: 'Still mounted upright atop Surveyor 3’s mast.',
+        remainsOnSite: false,
+        siteNote: 'Burned for 360 seconds, propelled Apollo through upper atmosphere to 115 miles altitude.',
         description:
-          'Dual-axis steerable solar array and flat high-gain planar antenna perched atop the central mast.',
+          'Cryogenic upper stage powered by five Rocketdyne J-2 engines burning liquid hydrogen and liquid oxygen, producing 1.15 million lbs of vacuum thrust.',
         guideExplanation:
-          'The tall flat solar wing and planar communications panel remain perched atop Surveyor 3’s tripod frame in Oceanus Procellarum.',
+          'Liquid hydrogen provided vastly higher efficiency than kerosene, accelerating the spacecraft nearly to orbital velocity before separation.',
         voiceScript:
-          'Perched atop the central mast are the planar high-gain communications antenna and solar array, which tracked the Sun across fourteen Earth days of blistering heat before the freezing lunar night set in.',
+          "Once the first stage fell away into the Atlantic, the S-II second stage ignited. Burning ultra-cold liquid hydrogen at minus four hundred and twenty-three degrees Fahrenheit, its five J-2 engines pushed Apollo 11 to the edge of space at fifteen thousand miles per hour.",
+        hotspot: { x: 50, y: 50 },
+      },
+      {
+        id: 'saturn-s4b',
+        name: 'S-IVB Third Stage & Instrument Unit (Douglas / IBM)',
+        category: 'Hardware Component',
+        remainsOnSite: false,
+        siteNote: 'Executed two burns: Earth orbit insertion and Translunar Injection (TLI) to 24,200 mph.',
+        description:
+          'Single restartable J-2 engine with the IBM Instrument Unit ring—the digital electronic brain that calculated navigation vectors and steered all Saturn V stages.',
+        guideExplanation:
+          'The S-IVB fired twice: first to circularize into Earth parking orbit, and two hours later to fire the crew across 240,000 miles of space toward the Moon.',
+        voiceScript:
+          "The S-IVB third stage held the spacecraft's electronic brain: the IBM Instrument Unit ring. This stage fired twice. First, to enter Earth orbit; and then, two hours later, it reignited over the Pacific for Translunar Injection, hurling Armstrong, Aldrin, and Collins toward the Moon at twenty-four thousand miles per hour.",
+        hotspot: { x: 50, y: 30 },
+      },
+      {
+        id: 'saturn-les',
+        name: 'Launch Escape System (LES Tower)',
+        category: 'Landing Equipment',
+        remainsOnSite: false,
+        siteNote: 'Jettisoned 30 seconds after second-stage ignition once atmospheric abort risk passed.',
+        description:
+          '33-foot solid-propellant escape rocket mounted atop the Command Module, capable of pulling the crew capsule 1 mile away from an exploding booster in under 1 second.',
+        guideExplanation:
+          'A life insurance policy for the crew: if the Saturn V suffered catastrophic failure on the pad, the LES would yank the capsule to parachute altitude in the blink of an eye.',
+        voiceScript:
+          "Perched at the very top of the rocket was the Launch Escape System tower. If the massive rocket had exploded on the launch pad, this solid rocket motor would have fired in a split second, yanking the crew cabin a mile high into the air to parachute safely into the ocean.",
+        hotspot: { x: 50, y: 10 },
       },
     ],
     specs: {
-      mass: '302 kg landed mass',
-      powerSource: 'Single steerable solar array panel + silver-zinc battery',
-      communication: 'Planar high-gain S-band array & two omnidirectional antennas',
+      mass: '2,970,000 kg (6,540,000 lbs fully fueled at liftoff)',
+      powerSource: 'Hypergolic ignition & internal chemical battery busses',
+      communication: 'VHF telemetry, S-band tracking, and radar transponders',
       primaryInstruments: [
-        '6,315-frame Survey Television Camera (returned by Apollo 12)',
-        'Soil Mechanics Surface Sampler Claw (returned by Apollo 12)',
-        'Three strain-gauged honeycomb footpads (on site)',
+        '5 × Rocketdyne F-1 first-stage engines (7.61M lbs thrust)',
+        '5 × Rocketdyne J-2 cryogenic second-stage engines (1.15M lbs thrust)',
+        'IBM Saturn V Instrument Unit digital guidance computer',
       ],
     },
     storyChapters: [
       {
-        id: 'surv3-ch-1',
+        id: 'saturn-ch-1',
         chapterNumber: '01',
-        chapterTitle: 'TWO BOUNCES IN PROCELLARUM',
-        headline: 'Engine Cutoff Error Before Touchdown.',
+        chapterTitle: 'THE DREAM OF WERNHER VON BRAUN',
+        headline: 'Conquering Gravity With Chemistry.',
         narrative:
-          'On April 20, 1967, deceptive reflections from bright rocks confused Surveyor 3’s descent radar, preventing vernier engines from cutting off on initial contact. The probe hopped upward twice across the inner wall of a 200-meter crater before coming to rest safely upright after remote command cutoff.',
+          'When President Kennedy committed the United States to landing on the Moon before 1970, no rocket capable of carrying crew, lander, and fuel across lunar distances existed. At NASA\'s Marshall Space Flight Center in Huntsville, Alabama, team leader Wernher von Braun directed the design of the Saturn V. Over six years, tens of thousands of structural tests, turbopump overhauls, and cryogenic fuel breakthroughs transformed an impossible dream into 363 feet of engineered reality.',
         historicalContext:
-          'Across two weeks of operation, it dug four trenches and captured dramatic views including a solar eclipse by Earth.',
+          'The Saturn V remains the only launch vehicle in human history to carry humans beyond low Earth orbit with a 100% mission flight success rate.',
         archivalImage: '/images/exhibits/surveyor3.jpg',
-        imageCaption: 'Surveyor 3 resting on the inner wall of Surveyor Crater (NASA AS12-48-7134).',
-        keyMetric: { label: 'Surface Images', value: '6,315 Transmitted' },
+        imageCaption: 'The Apollo 11 Saturn V climbing away from Pad 39A (NASA S69-39525).',
+        keyMetric: { label: 'Development Teams', value: '400,000 Americans' },
+        audioFrequency: 260,
       },
       {
-        id: 'surv3-ch-2',
+        id: 'saturn-ch-2',
         chapterNumber: '02',
-        chapterTitle: 'THE RETURN VISIT',
-        headline: 'Intrepid Lands 163 Meters Away.',
+        chapterTitle: 'THE LAUNCH: JULY 16, 1969',
+        headline: 'T-Minus Zero at Launch Pad 39A.',
         narrative:
-          'To test pinpoint lunar landing accuracy before future highland missions, Apollo 12 targeted Surveyor 3’s exact crater. On November 19, 1969, Pete Conrad and Alan Bean walked down the slope, photographed Intrepid silhouetted behind their 1967 predecessor, and retrieved hardware components for materials-science laboratories on Earth.',
+          'At 09:32 EDT on July 16, 1969, the ignition sequence commenced. Flame deflectors flooded with 300,000 gallons of cooling water as the five F-1 engines built up full thrust against hold-down arms. When the arms released, the ground shuddered for ten miles in every direction. One million spectators lining Cocoa Beach watched in stunned silence as the Saturn V cleared the launch umbilical tower and arced smoothly toward the Atlantic sky.',
         historicalContext:
-          'Remains the only time in spaceflight history that humans walked up to an uncrewed lander from an earlier mission on another world.',
-        archivalImage: '/images/exhibits/surveyor3.jpg',
-        imageCaption: 'Alan Bean inspecting Surveyor 3 with Apollo 12 Intrepid on the horizon (NASA AS12-48-7134).',
-        keyMetric: { label: 'Apollo 12 Distance', value: '163 Meters Away' },
+          'Public affairs officer Jack King announced over the international audio feed: "Liftoff! We have a liftoff, 32 minutes past the hour. Liftoff on Apollo 11!"',
+        archivalImage: '/images/exhibits/mer_cleanroom.jpg',
+        imageCaption: 'Saturn V booster stage undergoing inspection at Kennedy Space Center (NASA S68-23215).',
+        keyMetric: { label: 'Liftoff Thrust', value: '7,610,000 lbs' },
+        audioFrequency: 340,
+      },
+      {
+        id: 'saturn-ch-3',
+        chapterNumber: '03',
+        chapterTitle: 'TRANSLUNAR INJECTION',
+        headline: 'Breaking the Cradle of Earth.',
+        narrative:
+          'After entering a 118-mile circular parking orbit around Earth, the astronauts spent one and a half revolutions verifying every navigational gyroscope and fuel line. Over the Pacific Ocean, Capcom gave the historic call: "Apollo 11, you are Go for TLI." The S-IVB third stage reignited for five minutes and 48 seconds, accelerating the crew from 17,500 mph to 24,200 mph—escape velocity—setting their trajectory directly toward the Moon.',
+        historicalContext:
+          'Translunar Injection was the single highest velocity that any human being had ever achieved up to that date in history.',
+        archivalImage: '/images/exhibits/voyager.jpg',
+        imageCaption: 'Saturn V rollout to Launch Pad 39A across the crawlerway (NASA S69-34386).',
+        keyMetric: { label: 'TLI Velocity', value: '24,200 mph (38,940 km/h)' },
+        audioFrequency: 510,
       },
     ],
     legacy: {
       physicalCondition:
-        'Tubular aluminum chassis, footpads, crushable blocks, and upper mast remain intact inside Surveyor Crater.',
-      currentMilestone: 'Only uncrewed planetary probe ever inspected and sampled in person by astronauts.',
+        'All Apollo 11 Saturn V stages performed their flight roles to 100% completion. S-IC and S-II stages rest on the Atlantic seabed; S-IVB was placed into heliocentric solar orbit.',
+      currentMilestone:
+        'Unquestioned benchmark of heavy-lift chemical rocketry, inspiring NASA\'s modern Space Launch System (SLS).',
       scientificImpact: [
-        'Proved lunar surface bearing strength could safely support crewed Lunar Modules.',
-        'Returned components revealed critical data on long-term thermal cycling, vacuum welding, and solar radiation effects.',
+        'Proved that multi-stage cryogenic liquid hydrogen and hydrocarbon propulsion can safely transport humans across planetary distances.',
+        'Pioneered automatic acoustic water-sound-suppression and launch complex infrastructure still used today.',
+        'Delivered over 100,000 pounds of payload to translunar injection with zero loss of life.',
       ],
       whatRemainsToday:
-        'Surveyor 3 tripod lander body, mast, and planar arrays remain in Surveyor Crater; TV camera and sampler scoop are archived in museums on Earth.',
+        'Launch Pad 39A continues active orbital launches today, while sister Saturn V rockets are preserved as National Historic Mechanical Engineering Landmarks.',
       sources: [
         {
-          title: 'NASA NSSDCA Master Catalog: Surveyor 3',
-          organization: 'NASA Space Science Data Coordinated Archive',
-          url: 'https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A',
-          catalogId: 'NSSDC-ID: 1967-035A',
+          title: 'NASA Technical Report: Saturn V Flight Evaluation Report - AS-506 (Apollo 11)',
+          organization: 'NASA Marshall Space Flight Center',
+          url: 'https://ntrs.nasa.gov/citations/19700010996',
+          catalogId: 'NASA-TR-AS506',
+        },
+        {
+          title: 'Stages to Saturn: A Technological History of the Apollo/Saturn Launch Vehicles',
+          organization: 'NASA History Series',
+          url: 'https://history.nasa.gov/SP-4206/sp4206.htm',
+          catalogId: 'NASA-SP-4206',
         },
       ],
     },
-    curatedQnA: [],
+        curatedQnA: [
+      {
+        question: "How powerful was the Saturn V rocket?",
+        answer: "The 363-foot Saturn V generated 7.61 million pounds of liftoff thrust from its five Rocketdyne F-1 engines, burning 15 tons of fuel per second—more power than 85 Hoover Dams.",
+        source: "NASA Marshall Space Flight Center"
+      },
+      {
+        question: "What was Translunar Injection (TLI)?",
+        answer: "Two hours after launch, the S-IVB third stage reignited over the Pacific for 5 minutes and 48 seconds, accelerating Apollo 11 to 24,200 mph to break free from Earth's gravity.",
+        source: "NASA Flight Evaluation Report AS-506"
+      },
+      {
+        question: "How many people watched the Saturn V liftoff?",
+        answer: "An estimated one million spectators crowded the beaches of Florida, while hundreds of millions watched live worldwide as the Saturn V lifted off from Pad 39A.",
+        source: "NASA Public Affairs Record (July 16, 1969)"
+      }
+    ],
   },
 
   apollo_alsep: {
     id: 'apollo_alsep',
-    name: 'APOLLO ALSEP EXPERIMENTS',
-    callsign: 'ALSEP Stations (Apollo 12, 14, 15, 16, 17)',
-    mission: 'Apollo 12 – 17',
+    name: 'FIRST STEPS & TRANQUILITY BASE EXPERIMENTS',
+    callsign: 'EASEP & Lunar Surface Deployment',
+    mission: 'Apollo 11',
     year: '1969',
     destination: 'moon',
     category: 'Scientific Instrument',
-    modelType: 'Nuclear-Powered Geophysical Observatory Network',
-    landingDate: '19 November 1969 (First ALSEP Network Node)',
-    declarationDate: 'Telemetry Shut Down 30 September 1977',
-    operationalDuration: 'Up to 8 years continuous (Apollo 12–17 network)',
-    status: 'inactive',
-    statusLabel: 'Inactive Electronics — Passive Laser Mirrors Still Tracked',
-    locationName: 'Five Lunar Sites (Procellarum, Fra Mauro, Hadley, Descartes, Littrow)',
+    modelType: 'Early Apollo Scientific Experiments Package & Historic Artifacts',
+    landingDate: '21 July 1969 — 02:56:15 UTC (First Step)',
+    declarationDate: 'Permanent UNESCO Historic Heritage Site',
+    operationalDuration: '2 hours, 31 minutes EVA duration',
+    distanceTraveled: 'Armstrong traversed ~1 km total exploring Little West Crater',
+    status: 'operational',
+    statusLabel: 'Laser Reflector Still Operating & Active After 55+ Years',
+    locationName: 'Tranquility Base, Mare Tranquillitatis',
     heroImage: '/images/exhibits/apollo_alsep.jpg',
     heroCaption:
-      'Apollo 12 ALSEP geophysical array deployed in Oceanus Procellarum showing Central Station, Solar Wind Spectrometer, and passive seismometer thermal shroud (NASA AS12-47-6918).',
-    heroNasaId: 'AS12-47-6918',
+      'Buzz Aldrin deploying the Early Apollo Scientific Experiments Package (EASEP) on Mare Tranquillitatis, July 21, 1969 (NASA AS11-40-5931).',
+    heroNasaId: 'AS11-40-5931',
+    galleryImages: [
+      {
+        src: '/images/exhibits/apollo_alsep.jpg',
+        caption: 'Buzz Aldrin carrying the EASEP experiments away from Eagle for deployment (NASA AS11-40-5931).',
+        nasaId: 'AS11-40-5931',
+      },
+      {
+        src: '/images/exhibits/apollo_boot.jpg',
+        caption: 'Neil Armstrong’s soil mechanics documentation of an Apollo 11 bootprint in lunar regolith (NASA AS11-40-5877).',
+        nasaId: 'AS11-40-5877',
+      },
+      {
+        src: '/images/exhibits/eagle_plaque.jpg',
+        caption: 'Commemorative plaque mounted to Eagle: "Here men from the planet Earth first set foot upon the Moon" (NASA AS11-40-5899).',
+        nasaId: 'AS11-40-5899',
+      },
+    ],
     has3DModel: false,
     coordinates: {
-      latitude: '3.009° S (Apollo 12 ALSEP)',
-      longitude: '23.425° W',
-      elevation: 'Oceanus Procellarum',
-      planetaryRegion: 'Five Geophysical Nodes Across Lunar Near Side',
+      latitude: '0.67408° N',
+      longitude: '23.47297° E',
+      elevation: '−1,500 m',
+      planetaryRegion: 'Mare Tranquillitatis, The Moon',
       worldPosition: [0, 0, 0],
     },
-    brief: 'A silent geophysical network that listened to the Moon’s interior.',
+    brief: 'The first footsteps, science packages, and samples harvested on another world.',
     shortDescription:
-      'Five nuclear-powered instrument arrays that transmitted moonquake, magnetometer, and solar wind measurements for nearly eight years.',
+      'Neil Armstrong\'s immortal first step, Buzz Aldrin\'s lunar exploration, and the deployment of the Laser Ranging Retroreflector and Passive Seismometer.',
     tagline:
-      'Wired across lunar dust like silver and copper ribbons, the Apollo Lunar Surface Experiments Packages transformed brief human visits into a multi-year planetary observatory.',
+      'In two and a half historic hours, two human beings walked upon an alien celestial body, collected 47.5 pounds of ancient rock, and left behind laser optics that scientists still fire at today.',
     guide: {
       explanation:
-        'Deployed by Apollo 12, 14, 15, 16, and 17 crews about 100 meters away from their landers, each ALSEP station carried seismometers, magnetometers, and heat-flow probes linked to a central telemetry hub powered by plutonium radioisotope generators.',
+        'On July 21, 1969 at 02:56 UTC, Neil Armstrong became the first human to step onto the surface of the Moon. Joined shortly by Buzz Aldrin, the two astronauts explored the lunar regolith for two hours and 31 minutes. They unveiled the lunar commemorative plaque, planted the American flag, gathered 21.55 kilograms of pristine lunar samples, and deployed the Early Apollo Scientific Experiments Package (EASEP).',
       purpose:
-        'Measure deep moonquakes, crustal thickness, magnetic anomalies, sparse lunar atmosphere composition, and internal heat escaping the Moon long after astronauts departed.',
-      missionUsed: 'Apollo 12, 14, 15, 16, and 17 (building upon Apollo 11’s simpler EASEP kit).',
+        'Conducting human geological exploration, testing mobility in 1/6th gravity, collecting regolith and core tubes, and establishing long-term seismic and laser distance monitoring.',
+      missionUsed: 'NASA Apollo 11 EVA, July 21, 1969.',
       whyLeftBehind:
-        'ALSEP instruments were designed specifically to remain behind and operate unattended across freezing two-week lunar nights until radio support ended in 1977.',
+        'The experiments and commemorative plaque were designed specifically for in-situ lunar deployment, allowing scientists on Earth to monitor moonquakes and bounce laser pulses off the retroreflector array indefinitely.',
       presentStatus:
-        'Active powered transmitters are shut down; however, optical Laser Ranging Retroreflectors (LRRR) from Apollo 11, 14, and 15 still return Earth laser pulses today.',
+        'The Laser Ranging Retroreflector remains completely operational today, reflecting laser beams back to observatories on Earth. The bootprints, flag base, and descent hardware remain preserved in the vacuum.',
       spokenIntro:
-        "Welcome! You're looking at the Apollo Lunar Surface Experiments Package, commonly known as ALSEP.",
+        'Welcome! You are exploring the first steps of humanity on the Moon and the science experiments of Tranquility Base.',
       voiceScript:
-        "When the Apollo astronauts stepped off the Moon, they left behind an invisible scientific nervous system. This is ALSEP—the Apollo Lunar Surface Experiments Package. Powered by compact nuclear generators fueled with plutonium, these instrument stations operated completely unattended through freezing two-week lunar nights. While the world moved on, these arrays listened quietly for eight continuous years. They detected over twelve thousand moonquakes, mapped the thickness of the lunar crust, and proved that deep inside, the Moon retains a partially molten core. Even though NASA shut down active radio transmissions in 1977, five ALSEP arrays still rest across the lunar landing sites. And their passive laser retroreflector mirrors still bounce light back to Earth telescopes today—a direct optical conversation across space that never stopped.",
+        "At 02:56 UTC on July 21st, 1969, six hundred million people on Earth watched a grainy black-and-white television broadcast from a quarter-million miles away. Neil Armstrong descended the nine rungs of Eagle's ladder, paused on the footpad, and pressed his boot into the soft lunar soil. His words echoed across time: 'That's one small step for man, one giant leap for mankind.' Twenty minutes later, Buzz Aldrin joined him on the surface, looking across the horizon and whispering: 'Magnificent desolation.' Over the next two and a half hours, they gathered forty-seven point five pounds of pristine lunar rock and deployed scientific packages. Among them was the Laser Ranging Retroreflector—a grid of one hundred fused silica prisms. Incredibly, that instrument is still working today. More than half a century later, scientists on Earth continue to fire laser pulses at Tranquility Base to measure the distance to the Moon down to the millimeter.",
       keyFacts: [
-        'Continuous scientific network operated from 1969 to 1977',
-        'Recorded over 12,000 seismic events, revealing lunar core structure',
-        'Five stations remain permanently at Apollo 12, 14, 15, 16, and 17 sites',
+        'First Step: 02:56 UTC, July 21, 1969 (Neil Armstrong)',
+        'Surface Walk Duration: 2 hours, 31 minutes, 40 seconds',
+        'Lunar Samples Returned: 21.55 kg (47.5 lbs) of basalt and regolith',
       ],
     },
     components: [
       {
-        id: 'alsep-central',
-        name: 'Central Telemetry Station & Helical Antenna',
-        category: 'Scientific Instrument',
-        remainsOnSite: true,
-        siteNote: 'Five stations remain anchored at their Apollo 12–17 sites.',
-        description:
-          'Thermal-controlled box collecting data ribbons from surrounding experiments and transmitting continuous S-band telemetry back to NASA tracking stations.',
-        guideExplanation:
-          'Every sensor wired into this central computer hub via flat Kapton-coated ribbon cables, beaming continuous seismic waves to Earth for up to eight years.',
-        voiceScript:
-          'This is the Central Telemetry Station. Every peripheral instrument connected into this aluminum hub via flat Kapton-coated ribbon cables, routing seismic signals and temperature telemetry back to NASA ground stations.',
-        hotspot: { x: 33, y: 64 },
-      },
-      {
-        id: 'alsep-rtg',
-        name: 'SNAP-27 Radioisotope Generator (RTG)',
+        id: 'easep-first-step',
+        name: 'Armstrong\'s First Step & Lunar Bootprint',
         category: 'Hardware Component',
         remainsOnSite: true,
-        siteNote: 'Fuel capsule remains seated vertically beside each station.',
+        siteNote: 'Permanently preserved in the undisturbed vacuum of Mare Tranquillitatis.',
         description:
-          'Plutonium-238 thermoelectric generator producing ~70 watts continuously without sunlight—critical during 14-day−170°C lunar nights.',
+          'Molded silicone rubber tread overshoes pressed into fine-grained basalt regolith, documenting soil cohesive strength and bearing capacity.',
         guideExplanation:
-          'Unlike Apollo 11’s solar panels, SNAP-27 used heat from Plutonium-238 decay so science never paused during freezing two-week lunar nights.',
+          'Armstrong reported that the lunar surface was fine and powdery like powdered charcoal, adhering in light layers to the soles of the spacesuits.',
         voiceScript:
-          'The SNAP-27 generator was fueled by a capsule of Plutonium-238. Producing seventy watts of continuous electrical power from radioactive decay heat, it kept ALSEP alive through two-week minus one-hundred-and-seventy degree lunar nights.',
-        hotspot: { x: 26, y: 58 },
+          "The bootprint of Apollo 11 is one of the most famous images in human history. Because the Moon has no atmosphere, no wind, and no rain, Armstrong and Aldrin's bootprints in the lunar dust remain as sharp today as the moment they were made.",
+        hotspot: { x: 35, y: 70 },
       },
       {
-        id: 'alsep-pse',
-        name: 'Passive Seismic Experiment (PSE)',
-        category: 'Scientific Instrument',
-        remainsOnSite: true,
-        siteNote: 'Protected beneath reflective Mylar thermal skirts.',
-        description:
-          'Sensitive seismometers that recorded over 12,000 seismic events—revealing deep tidal moonquakes, meteorite strikes, and a small partially molten core.',
-        guideExplanation:
-          'Spread beneath reflective thermal foil skirts to stop thermal expansion clicks, these seismometers proved the Moon rings like a bell when struck by meteorites.',
-        voiceScript:
-          'Spread beneath a reflective thermal skirt to prevent metal expansion clicks, this seismometer detected vibrations as faint as a human heartbeat, proving the Moon possesses a layered crust, mantle, and metallic core.',
-        hotspot: { x: 30, y: 68 },
-      },
-      {
-        id: 'alsep-lrrr',
+        id: 'easep-lrrr',
         name: 'Laser Ranging Retroreflector (LRRR)',
         category: 'Scientific Instrument',
         remainsOnSite: true,
-        siteNote: 'Operational passively at Apollo 11, 14, and 15 sites today.',
+        siteNote: 'Still fully active and targeted by terrestrial laser observatories today.',
         description:
-          'Array of precision fused-silica corner cubes that bounce laser pulses directly back to terrestrial telescopes with millimeter precision.',
+          '100 corner-cube fused silica quartz prisms arranged in a square aluminum tray, engineered to reflect laser pulses back directly to their source on Earth.',
         guideExplanation:
-          'Requiring zero electricity, these glass corner-cube mirrors still tell astronomers that the Moon drifts away from Earth by roughly 3.8 centimeters every year.',
+          'The only Apollo 11 experiment still operating today: by measuring the round-trip light time of laser pulses, scientists proved the Moon is spiraling away from Earth at 3.8 cm per year.',
         voiceScript:
-          'Requiring zero electrical power, this tray of one hundred fused-silica corner cube prisms reflects laser pulses directly back to Earth observatory telescopes, proving the Moon recedes from Earth by three point eight centimeters each year.',
-        hotspot: { x: 34, y: 60 },
+          "This is the Laser Ranging Retroreflector. Deployed by Buzz Aldrin, this simple grid of one hundred quartz prisms requires zero electricity. For fifty-five years, astronomers in Texas, Hawaii, and France have fired laser pulses at this exact spot, measuring the distance to the Moon with millimeter precision.",
+        hotspot: { x: 65, y: 55 },
+      },
+      {
+        id: 'easep-psep',
+        name: 'Passive Seismic Experiment Package (PSEP)',
+        category: 'Scientific Instrument',
+        remainsOnSite: true,
+        siteNote: 'Recorded data for 21 days until overheating from extreme lunar daytime temperatures.',
+        description:
+          'Solar-powered three-axis seismometer measuring natural moonquakes, meteoroid impacts, and vibrations generated by astronaut footsteps.',
+        guideExplanation:
+          'PSEP proved that the Moon is seismically quieter than Earth, possessing a rigid crust that rings like a bell when struck by meteorites.',
+        voiceScript:
+          "The Passive Seismic Experiment Package was the first seismometer placed on another world. Powered by dual solar arrays, it detected the footsteps of Armstrong and Aldrin walking across the dust and registered internal moonquakes deep within the lunar mantle.",
+        hotspot: { x: 50, y: 60 },
+      },
+      {
+        id: 'easep-flag-plaque',
+        name: 'The American Flag & Commemorative Plaque',
+        category: 'Hardware Component',
+        remainsOnSite: true,
+        siteNote: 'Plaque remains bolted to Eagle\'s ladder strut; flag was planted 27 feet from the lander.',
+        description:
+          '3×5 foot nylon flag with horizontal telescoping support rod, and an etched stainless-steel plaque bearing the hemispheres of Earth and the signatures of the crew and President Nixon.',
+        guideExplanation:
+          'The plaque reads: "Here men from the planet Earth first set foot upon the Moon July 1969, A.D. We came in peace for all mankind."',
+        voiceScript:
+          "Between the rungs of Eagle's ladder sits the commemorative plaque. Unveiled by Armstrong before stepping onto the surface, its inscription captured the spirit of the mission: 'Here men from the planet Earth first set foot upon the Moon, July 1969 A.D. We came in peace for all mankind.'",
+        hotspot: { x: 50, y: 35 },
       },
     ],
     specs: {
-      mass: '~130 kg per full deployed ALSEP suite',
-      powerSource: 'SNAP-27 Plutonium-238 RTG (~70 W electrical output)',
-      communication: 'Helical S-band antenna connected to Manned Space Flight Network',
+      mass: 'EASEP Package: 77 kg (170 lbs on Earth)',
+      powerSource: 'Solar cell arrays & internal thermal heaters',
+      communication: 'VHF transmitter linked to Goldstone and Madrid tracking networks',
       primaryInstruments: [
-        'Passive & Active Seismic Experiments',
-        'Lunar Surface Magnetometer & Heat Flow Probe',
-        'Suprathermal Ion & Cold Cathode Ionization Gauges',
+        'Laser Ranging Retroreflector (LRRR - 100 quartz corner-cubes)',
+        'Passive Seismic Experiment Package (PSEP seismometer)',
+        'Solar Wind Composition Experiment (SWC Swiss aluminum foil sheet)',
       ],
     },
     storyChapters: [
       {
-        id: 'alsep-ch-1',
+        id: 'easep-ch-1',
         chapterNumber: '01',
-        chapterTitle: 'WHEN ASTRONAUTS LEFT',
-        headline: 'Science Without Crews.',
+        chapterTitle: 'THAT\'S ONE SMALL STEP',
+        headline: '02:56 UTC • July 21, 1969.',
         narrative:
-          'Each Apollo crew spent hours unspooling flat orange Kapton cables across rocky terrain to position seismometers and heat probes safely beyond Lunar Module liftoff blast zones. Powered by plutonium decay heat, the network outlasted the entire Apollo flight era.',
+          'Six hours after landing, Armstrong opened the forward hatch and crawled out onto the porch. Pulling a lanyard to deploy the television camera, his descent was broadcast live to an estimated 650 million viewers. Reaching the bottom of the ladder, Armstrong lowered his left boot into the lunar dust and spoke the defining words of the 20th century: "That\'s one small step for [a] man, one giant leap for mankind."',
         historicalContext:
-          'By Apollo 15, scientists could triangulate seismic waves across multiple widely separated lunar latitudes simultaneously.',
-        archivalImage: '/images/exhibits/apollo_alsep.jpg',
-        imageCaption: 'Deployed Apollo 12 ALSEP instruments linked by flat telemetry ribbons (NASA AS12-47-6918).',
-        keyMetric: { label: 'Continuous Network Run', value: '8 Years (1969–1977)' },
+          'Armstrong reported: "The surface is fine and powdery. I can pick it up loosely with my toe. It does adhere like powdered charcoal to the boot soles."',
+        archivalImage: '/images/exhibits/apollo_boot.jpg',
+        imageCaption: 'The historic bootprint in the lunar soil of Tranquility Base (NASA AS11-40-5877).',
+        keyMetric: { label: 'First Step Time', value: '02:56:15 UTC' },
+        audioFrequency: 280,
       },
       {
-        id: 'alsep-ch-2',
+        id: 'easep-ch-2',
         chapterNumber: '02',
-        chapterTitle: 'PASSIVE ETERNITY',
-        headline: 'Still Answering Earth Lasers.',
+        chapterTitle: 'MAGNIFICENT DESOLATION',
+        headline: 'Exploring the Airless Plain.',
         narrative:
-          'Budget constraints caused NASA to switch off ALSEP radio commanding on September 30, 1977. Yet the optical retroreflector mirrors deployed at Apollo 11, 14, and 15 remain actively interrogated by Earth observatories, continuing General Relativity and Earth-Moon tidal studies into the 21st century.',
+          'Twenty minutes later, Buzz Aldrin backed through the hatch and stepped onto the lunar surface. Looking out across the barren expanse of Mare Tranquillitatis, he uttered two words: "Magnificent desolation." Together, the two astronauts tested locomotion—discovering that a bounding kangaroo-style hop was the most energy-efficient way to travel in one-sixth gravity. They unveiled the plaque, spoke by telephone with President Nixon from the Oval Office, and deployed scientific experiments across the basalt plain.',
         historicalContext:
-          'Recorded over 12,000 seismic signals, mapping lunar crustal thickness at ~40–60 km.',
+          'Armstrong spent part of the walk jogging 60 meters east of Eagle to inspect Little West Crater, taking stereoscopic panoramic photographs of the pristine ejecta blanket.',
         archivalImage: '/images/exhibits/apollo_alsep.jpg',
-        imageCaption: 'Apollo 12 surface station bathed in low-angle morning sunlight (NASA AS12-47-6918).',
-        keyMetric: { label: 'Seismic Events Logged', value: '12,000+ Signals' },
+        imageCaption: 'Buzz Aldrin carrying the EASEP scientific packages across Tranquility Base (NASA AS11-40-5931).',
+        keyMetric: { label: 'EVA Heart Rates', value: '110–160 bpm nominal' },
+        audioFrequency: 360,
+      },
+      {
+        id: 'easep-ch-3',
+        chapterNumber: '03',
+        chapterTitle: 'HARVESTING THE ANCIENT DUST',
+        headline: '47.5 Pounds of Celestial Gold.',
+        narrative:
+          'Before re-entering the Lunar Module, Armstrong and Aldrin carefully collected 21.55 kilograms of lunar rocks, pebble fragments, and core tube soil samples. Using tongs, scoops, and vacuum-sealed aluminum containers, they harvested basalt specimens that had laid undisturbed for over 3.7 billion years. These samples would revolutionize planetary science, proving that the Moon was once molten and that the Earth and Moon shared a common origin.',
+        historicalContext:
+          'The Apollo 11 lunar samples were distributed to 142 scientists in nine countries for geochemical, petrographic, and isotope analysis.',
+        archivalImage: '/images/exhibits/eagle_plaque.jpg',
+        imageCaption: 'The stainless-steel plaque on Eagle\'s ladder declaring peace for all humankind (NASA AS11-40-5899).',
+        keyMetric: { label: 'Sample Return Mass', value: '21.55 kg (47.5 lbs)' },
+        audioFrequency: 540,
       },
     ],
     legacy: {
       physicalCondition:
-        'Station chassis, SNAP-27 cylinders, cable ribbons, and mirror arrays remain undisturbed at all five Apollo 12–17 landing coordinates.',
+        'All deployed experiments and surface hardware remain in situ at Mare Tranquillitatis. The Laser Ranging Retroreflector continues to reflect laser pulses today.',
       currentMilestone:
-        'Laser Ranging Retroreflectors represent the longest continuously used scientific experiments of the Space Age.',
+        'The longest-running active scientific experiment in space exploration history.',
       scientificImpact: [
-        'Mapped internal crustal structure, mantle velocity, and deep moonquakes triggered by Earth tidal stress.',
-        'Measured Earth-Moon separation drift (~3.8 cm/year) via millimeter-accurate laser ranging.',
+        'Enabled ongoing verification of Einstein\'s Theory of General Relativity and lunar orbital recession rate (3.8 cm/year).',
+        'Returned first pristine extraterrestrial geological samples, revealing ancient lunar volcanism and magma ocean cooling.',
+        'Proved that humans can safely execute complex scientific tasks in spacesuits on another celestial body.',
       ],
       whatRemainsToday:
-        'Five central stations, plutonium generator casks, magnetometers, thermal-shielded seismometers, and passive optical mirrors.',
+        'The LRRR quartz array, PSEP seismometer base, solar wind foil mast, bootprints, flagstaff base, and core tube holes remain undisturbed under the vacuum sky.',
       sources: [
         {
-          title: 'NASA History Series: Apollo Scientific Experiments Final Report',
-          organization: 'NASA Lyndon B. Johnson Space Center',
-          url: 'https://www.nasa.gov/history/alsj/alsep.html',
-          catalogId: 'NASA-SP-368',
+          title: 'NASA Apollo 11 Preliminary Science Report',
+          organization: 'NASA Manned Spacecraft Center',
+          url: 'https://www.hq.nasa.gov/alsj/a11/as11psr.pdf',
+          catalogId: 'NASA-SP-214',
+        },
+        {
+          title: 'Lunar Laser Ranging: 50 Years of Precision Planetary Science',
+          organization: 'NASA Jet Propulsion Laboratory',
+          url: 'https://science.nasa.gov/missions/apollo/lunar-laser-ranging/',
+          catalogId: 'JPL-LLR-A11',
         },
       ],
     },
-    curatedQnA: [],
+        curatedQnA: [
+      {
+        question: "What were Neil Armstrong's first words on the lunar surface?",
+        answer: "Armstrong famously declared: 'That's one small step for [a] man, one giant leap for mankind.' Earlier at touchdown, he radioed: 'Houston, Tranquility Base here. The Eagle has landed.'",
+        source: "NASA Apollo Lunar Surface Journal"
+      },
+      {
+        question: "Which Apollo 11 experiment is still operating on the Moon today?",
+        answer: "The Laser Ranging Retroreflector (LRRR). Astronomers on Earth still bounce laser pulses off its 100 quartz prisms to measure Earth-Moon distance with millimeter accuracy.",
+        source: "NASA Jet Propulsion Laboratory"
+      },
+      {
+        question: "How many rock samples did the crew collect?",
+        answer: "Armstrong and Aldrin gathered 21.55 kg (47.5 lbs) of basalt, microbreccia, and lunar soil core tubes during their 2-hour and 31-minute surface walk.",
+        source: "NASA Lunar Sample Compendium"
+      }
+    ],
   },
 
   // =========================================================================
-  // MARS EXHIBITION (01 - 04)
+  // EARTH & ORBIT: THE FLIGHT CORRIDOR & RETURN
   // =========================================================================
 
   sojourner: {
     id: 'sojourner',
-    name: 'SOJOURNER',
-    callsign: 'Mars Pathfinder Microrover (MFEX)',
-    mission: 'Mars Pathfinder',
-    year: '1997',
+    name: 'COMMAND MODULE COLUMBIA & MICHAEL COLLINS',
+    callsign: 'CM-107 (Callsign: Columbia)',
+    mission: 'Apollo 11',
+    year: '1969',
     destination: 'mars',
     category: 'Complete Spacecraft',
-    modelType: 'Six-Wheel Solar Robotic Microrover',
-    landingDate: '4 July 1997',
-    declarationDate: 'Last Signal 27 September 1997',
-    operationalDuration: '83 Sols (Designed for 7 Sols)',
-    distanceTraveled: '~100 m (Never exceeding 12 m from lander)',
-    status: 'inactive',
-    statusLabel: 'Inactive — Resting Beside Carl Sagan Memorial Station',
-    locationName: 'Ares Vallis Floodplain',
-    heroImage: '/images/exhibits/sojourner_yogi.jpg',
+    modelType: 'Crewed Command & Service Module (CSM-107)',
+    landingDate: '16–24 July 1969 (Orbital Mission)',
+    declarationDate: 'Smithsonian National Air and Space Museum Landmark',
+    operationalDuration: '195 hours, 18 minutes in spaceflight',
+    distanceTraveled: '30 complete lunar orbits (60 nautical miles altitude)',
+    status: 'operational',
+    statusLabel: 'Permanently Preserved at Smithsonian National Air and Space Museum',
+    locationName: 'Lunar Orbit / National Air and Space Museum, Washington, D.C.',
+    heroImage: '/images/exhibits/sojourner_ramp.jpg',
     heroCaption:
-      'Sojourner using its Alpha Proton X-Ray Spectrometer to analyze rocks in Ares Vallis with wheel ruts pressed into ancient flood soil (NASA PIA01122).',
-    heroNasaId: 'PIA01122',
+      'Command Module Columbia photographed from the Lunar Module during orbital transposition and docking maneuvers (NASA AS11-44-6574).',
+    heroNasaId: 'AS11-44-6574',
     galleryImages: [
       {
-        src: '/images/exhibits/sojourner_yogi.jpg',
-        caption: 'Sojourner parked against Martian rocks during Pathfinder operations (NASA PIA01122).',
-        nasaId: 'PIA01122',
+        src: '/images/exhibits/sojourner_ramp.jpg',
+        caption: 'Command and Service Module Columbia in lunar orbit 60 miles above the cratered surface (NASA AS11-44-6574).',
+        nasaId: 'AS11-44-6574',
       },
       {
-        src: '/images/exhibits/sojourner_ramp.jpg',
-        caption: 'Sojourner perched on the Pathfinder lander petal ramp surrounded by deflated landing airbags (NASA PIA00621).',
-        nasaId: 'PIA00621',
+        src: '/images/exhibits/mer_cleanroom.jpg',
+        caption: 'Michael Collins at the pilot controls inside Command Module Columbia during training (NASA S69-32247).',
+        nasaId: 'S69-32247',
+      },
+      {
+        src: '/images/exhibits/voyager.jpg',
+        caption: 'Earth rising above the lunar horizon viewed from Command Module Columbia in lunar orbit (NASA AS11-44-6552).',
+        nasaId: 'AS11-44-6552',
       },
     ],
     has3DModel: false,
     coordinates: {
-      latitude: '19.13° N',
-      longitude: '33.22° W',
-      elevation: '−3,682 m',
-      planetaryRegion: 'Ares Vallis, Chryse Planitia, Mars',
+      latitude: 'Orbital (Equatorial)',
+      longitude: '60 Nautical Miles Altitude',
+      elevation: '110 km Lunar Orbit',
+      planetaryRegion: 'Lunar Orbit & Far Side Corridor',
       worldPosition: [0, 0, 0],
     },
-    brief: 'The microwave-sized pioneer that put humanity’s first wheels on Mars.',
+    brief: 'The solo mothership and the loneliest astronaut in human history.',
     shortDescription:
-      'The 10.6 kg Mars Pathfinder microrover that proved autonomous wheeled mobility could inspect rocks beyond Earth.',
+      'Command Module Columbia, piloted by Michael Collins for 21.5 solo hours in lunar orbit, safeguarding the return vehicle for the Apollo 11 crew.',
     tagline:
-      'No larger than a microwave oven, Sojourner rolled down Pathfinder’s petal ramp onto Ares Vallis on July 5, 1997—pioneering the rocker-bogie suspension used by every Mars rover since.',
+      'While two men walked on the surface, Michael Collins circled the Moon thirty times alone in Columbia—spending 48 minutes of every orbit in total radio silence behind the far side.',
     guide: {
       explanation:
-        'Sojourner was the first rover to drive on another planet. Launched aboard NASA’s Mars Pathfinder in 1996, it touched down cushioned inside giant airbags on July 4, 1997, then roamed around its base lander analyzing rocks along an ancient Martian flood plain.',
+        'Command Module Columbia (CM-107) was the command ship of Apollo 11. While Neil Armstrong and Buzz Aldrin descended to the lunar surface in Eagle, Command Module Pilot Michael Collins remained alone in lunar orbit for 21.5 hours, performing critical navigation checks, tracking Eagle’s landing coordinates through his telescope, and standing ready for emergency rendezvous.',
       purpose:
-        'Demonstrate low-cost autonomous mobility, hazard avoidance via laser striping, and rock chemistry measurement using an onboard Alpha Proton X-Ray Spectrometer.',
-      missionUsed: 'NASA Mars Pathfinder (1997).',
+        'Carrying the crew from Earth to lunar orbit and back, housing primary guidance systems, and providing the heat shield and parachutes for atmospheric re-entry and ocean recovery.',
+      missionUsed: 'NASA Apollo 11 (CSM-107 Columbia), July 16–24, 1969.',
       whyLeftBehind:
-        'Sojourner depended entirely on the stationary Carl Sagan Memorial Station lander to relay telemetry back to Earth. Once the lander’s battery failed in cold temperatures on September 27, 1997, communication ceased and Sojourner likely circled quietly beside its base until power ended.',
+        'Columbia was the only component of Apollo 11 that returned physically to Earth. Its conical cabin survived the 5,000°F heat of re-entry and splashed down safely in the Pacific.',
       presentStatus:
-        'Non-operational and intact near the Pathfinder lander in Ares Vallis; its cruise entry heat shield and parachute impacted separately further downrange.',
+        'Permanently preserved and displayed in the central Milestones of Flight gallery at the Smithsonian National Air and Space Museum in Washington, D.C.',
       spokenIntro:
-        "Welcome to Mars. You are examining Sojourner, humanity's first successful roving explorer on the Red Planet.",
+        'Welcome! You are exploring Command Module Columbia and Michael Collins\'s solo watch in lunar orbit.',
       voiceScript:
-        "Imagine sending something no larger than a microwave oven to explore an alien desert. On July 4th, 1997, after bouncing across Ares Vallis inside giant protective airbags, the Pathfinder lander opened its petals to release Sojourner. Weighing just ten kilograms, it carried six cleated aluminum wheels on an ingenious rocker-bogie suspension that let it climb over jagged volcanic boulders. Sojourner had a design warranty of just seven Martian days. Instead, it survived for eighty-three sols, rolling around rocks named Barnacle Bill and Yogi to analyze their chemistry. When the base lander's batteries finally froze in the autumn chill, communication ceased. But Sojourner had proven that mobile robots could navigate another world. Today, it rests quietly on the windswept floodplains of Ares Vallis—the quiet ancestor of every rover that followed.",
+        "While the eyes of the world were focused on Neil and Buzz walking on the Moon, sixty miles above them flew a man in absolute isolation: Michael Collins aboard Command Module Columbia. For twenty-one and a half hours, Collins circled the Moon alone. Every two hours, Columbia passed behind the far side of the Moon. The moment it slipped into the lunar shadow, all radio contact with Houston and the Earth completely vanished. Collins later wrote: 'I am alone now, truly alone, and absolutely isolated from any known life. I am it. If a count were taken on the other side of the Moon, the tally would be three billion plus two on that side, and one plus God only knows what on this side.' Collins never felt lonely—he felt fierce awareness and intense responsibility. He knew that without Columbia, Neil and Buzz could never come home.",
       keyFacts: [
-        'First wheeled vehicle on Mars, landed July 4, 1997',
-        'Demonstrated rocker-bogie suspension used by all future Mars rovers',
-        'Rests intact beside Carl Sagan Memorial Station in Ares Vallis',
+        'Lunar Orbits: 30 solo orbits (21 hours, 36 minutes)',
+        'Radio Silence: 48 minutes per orbit behind the Moon\'s far side',
+        'Only component of Apollo 11 to return physically to Earth',
       ],
     },
     components: [
       {
-        id: 'soj-chassis',
-        name: 'Rocker-Bogie Chassis & Top Solar Panel',
-        category: 'Complete Spacecraft',
-        remainsOnSite: true,
-        siteNote: 'Stationary within ~12 m of Pathfinder lander.',
+        id: 'columbia-pilot',
+        name: 'Michael Collins\'s Orbital Command Post',
+        category: 'Hardware Component',
+        remainsOnSite: false,
+        siteNote: 'Center couch and main control panel in Columbia.',
         description:
-          'Lightweight articulated titanium suspension keeping all six 13 cm cleated aluminum wheels planted over uneven rocks, topped by a 0.22 m² GaAs solar deck.',
+          'Flight controls, attitude translation hand controller, and sextant navigation optics used by Collins to align the spacecraft platform with distant guide stars.',
         guideExplanation:
-          'This hinged rocker-bogie frame prevented the tiny 10.6 kg rover from overturning over boulders—engineering lineage carried directly onto Spirit, Opportunity, Curiosity, and Perseverance.',
+          'Collins used the scanning telescope to spot Eagle\'s glint on the surface and prepared 18 different contingency burns in case Eagle suffered an incomplete ascent.',
         voiceScript:
-          'This hinged rocker-bogie chassis kept all six cleated aluminum wheels firmly planted over jagged rocks without springs, an architectural breakthrough adopted by Spirit, Opportunity, Curiosity, and Perseverance.',
+          "From his center couch, Michael Collins held total responsibility for the survival of the mission. Surrounded by hundreds of switches and circuit breakers, he monitored propellant levels and aligned his navigation sextant using guide stars like Sirius and Canopus.",
+        hotspot: { x: 50, y: 50 },
       },
       {
-        id: 'soj-apxs',
-        name: 'Alpha Proton X-Ray Spectrometer (APXS)',
-        category: 'Scientific Instrument',
-        remainsOnSite: true,
-        siteNote: 'Rear-mounted on Sojourner’s deployable arm.',
-        description:
-          'Contact sensor that backed up against rocks like Barnacle Bill and Yogi to measure elemental composition across basaltic and silica-rich specimens.',
-        guideExplanation:
-          'Sojourner backed carefully into boulders so this rear turret sensor could measure their chemical elements over hours of integration.',
-        voiceScript:
-          'Mounted on a deployable rear arm, the Alpha Proton X-Ray Spectrometer pressed directly against volcanic boulders to reveal high silicon levels, indicating complex volcanic processes on early Mars.',
-      },
-      {
-        id: 'soj-airbags',
-        name: 'Pathfinder Lander & Deflated Airbags',
-        category: 'Landing Equipment',
-        remainsOnSite: true,
-        siteNote: 'Central three-petal base platform within meters of Sojourner.',
-        description:
-          'Tetrahedral lander later renamed Carl Sagan Memorial Station, surrounded by four clustered Vectran airbag lobes that absorbed at least 15 bounces upon landing.',
-        guideExplanation:
-          'To cut cost, Pathfinder skipped heavy retrorockets at final touchdown: deflated beige airbag cushions still drape around the three triangular lander petals nearby.',
-        voiceScript:
-          'Surrounding the three-petal Pathfinder lander are deflated Vectran airbags. They cushioned the spacecraft through fifteen violent bounces across the Martian floodplain at over fifty kilometers per hour.',
-      },
-      {
-        id: 'soj-edl',
-        name: 'Heat Shield, Backshell & Parachute (Separated)',
+        id: 'columbia-heatshield',
+        name: 'Ablative Avcoat Heat Shield',
         category: 'Landing Equipment',
         remainsOnSite: false,
-        siteNote: 'Jettisoned mid-air during entry; located roughly 1 km from landing site.',
+        siteNote: 'Base of the Command Module cone, charred during 5,000°F re-entry.',
         description:
-          'Carbon-phenolic atmospheric heat shield and 12.7 m supersonic parachute shed prior to airbag inflation.',
+          'Fiberglass honeycomb structure filled by hand with Avcoat epoxy novolac resin, engineered to melt away during atmospheric deceleration to dissipate kinetic energy.',
         guideExplanation:
-          'Accurate geography check: Pathfinder’s heat shield and parachute fell clear prior to touchdown, resting over a kilometer away rather than beside Sojourner.',
+          'Hurtling into Earth’s atmosphere at 24,791 mph, this shield protected the astronauts from temperatures hotter than the surface of the Sun.',
+        voiceScript:
+          "Beneath the crew compartment was the blunt-body Avcoat heat shield. Striking Earth's atmosphere at twenty-five thousand miles per hour, friction generated temperatures of five thousand degrees. The ablative resin melted away in a controlled burn, keeping the astronauts inside at a comfortable seventy degrees.",
+        hotspot: { x: 50, y: 80 },
+      },
+      {
+        id: 'columbia-docking',
+        name: 'Orbital Docking Probe & Hatch',
+        category: 'Hardware Component',
+        remainsOnSite: false,
+        siteNote: 'Forward apex of the Command Module cone.',
+        description:
+          'Pneumatic probe and capture drogue mechanism designed to lock Columbia and Eagle together and allow pressurized crew and sample transfers.',
+        guideExplanation:
+          'Collins retracted this probe after rendezvous in lunar orbit, locking twelve mechanical latches to seal the tunnel before opening the hatch to welcome Armstrong and Aldrin back.',
+        voiceScript:
+          "At the nose of Columbia was the docking probe. When Eagle's ascent stage returned from the surface, Collins guided this probe into the receiving drogue with millimetric precision, sealing the tunnel and welcoming Armstrong and Aldrin back with a joyful bear hug.",
+        hotspot: { x: 50, y: 20 },
       },
     ],
     specs: {
-      mass: '10.6 kg (23 lb) rover mass (lander ~360 kg)',
-      powerSource: 'Gallium-arsenide solar panel (~16 W peak) + non-rechargeable LiSOCl2 backup',
-      communication: 'UHF 9,600-baud link via Carl Sagan Memorial Station lander',
+      mass: '5,557 kg (Command Module dry mass) + 24,523 kg Service Module',
+      powerSource: 'Three Pratt & Whitney Bacon-type hydrogen-oxygen fuel cells',
+      communication: 'VHF transceivers and steerable high-gain unified S-band dish',
       primaryInstruments: [
-        'Alpha Proton X-Ray Spectrometer (APXS)',
-        'Two monochrome forward hazard cameras & rear color camera',
-        'Wheel abrasion & materials adherence experiments',
+        'Aerojet Service Propulsion System (SPS) 20,500 lb-thrust engine',
+        'Apollo Guidance Computer (AGC) with DSKY display interface',
+        'Scanning Telescope & Optical Sextant navigation assembly',
       ],
     },
     storyChapters: [
       {
-        id: 'soj-ch-1',
+        id: 'col-ch-1',
         chapterNumber: '01',
-        chapterTitle: 'AIRBAG BOUNCE',
-        headline: 'Faster, Better, Cheaper on Ares Vallis.',
+        chapterTitle: 'THE LONELIEST MAN IN HISTORY',
+        headline: 'Behind the Far Side of the Moon.',
         narrative:
-          'Designed under JPL’s constrained discovery philosophy, Mars Pathfinder plummeted into the thin atmosphere inside a protective aeroshell, unfurled a parachute, fired three brief solid rockets at 100 meters altitude, and hit Mars cocooned in pressurized airbags—bouncing 15 meters high across the ancient Ares Vallis outflow channel.',
+          'As Eagle descended toward Mare Tranquillitatis, Columbia continued along its 60-mile circular orbit. For forty-eight minutes of every two-hour lap, Collins passed behind the Moon. The towering mass of the lunar body blocked every radio wave from Earth. Inside the quiet cabin, bathed in the hum of fans and coolant pumps, Collins was more isolated than any human being had ever been before or since.',
         historicalContext:
-          'The landing site confirmed rounded pebbles and imbricated boulders swept together by catastrophic ancient floods.',
+          'Mission Control in Houston had to wait patiently through every far-side pass, listening for Collins\'s signal to reacquire at the exact second of orbital sunrise.',
         archivalImage: '/images/exhibits/sojourner_ramp.jpg',
-        imageCaption: 'Sojourner poised above deflated airbags on Pathfinder’s ramp (NASA PIA00621).',
-        keyMetric: { label: 'Rover Weight', value: '10.6 Kilograms' },
+        imageCaption: 'Command Module Columbia in solo orbit above the lunar horizon (NASA AS11-44-6574).',
+        keyMetric: { label: 'Radio Blackout', value: '48 minutes per orbit' },
+        audioFrequency: 250,
       },
       {
-        id: 'soj-ch-2',
+        id: 'col-ch-2',
         chapterNumber: '02',
-        chapterTitle: 'EIGHTY-THREE SOLS',
-        headline: 'Outliving Design by Twelve Times.',
+        chapterTitle: 'THE GUARDIAN IN ORBIT',
+        headline: 'Eighteen Contingency Burn Plans.',
         narrative:
-          'Originally slated for only seven Martian days, Sojourner operated across 83 sols—measuring silica-rich andesite rocks, capturing soil cohesion tests, and testing autonomous pathfinding around hazards until the base station transmitter fell silent in late September 1997.',
+          'Collins knew the stark mathematical stakes: if Eagle\'s descent engine had failed prematurely, or if the ascent stage engine failed to reach full orbital velocity, Collins was prepared to perform a solo rescue. He had memorized eighteen distinct rendezvous maneuver sequences, keeping Columbia primed to dive lower into orbit to intercept the stranded crew before their oxygen ran out.',
         historicalContext:
-          'Sojourner’s autonomy algorithms taught future JPL teams how to let rovers avoid Martian hazards between daily command uploads.',
-        archivalImage: '/images/exhibits/sojourner_yogi.jpg',
-        imageCaption: 'Sojourner wheel ruts pressed into Ares Vallis regolith (NASA PIA01122).',
-        keyMetric: { label: 'Design vs Actual', value: '7 Sols → 83 Sols' },
+          'Collins wrote in his notebook: "My secret terror for the last six months has been leaving them on the Moon and returning to Earth alone; now I am within minutes of finding out."',
+        archivalImage: '/images/exhibits/mer_cleanroom.jpg',
+        imageCaption: 'Michael Collins running through guidance checkouts in the spacecraft cockpit (NASA S69-32247).',
+        keyMetric: { label: 'Contingency Plans', value: '18 rescue trajectories' },
+        audioFrequency: 330,
+      },
+      {
+        id: 'col-ch-3',
+        chapterNumber: '03',
+        chapterTitle: 'REUNION IN LUNAR ORBIT',
+        headline: 'A Joyful Lock in Vacuum.',
+        narrative:
+          'At 21:24 UTC on July 21, Eagle\'s ascent stage climbed up to Columbia\'s altitude. Through his optical sextant, Collins spotted the glittering gold-and-black foil of the lander. With master precision, he pulsed Columbia\'s thrusters and completed the docking maneuver. When the hatches were equalized and opened, Armstrong and Aldrin transferred forty-seven pounds of lunar rocks into Columbia, and the three men were reunited as one crew.',
+        historicalContext:
+          'Once the crew and samples were safe inside Columbia, Eagle\'s ascent stage was jettisoned into lunar orbit, having fulfilled its historic purpose.',
+        archivalImage: '/images/exhibits/voyager.jpg',
+        imageCaption: 'Earthrise viewed from lunar orbit as Columbia prepared for the journey home (NASA AS11-44-6552).',
+        keyMetric: { label: 'Docking Velocity', value: '0.1 ft/s nominal closure' },
+        audioFrequency: 500,
       },
     ],
     legacy: {
       physicalCondition:
-        'Stationary in Ares Vallis alongside the Carl Sagan Memorial Station lander and deflated Vectran airbags.',
-      currentMilestone: 'Proved autonomous wheeled robotics could survive and navigate Mars.',
+        'Columbia is completely intact and preserved on permanent public display in the Boeing Milestones of Flight Hall at the Smithsonian National Air and Space Museum.',
+      currentMilestone:
+        'The only surviving physical spacecraft from Apollo 11 to return from the Moon.',
       scientificImpact: [
-        'Demonstrated ancient catastrophic flooding in Ares Vallis via sedimentary cobbles and conglomerate ridges.',
-        'Established the rocker-bogie wheel architecture adopted by all subsequent NASA Mars rovers.',
+        'Demonstrated the viability of solo command module piloting during complex multi-craft orbital missions.',
+        'Validated optical sextant deep-space navigation independently of ground-based tracking stations.',
+        'Returned three astronauts safely through atmospheric re-entry at 36 times the speed of sound.',
       ],
       whatRemainsToday:
-        'Sojourner microrover, folded lander petals, weather mast, and deflated airbags in Ares Vallis; heat shield & parachute lie separately ~1 km away.',
+        'The historic capsule Columbia, charred heat shield, and original astronaut cockpit couches remain preserved in Washington, D.C.',
       sources: [
         {
-          title: 'NASA JPL: Mars Pathfinder & Sojourner Rover Mission Overview',
-          organization: 'NASA / JPL-Caltech',
-          url: 'https://science.nasa.gov/mission/mars-pathfinder/',
-          catalogId: 'NSSDC-ID: 1996-068A',
+          title: 'Carrying the Fire: An Astronaut\'s Journeys by Michael Collins',
+          organization: 'Farrar, Straus and Giroux',
+          url: 'https://airandspace.si.edu/collection-objects/command-module-apollo-11/nasm_A19700102000',
+          catalogId: 'NASM-A19700102000',
+        },
+        {
+          title: 'Apollo 11 Command and Service Module Documentation',
+          organization: 'Smithsonian National Air and Space Museum',
+          url: 'https://airandspace.si.edu/collection-objects/command-module-apollo-11',
+          catalogId: 'NASM-COLL-A11',
         },
       ],
     },
-    curatedQnA: [],
+        curatedQnA: [
+      {
+        question: "What was Michael Collins' experience in solo lunar orbit?",
+        answer: "Collins orbited the Moon 30 times alone. For 48 minutes of every 2-hour lap, he passed behind the far side in total radio silence, maintaining the mothership with steady discipline.",
+        source: "Carrying the Fire by Michael Collins"
+      },
+      {
+        question: "What were Collins' emergency rescue plans?",
+        answer: "Collins memorized 18 separate contingency burn maneuvers to descend and rescue Eagle if the lander's ascent stage underburned or entered an elliptical abort orbit.",
+        source: "NASA Flight Operations Directorate"
+      },
+      {
+        question: "Where is Command Module Columbia preserved today?",
+        answer: "Columbia is on permanent display in the Boeing Milestones of Flight Hall at the Smithsonian National Air and Space Museum in Washington, D.C.",
+        source: "Smithsonian National Air and Space Museum"
+      }
+    ],
   },
 
   spirit: {
     id: 'spirit',
-    name: 'SPIRIT',
-    callsign: 'MER-A (Mars Exploration Rover A)',
-    mission: 'Mars Exploration Rover Program',
-    year: '2004',
+    name: 'JOURNEY FROM EARTH TO THE MOON',
+    callsign: 'Apollo 11 Translunar Trajectory',
+    mission: 'Apollo 11',
+    year: '1969',
     destination: 'mars',
     category: 'Complete Spacecraft',
-    modelType: 'Solar-Powered Robotic Field Geologist',
-    landingDate: '4 January 2004',
-    declarationDate: '25 May 2011 (Last Signal 22 March 2010)',
-    operationalDuration: '6 years, 79 days (2,210 sols)',
-    distanceTraveled: '7.73 km (4.80 miles)',
-    status: 'inactive',
-    statusLabel: 'Inactive — Stationary Platform at Troy, Gusev Crater',
-    locationName: 'Gusev Crater (West of Home Plate Plateau)',
-    heroImage: '/images/exhibits/mer_cleanroom.jpg',
+    modelType: 'Cislunar Deep Space Trajectory & Spacecraft Transposition',
+    landingDate: '16–19 July 1969 (Translunar Coast)',
+    declarationDate: 'Historic Deep-Space Flight Corridor',
+    operationalDuration: '73 hours, 10 minutes translunar coast',
+    distanceTraveled: '240,000 miles (386,000 km) across cislunar space',
+    status: 'operational',
+    statusLabel: 'Trajectory Executed With Flawless Mathematical Accuracy',
+    locationName: 'Cislunar Deep Space Corridor',
+    heroImage: '/images/exhibits/spirit_hero.jpg',
     heroCaption:
-      'Mars Exploration Rover hardware configuration identical to twin geologists Spirit (MER-A) and Opportunity (MER-B) showing stereo Pancam mast, solar deck, and six-wheel rocker-bogie mobility (NASA JPL).',
-    heroNasaId: 'PIA04413',
+      'Earth photographed from Apollo 11 during the translunar coast at a distance of approximately 100,000 miles (NASA AS11-36-5337).',
+    heroNasaId: 'AS11-36-5337',
     galleryImages: [
       {
-        src: '/images/exhibits/mer_cleanroom.jpg',
-        caption: 'Six-wheel MER rover engineering configuration with Pancam mast and robotic arm (NASA JPL).',
-        nasaId: 'PIA04413',
+        src: '/images/exhibits/spirit_hero.jpg',
+        caption: 'View of Earth showing the Atlantic Ocean and African continent during translunar coast (NASA AS11-36-5337).',
+        nasaId: 'AS11-36-5337',
       },
       {
-        src: '/images/exhibits/spirit_hero.jpg',
-        caption: 'Volcanic basalt boulder Adirondack photographed by Spirit in Gusev Crater (NASA PIA05104).',
-        nasaId: 'PIA05104',
+        src: '/images/exhibits/mer_cleanroom.jpg',
+        caption: 'Apollo 11 Command and Service Module mating with the Lunar Module adapter shroud in Florida (NASA S69-32247).',
+        nasaId: 'S69-32247',
+      },
+      {
+        src: '/images/exhibits/voyager.jpg',
+        caption: 'The Moon growing in the spacecraft window as Apollo 11 approached lunar orbit insertion (NASA AS11-44-6552).',
+        nasaId: 'AS11-44-6552',
       },
     ],
-    has3DModel: true,
+    has3DModel: false,
     coordinates: {
-      latitude: '14.5718° S',
-      longitude: '175.4785° E',
-      elevation: '−1,920 m',
-      planetaryRegion: 'Gusev Crater, Mars',
-      worldPosition: [-16, 0.6, -14],
+      latitude: 'Translunar Vector',
+      longitude: 'Translunar Coast',
+      elevation: '240,000 Miles From Earth',
+      planetaryRegion: 'Cislunar Space / Neutral Gravity Point',
+      worldPosition: [0, 0, 0],
     },
-    brief: 'The rover that dragged a seized wheel into volcanic hot-spring silica.',
+    brief: 'A three-day silent coast through a quarter-million miles of black vacuum.',
     shortDescription:
-      'Landed in Gusev Crater, climbed Husband Hill, and exposed 90% pure hydrothermal silica by driving backwards on five working wheels.',
+      'Transposition, docking, and extraction of the Lunar Module Eagle, the passive thermal "barbecue roll", and precision navigation across deep space.',
     tagline:
-      'After Gusev’s crater floor proved unexpectedly volcanic, Spirit drove kilometers into the Columbia Hills—turning mechanical failure into its defining proof of ancient Martian steam vents.',
+      'Floating between the blue marble of Earth and the growing silver disc of the Moon, Apollo 11 navigated by the stars across a silent ocean of void.',
     guide: {
       explanation:
-        'Spirit (MER-A) landed in Gusev Crater three weeks ahead of its twin Opportunity. Built to drive only 90 Martian sols, it operated for over six years, becoming the first robot to summit a hill on another planet before becoming trapped in soft sulfate sand.',
+        'Following Translunar Injection, Apollo 11 separated from the Saturn V third stage, performed a 180-degree turn, docked with Lunar Module Eagle, and extracted it from the booster shroud. Over the next three days, the combined stack coasted 240,000 miles toward the Moon, rotating slowly to distribute solar heat and making tiny midcourse adjustments.',
       purpose:
-        'Examine rocks and soils inside Gusev Crater for geological evidence of past liquid water and hydrothermal environments.',
-      missionUsed: 'NASA Mars Exploration Rover A (Spirit), launched 2003, landed January 2004.',
+        'Bridging the distance between Earth and Moon, equalizing spacecraft temperatures, conducting live television broadcasts, and executing Lunar Orbit Insertion.',
+      missionUsed: 'NASA Apollo 11 Translunar Coast, July 16–19, 1969.',
       whyLeftBehind:
-        'In May 2009, Spirit’s wheels broke through a fragile soil crust at a spot called "Troy," tilting away from the winter Sun. Without enough solar wattage to run survival heaters, Spirit froze during Martian winter after its final contact in March 2010.',
+        'The translunar corridor represents the celestial trajectory paved by orbital mathematicians that allowed humans to navigate between two planetary bodies.',
       presentStatus:
-        'Non-operational stationary station parked in sulfate sand near Home Plate; its entry lander and airbags rest 7.7 km back across Gusev plains.',
+        'The mathematical principles, celestial navigation formulas, and thermal rotation protocols established on this flight remain standard in modern lunar exploration.',
       spokenIntro:
-        'Welcome! This is Spirit, Mars Exploration Rover A, an iconic geological investigator that conquered Martian mountains.',
+        'Welcome! You are exploring Apollo 11\'s epic three-day journey across cislunar space from Earth to the Moon.',
       voiceScript:
-        "Spirit touched down in Gusev Crater in January 2004, built for a mission expected to last only ninety days. Instead, this gritty explorer roamed the Martian surface for over six grueling years. When its front right wheel seized up early in the mission, engineers on Earth learned to drive the rover backward, dragging the dead wheel behind it. That mechanical failure turned into one of its greatest discoveries: the dragging wheel churned up bright white soil that turned out to be ninety percent pure silica—irrefutable evidence of ancient hydrothermal hot springs and steam vents. Spirit went on to become the first machine to summit a mountain on another planet, climbing Husband Hill. In 2009, its wheels broke through a hidden crust into loose sand at a spot called Troy. Tilted away from the winter sun, its solar wings could no longer heat its systems. Spirit fell silent in 2010, resting peacefully in the Martian sands—a symbol of endurance against impossible odds.",
+        "Once the Saturn V pushed Apollo 11 out of Earth orbit, the real journey through the black began. Three hours after launch, Michael Collins performed a delicate ballet in space. He separated Columbia from the rocket booster, turned the ship around one hundred and eighty degrees, and gently docked nose-to-nose with Eagle, pulling the lander out of its protective metal shroud. For the next three days, the crew coasted through two hundred and forty thousand miles of deep vacuum. Because the side of the spacecraft facing the Sun would bake at over two hundred degrees while the shadow side plunged to minus two hundred, the ship was put into a slow, continuous spin—three rotations every hour. The astronauts called it the 'barbecue roll.' Through their triangular windows, they watched the Earth shrink into a fragile blue and white marble, alone in an ocean of black.",
       keyFacts: [
-        'Operated for 6 years across 7.73 kilometers of Martian terrain',
-        'Discovered pure silica deposits indicating ancient hydrothermal vents',
-        'Stationary resting place at Troy in Gusev Crater',
+        'Translunar Coast Duration: 73 hours, 10 minutes',
+        'Speed at Gravity Neutral Point: Slowed to 2,040 mph before lunar acceleration',
+        'Passive Thermal Control: 3 revolutions per hour ("The Barbecue Roll")',
       ],
     },
     components: [
       {
-        id: 'spirit-chassis',
-        name: 'MER-A Warm Electronics Box & Solar Wings',
-        category: 'Complete Spacecraft',
-        remainsOnSite: true,
-        siteNote: 'Embedded upright at "Troy" on the western edge of Home Plate.',
-        description:
-          'Gold-foil insulated core housing flight computers and lithium batteries beneath deployable solar wings generating ~140 W when dust-free.',
-        guideExplanation:
-          'Trapped in loose sulfates tilted slightly south away from the low winter sun, these solar wings could no longer keep Spirit’s internal heaters alive.',
-        voiceScript:
-          "This is Spirit's main warm electronics box and solar wing array. Insulated with gold-foil aerogel and resistance heaters, this core kept delicate computers alive through freezing minus-one-hundred-degree Martian nights.",
-      },
-      {
-        id: 'spirit-wheel',
-        name: 'Seized Right-Front Wheel Actuator',
+        id: 'journey-transposition',
+        name: 'Transposition, Docking & Extraction',
         category: 'Hardware Component',
-        remainsOnSite: true,
-        siteNote: 'Locked in position since March 2006 at Home Plate.',
+        remainsOnSite: false,
+        siteNote: 'Executed 3 hours, 15 minutes after launch over the Atlantic.',
         description:
-          'When this wheel seized in 2006, operators drove Spirit in reverse, using the immobile wheel as a geological trencher that uncovered pure silica.',
+          'Precision orbital maneuver where Columbia backed away from the S-IVB stage, rotated 180°, and docked with Eagle to pull it from the booster shroud.',
         guideExplanation:
-          'That broken wheel inadvertently wrote history: dragging backwards tore open bright white soil rich in 90% pure amorphous silica from ancient hot springs.',
+          'Had docking failed, Apollo 11 could not have landed on the Moon, and the mission would have been forced to loop around the Moon and return to Earth.',
         voiceScript:
-          'This right-front wheel seized in 2006. Engineers drove Spirit backwards, dragging the locked wheel through the soil. That dragged wheel churned up bright white soil of ninety percent pure silica, proving volcanic hot springs once bubbled on Mars.',
+          "Transposition and docking was a critical pass-fail gate. Floating backward at eighteen thousand miles per hour, Collins fired tiny reaction control thrusters to bring Columbia's nose into the landing module's docking ring with zero room for error.",
+        hotspot: { x: 50, y: 50 },
       },
       {
-        id: 'spirit-arm',
-        name: 'Pancam Mast, APXS & Rock Abrasion Tool',
-        category: 'Scientific Instrument',
-        remainsOnSite: true,
-        siteNote: 'Attached directly to Spirit’s rover frame.',
+        id: 'journey-ptc',
+        name: 'Passive Thermal Control ("The Barbecue Roll")',
+        category: 'Hardware Component',
+        remainsOnSite: false,
+        siteNote: 'Maintained continuously during translunar and trans-Earth coasts.',
         description:
-          '1.4-meter stereo camera mast paired with a 5-joint robotic turret carrying grinders, spectrometers, and micro-imagers.',
+          'Continuous slow roll of 3 revolutions per hour around the spacecraft\'s longitudinal axis to distribute solar radiation evenly across the hull.',
         guideExplanation:
-          'These instruments discovered carbonate outcrops at Comanche and confirmed hot-spring silica deposits favorable for ancient microbial life.',
+          'Without this rotation, solar heat would have boiled cryogenic propellant tanks on one side while freezing electronics on the shadow side.',
         voiceScript:
-          'Perched on the five-joint robotic instrument arm, the Rock Abrasion Tool ground into volcanic rocks while spectrometers measured mineral iron states, proving ancient water had chemically altered the bedrock.',
+          "To survive the extreme heat and cold of deep space, the spacecraft had to roll like meat on a spit. This 'barbecue roll' kept temperatures balanced across the four-ton propellant tanks and delicate instrument panels.",
+        hotspot: { x: 50, y: 75 },
       },
       {
-        id: 'spirit-edl',
-        name: 'Columbia Memorial Station Lander & Aeroshell',
+        id: 'journey-loi',
+        name: 'Lunar Orbit Insertion (LOI Burn)',
         category: 'Landing Equipment',
         remainsOnSite: false,
-        siteNote: 'Lander sits ~7.7 km northwest; heat shield and parachute crashed separately.',
+        siteNote: 'Executed at 75 hours, 49 minutes mission time behind the Moon.',
         description:
-          'Three-petal airbag lander platform left behind when Spirit rolled onto Gusev plains, while its heat shield and backshell struck kilometers away during descent.',
+          'Six-minute retro-burn of the 20,500-lb thrust Service Propulsion System engine to brake the spacecraft into lunar gravitational capture.',
         guideExplanation:
-          'Spirit’s landing platform remains kilometers behind at its touchdown site, separate from the heat shield and parachute shed during atmospheric entry.',
+          'Fired behind the Moon out of radio contact with Earth: if the engine fired too long, it would crash into the Moon; if it underfired, it would slingshot into solar orbit.',
+        voiceScript:
+          "On July 19th, Apollo 11 slipped behind the dark limb of the Moon. Cut off from Mission Control, the Service Module engine fired for six tense minutes, braking the spacecraft into lunar gravity. When radio contact returned, Collins reported calmly: 'Apollo 11 is in lunar orbit.'",
+        hotspot: { x: 50, y: 25 },
       },
     ],
     specs: {
-      mass: '185 kg (408 lb) rover mass',
-      powerSource: 'Triple-junction GaInP/GaAs solar wings',
-      communication: 'Steerable X-band high-gain dish & Odyssey UHF relay',
+      mass: 'Combined CSM-LM Stack: ~45,000 kg (100,000 lbs in transit)',
+      powerSource: 'Three hydrogen-oxygen fuel cells generating 1.4 kW continuous power',
+      communication: 'Unified S-band steerable high-gain antenna tracking Madrid, Goldstone, and Canberra',
       primaryInstruments: [
-        'Pancam Stereo Cameras & Mini-TES Thermal Spectrometer',
-        'Mössbauer Spectrometer & Alpha Particle X-Ray Spectrometer',
-        'Rock Abrasion Tool (RAT) & Microscopic Imager',
+        'Aerojet 20,500-lb thrust Service Propulsion System (SPS)',
+        '16 × Marquardt R-4D reaction control thrusters (100 lbs thrust each)',
+        'Westinghouse color television field-sequential camera for live broadcasts',
       ],
     },
     storyChapters: [
       {
-        id: 'spirit-ch-1',
+        id: 'tra-ch-1',
         chapterNumber: '01',
-        chapterTitle: 'VOLCANIC PLAINS',
-        headline: 'First Footprints in Gusev Crater.',
+        chapterTitle: 'THE EXTRACTION IN VACUUM',
+        headline: 'A Delicate Ballet in Deep Space.',
         narrative:
-          'Spirit touched down on January 4, 2004 inside the 166 km basin of Gusev Crater. Rather than exposed lake sediments, early traverses revealed dark basaltic lava flows—prompting drivers to steer kilometers southeast toward the older weathered ridges of the Columbia Hills.',
+          'At 3 hours and 15 minutes after launch, Apollo 11 was hurtling away from Earth at 20,000 mph. Michael Collins fired forward RCS thrusters, moving Columbia fifty feet ahead of the Saturn V booster. With smooth hand-controller inputs, he rotated the spacecraft 180 degrees, lining up nose-to-nose with Eagle nestled inside the booster adapter. Latching the docking ring with an audible thunk, he backed away, extracting the Lunar Module into open space.',
         historicalContext:
-          'Over 18 months, Spirit climbed 107 vertical meters to reach the summit of Husband Hill.',
-        archivalImage: '/images/exhibits/spirit_hero.jpg',
-        imageCaption: 'Basalt boulders and regolith imaged by Spirit in Gusev Crater (NASA PIA05104).',
-        keyMetric: { label: 'Vertical Climb', value: '107 m (Husband Hill)' },
+          'The empty S-IVB booster was then commanded by ground stations to vent its remaining propellant, sending it into a solar orbit where it orbits the Sun to this day.',
+        archivalImage: '/images/exhibits/mer_cleanroom.jpg',
+        imageCaption: 'Command Module and Lunar Module mating demonstration before launch (NASA S69-32247).',
+        keyMetric: { label: 'Distance at Docking', value: '18,000 miles from Earth' },
+        audioFrequency: 270,
       },
       {
-        id: 'spirit-ch-2',
+        id: 'tra-ch-2',
         chapterNumber: '02',
-        chapterTitle: 'SILICA IN THE SAND',
-        headline: 'A Frozen Wheel Finds Hot Springs.',
+        chapterTitle: 'THE PALE BLUE MARBLE',
+        headline: 'Looking Back at Home.',
         narrative:
-          'After its right-front wheel locked up in 2006, drivers steered Spirit backwards across Home Plate. The dragging wheel exposed blindingly bright soil—90% pure silica—indicating ancient volcanic steam or hot springs. Stuck permanently in soft sulfate sand at Troy in 2009, Spirit fell silent during Martian winter in March 2010.',
+          'During the 73-hour coast, the astronauts broadcast three live television transmissions back to Earth. Armstrong held the camera to the window, showing the whole planet Earth floating like a bright sapphire against pitch-black velvet. At 60 hours into the flight, Apollo 11 crossed the neutral gravity point—the invisible boundary where the Moon\'s gravitational pull became stronger than Earth\'s—and began accelerating toward the lunar surface.',
         historicalContext:
-          'NASA concluded recovery attempts on May 25, 2011 after more than six years of discovery.',
-        archivalImage: '/images/exhibits/mer_cleanroom.jpg',
-        imageCaption: 'MER twin-rover hardware layout with Pancam mast and instrument arm (NASA JPL).',
-        keyMetric: { label: 'Total Traverse', value: '7.73 Kilometers' },
+          'Over 500 million people watched the live Sunday broadcast as Armstrong demonstrated floating weightless water droplets in the cabin.',
+        archivalImage: '/images/exhibits/spirit_hero.jpg',
+        imageCaption: 'Earth photographed from 100,000 miles out during translunar coast (NASA AS11-36-5337).',
+        keyMetric: { label: 'Earth Diameter in Window', value: 'Size of a quarter at arm\'s length' },
+        audioFrequency: 350,
+      },
+      {
+        id: 'tra-ch-3',
+        chapterNumber: '03',
+        chapterTitle: 'SLIPPING INTO LUNAR CAPTURE',
+        headline: 'The Burning on the Dark Side.',
+        narrative:
+          'At 75 hours and 49 minutes mission time, Apollo 11 disappeared behind the eastern limb of the Moon, entering radio blackout. In the shadow of the lunar far side, the Service Propulsion System engine ignited for 357 seconds. When Columbia and Eagle emerged from behind the western limb, telemetry locked back onto the Goldstone tracking station in California, confirming that Apollo 11 had arrived safely in lunar orbit.',
+        historicalContext:
+          'Jim Lovell in Mission Control called out: "Apollo 11, this is Houston. You are looking great to us," and Collins replied: "It was a beautiful burn."',
+        archivalImage: '/images/exhibits/voyager.jpg',
+        imageCaption: 'The lunar surface crater Daedalus viewed from lunar orbit (NASA AS11-44-6552).',
+        keyMetric: { label: 'Burn Duration', value: '357.5 seconds nominal' },
+        audioFrequency: 520,
       },
     ],
     legacy: {
       physicalCondition:
-        'Stationary tilted platform embedded in fine sulfate dust at Troy, Gusev Crater.',
-      currentMilestone: 'Summited Husband Hill and uncovered definitive hydrothermal silica.',
+        'The translunar trajectory established the definitive deep-space navigation pathway used by Apollo 12 through 17 and now utilized by NASA\'s Artemis program.',
+      currentMilestone:
+        'First crewed transit of the cislunar gravitational neutral point.',
       scientificImpact: [
-        'Discovered 90% pure amorphous silica formed around ancient volcanic steam vents or hot springs.',
-        'Detected magnesium-iron carbonate outcrops pointing to neutral-pH water history.',
+        'Refined mathematical models of cislunar gravitational mass concentrations (mascons).',
+        'Validated passive thermal spin dynamics for deep-space human habitats.',
+        'Established operational protocols for live interplanetary television broadcasts.',
       ],
       whatRemainsToday:
-        'Spirit rover resting in Gusev Crater sand; Columbia Memorial Station lander, heat shield, and parachute lie separately across the crater floor.',
+        'The deep-space cislunar corridor remains the highway between worlds, soon to be re-traversed by the Artemis crewed missions.',
       sources: [
         {
-          title: 'NASA Science: Mars Exploration Rover Spirit Mission Archive',
-          organization: 'NASA / JPL-Caltech',
-          url: 'https://science.nasa.gov/mission/mer-spirit/',
-          catalogId: 'NSSDC-ID: 2003-027A',
+          title: 'NASA Apollo 11 Mission Report: Translunar Phase',
+          organization: 'NASA Manned Spacecraft Center',
+          url: 'https://history.nasa.gov/alsj/a11/A11_MissionReport.pdf',
+          catalogId: 'MSC-00171',
         },
       ],
     },
-    curatedQnA: [],
+        curatedQnA: [
+      {
+        question: "How did Apollo 11 extract the Lunar Module in space?",
+        answer: "Three hours after launch, Collins detached Columbia, flipped 180 degrees, and docked with Eagle's nose, gently pulling it out of the Saturn V's third-stage adapter shroud.",
+        source: "NASA Apollo 11 Mission Report"
+      },
+      {
+        question: "What was the barbecue roll?",
+        answer: "Passive Thermal Control: the combined spacecraft rolled continuously at 3 revolutions per hour to distribute solar heating evenly between the sunny and shaded sides.",
+        source: "NASA Apollo Spacecraft Operations Handbook"
+      },
+      {
+        question: "How long did the translunar coast take?",
+        answer: "The journey across 240,000 miles of deep vacuum took 73 hours and 10 minutes until the Lunar Orbit Insertion retro-burn behind the Moon.",
+        source: "NASA History Division"
+      }
+    ],
   },
 
   opportunity: {
     id: 'opportunity',
-    name: 'OPPORTUNITY',
-    callsign: 'MER-B (Mars Exploration Rover B)',
-    mission: 'Mars Exploration Rover Program',
-    year: '2004',
+    name: 'RETURN JOURNEY & PACIFIC SPLASHDOWN',
+    callsign: 'Apollo 11 Recovery (USS Hornet)',
+    mission: 'Apollo 11',
+    year: '1969',
     destination: 'mars',
     category: 'Complete Spacecraft',
-    modelType: 'Long-Range Solar Robotic Rover',
-    landingDate: '25 January 2004',
-    declarationDate: '13 February 2019 (Last Signal 10 June 2018)',
-    operationalDuration: '14 years, 138 days (5,111 sols)',
-    distanceTraveled: '45.16 km (28.06 miles)',
-    status: 'inactive',
-    statusLabel: 'Inactive — Resting in Perseverance Valley, Endeavour Crater',
-    locationName: 'Perseverance Valley, Endeavour Crater Rim',
+    modelType: 'Trans-Earth Return, Atmospheric Re-entry & Oceanic Recovery',
+    landingDate: '24 July 1969 — 16:50:35 UTC (Splashdown)',
+    declarationDate: 'National Historic Recovery Site',
+    operationalDuration: '195 hours, 18 minutes, 35 seconds (Full Mission)',
+    distanceTraveled: 'Returned from 240,000 miles to a pinpoint 13-mile target',
+    status: 'operational',
+    statusLabel: 'Mission Fulfilled — Astronauts Recovered in Perfect Health',
+    locationName: 'Pacific Ocean (13°19′N, 169°9′W) — 812 nm SW of Hawaii',
     heroImage: '/images/exhibits/opportunity.jpg',
     heroCaption:
-      'Close-up of Opportunity’s gold Kapton harness and cleats gripping layered sulfate bedrock along Meridiani Planum (NASA PIA03240).',
-    heroNasaId: 'PIA03240',
+      'Apollo 11 Command Module Columbia floating in the Pacific Ocean with Navy Pararescue team and flotation collar attached, July 24, 1969 (NASA S69-40024).',
+    heroNasaId: 'S69-40024',
     galleryImages: [
       {
         src: '/images/exhibits/opportunity.jpg',
-        caption: 'Opportunity’s front wheel resting on ancient water-laid Meridiani bedrock (NASA PIA03240).',
-        nasaId: 'PIA03240',
+        caption: 'Columbia supported by its three orange-and-white flotation spheres after splashdown (NASA S69-40024).',
+        nasaId: 'S69-40024',
       },
       {
         src: '/images/exhibits/opp_heatshield_rock.jpg',
-        caption: 'Iron-nickel meteorite "Heat Shield Rock" discovered beside Opportunity’s discarded entry heat shield on Sol 339 (NASA PIA07269).',
-        nasaId: 'PIA07269',
+        caption: 'Astronauts Neil Armstrong, Michael Collins, and Buzz Aldrin inside the Mobile Quarantine Facility on USS Hornet (NASA S69-40757).',
+        nasaId: 'S69-40757',
+      },
+      {
+        src: '/images/exhibits/mer_cleanroom.jpg',
+        caption: 'President Richard Nixon welcoming the Apollo 11 crew through the window of the Mobile Quarantine Facility (NASA S69-40025).',
+        nasaId: 'S69-40025',
       },
     ],
-    has3DModel: true,
+    has3DModel: false,
     coordinates: {
-      latitude: '2.34° S',
-      longitude: '354.67° E',
-      elevation: '−1,440 m',
-      planetaryRegion: 'Meridiani Planum, Mars',
-      worldPosition: [0, 0.45, 0],
+      latitude: '13.3167° N (13°19′ N)',
+      longitude: '-169.1500° W (169°9′ W)',
+      elevation: 'Sea Level (Pacific Ocean)',
+      planetaryRegion: 'Pacific Ocean Recovery Zone (USS Hornet)',
+      worldPosition: [0, 0, 0],
     },
-    brief: 'A 90-day mission that drove a marathon across Mars.',
+    brief: 'The fiery 25,000 mph plunge through the atmosphere and safe return home.',
     shortDescription:
-      'Traversed 45.16 km over fourteen years across Meridiani Planum, uncovering mineral veins and spherules left by ancient water.',
+      'Trans-Earth Injection, atmospheric re-entry at Mach 36, ionization communications blackout, parachute deployment, and recovery by the USS Hornet.',
     tagline:
-      'Designed for ninety sols, Opportunity crossed craters, weathered dust storms, inspected its own fallen heat shield, and proved habitable neutral-pH water once flowed beneath Mars.',
+      'Braving 5,000°F re-entry temperatures hotter than the surface of the Sun, Columbia punched through Earth\'s atmosphere to fulfill John F. Kennedy\'s national promise.',
     guide: {
-      spokenIntro:
-        'Welcome to the story of Opportunity, NASA’s longest-running Mars Exploration Rover.',
-      voiceScript:
-        "Opportunity touched down in January 2004 inside Eagle Crater on Meridiani Planum, scoring what engineers called an interplanetary hole-in-one. Like its twin Spirit, Opportunity had a ninety-day warranty. It ended up exploring Mars for an astonishing fourteen years and 5,111 Martian days. Across forty-five kilometers—an off-Earth distance record—Opportunity drove deep into massive craters, finding microscopic hematite spherules and gypsum mineral veins that proved gentle, drinkable water once pooled on Mars. In June of 2018, a catastrophic, planet-encircling dust storm choked out the skies over Endeavour Crater, blocking sunlight from reaching its solar arrays. As its batteries drained in the cold darkness, Opportunity sent its final message from Perseverance Valley. It remains resting on the crater rim at an eleven-degree tilt—a tireless traveler whose journey forever reshaped our understanding of Mars.",
       explanation:
-        'Opportunity landed inside small Eagle Crater on January 25, 2004, directly beside stratified sedimentary rocks. Over 5,111 sols, it drove an unprecedented 45.16 kilometers before a global dust storm cut off sunlight to its solar panels in June 2018.',
+        'On July 24, 1969, Apollo 11 completed its historic voyage. After firing the Service Propulsion engine behind the Moon for Trans-Earth Injection, the crew coasted home across 60 hours. Fifteen minutes before atmospheric entry, Columbia jettisoned the Service Module and slammed into the upper atmosphere at 24,791 mph. Protected by its ablative heat shield and lowered by three main parachutes, Columbia splashed down in the Pacific Ocean, where Navy SEALs and the aircraft carrier USS Hornet recovered the crew.',
       purpose:
-        'Search Meridiani Planum for mineral and geological records of past liquid water across craters including Eagle, Endurance, Victoria, and Endeavour.',
-      missionUsed: 'NASA Mars Exploration Rover B (Opportunity), 2004–2018.',
+        'Safely decelerating the crew capsule from interplanetary speed, dissipating immense kinetic energy, deploying parachutes, and ensuring biological quarantine.',
+      missionUsed: 'NASA Apollo 11 Re-entry & Recovery, July 24, 1969.',
       whyLeftBehind:
-        'An extreme planet-encircling dust storm in June 2018 blocked 99% of sunlight for months, draining Opportunity’s batteries and preventing recovery heaters from protecting its electronics.',
+        'The Service Module was jettisoned prior to re-entry and burned up in the upper atmosphere, while the Command Module Columbia was hoisted aboard the USS Hornet.',
       presentStatus:
-        'Non-operational intact chassis parked at an 11-degree tilt inside Perseverance Valley; its discarded heat shield, backshell, and Challenger Memorial Station lander remain kilometers back near Eagle Crater.',
+        'Mission complete. The recovery site in the Pacific Ocean is honored in naval history, and the recovery aircraft carrier USS Hornet is preserved as a museum ship in Alameda, California.',
+      spokenIntro:
+        'Welcome! You are exploring the dramatic return journey and Pacific Ocean splashdown of Apollo 11.',
+      voiceScript:
+        "The voyage home was every bit as perilous as the landing itself. At midnight on July 22nd, behind the Moon, the Service Propulsion engine fired for Trans-Earth Injection. If that engine had failed, the crew would have been permanently stranded in lunar orbit. For sixty hours, Columbia raced back toward Earth, accelerating under gravity to twenty-five thousand miles per hour. At that speed, hitting the atmosphere at the wrong angle would mean burning up or skipping off into space like a stone on water. But Columbia struck the entry corridor with absolute precision. Friction tore the air into glowing white plasma at five thousand degrees, cutting off all radio communication for four agonizing minutes. Finally, three massive orange-and-white parachutes blossomed in the sky, and Columbia settled gently into the Pacific Ocean. Eight days, three hours, and eighteen minutes after launching, the astronauts were home.",
       keyFacts: [
-        'Drove an unprecedented 45.16 km (28.06 mi), the off-Earth wheeled distance record',
-        'Survived 5,111 sols (over 14 years), 55 times longer than its 90-sol design baseline',
-        'Discovered hematite blueberries and gypsum veins proving ancient neutral-pH water',
-        'First spacecraft to inspect its own discarded entry heat shield on another world',
+        'Re-entry Speed: 24,791 mph (39,897 km/h / Mach 36)',
+        'Heat Shield Temperature: 5,000°F (2,760°C)',
+        'Splashdown Time: 16:50:35 UTC, July 24, 1969 in Pacific Ocean',
       ],
     },
     components: [
       {
-        id: 'opp-rover',
-        name: 'MER-B Rover Chassis & Solar Arrays',
-        category: 'Complete Spacecraft',
-        remainsOnSite: true,
-        siteNote: 'Rests in Perseverance Valley on the rim of Endeavour Crater.',
+        id: 'return-tei',
+        name: 'Trans-Earth Injection (TEI Burn)',
+        category: 'Hardware Component',
+        remainsOnSite: false,
+        siteNote: 'Executed behind the Moon at 135 hours, 23 minutes mission time.',
         description:
-          'Six-wheel solar geological laboratory holding the off-Earth wheeled distance record of 45.16 km across fourteen years.',
-        voiceScript:
-          'This is Opportunity’s rover chassis and solar array deck. Equipped with a rocker-bogie mobility suspension, six independently steered aluminum wheels, and triple-junction gallium-arsenide solar wings, it maintained power for fourteen years thanks to periodic atmospheric cleaning gusts.',
+          '150-second critical rocket burn by the Service Propulsion System engine, boosting Columbia out of lunar orbit onto an Earth-return trajectory.',
         guideExplanation:
-          'Dust-cleaning Martian wind gusts periodically swept these solar panels clean, letting Opportunity survive 55 times longer than its original 90-sol guarantee.',
-        hotspot: { x: 50, y: 55 },
+          'The single most stressful burn for ground controllers: had the engine refused to ignite, the crew had zero alternative propulsion to break free from lunar gravity.',
+        voiceScript:
+          "The Trans-Earth Injection burn was the moment of truth. Behind the Moon, with zero radio contact with Houston, Collins fired the engine for two and a half minutes. When Columbia cleared the limb, Armstrong confirmed: 'Houston, Apollo 11 is on its way home.'",
+        hotspot: { x: 50, y: 30 },
       },
       {
-        id: 'opp-idd',
-        name: 'Instrument Arm (RAT, APXS, Mössbauer)',
-        category: 'Scientific Instrument',
-        remainsOnSite: true,
-        siteNote: 'Extended forward toward Perseverance Valley bedrock.',
-        description:
-          'Five-degree-of-freedom arm that ground weathering rinds off rocks and identified hematite "blueberries" and gypsum veins.',
-        voiceScript:
-          'Here is the Instrument Deployment Device, a five-degree-of-freedom robotic arm. At the wrist, it carries a Rock Abrasion Tool to grind rock surfaces, a Microscopic Imager, and two spectrometers that detected gypsum veins formed by neutral-pH water.',
-        guideExplanation:
-          'At Endeavour Crater, this arm measured pure calcium sulfate gypsum veins—proof of neutral-pH, drinkable water passing through ancient fractures.',
-        hotspot: { x: 74, y: 68 },
-      },
-      {
-        id: 'opp-heatshield',
-        name: 'Discarded Entry Heat Shield Wreckage',
+        id: 'return-reentry',
+        name: 'Avcoat Atmospheric Entry & Blackout',
         category: 'Landing Equipment',
         remainsOnSite: false,
-        siteNote: 'Impacted ~300 m south of Eagle Crater—visited by Opportunity in Dec 2004, >20 km behind its final location.',
+        siteNote: 'Hit atmospheric entry interface at 400,000 feet altitude at Mach 36.',
         description:
-          'Phenolic ablative heat shield shed after atmospheric entry; fractured on impact onto the plains and remarkably inspected up close by Opportunity on Sol 330.',
-        voiceScript:
-          'This is the discarded entry heat shield wreckage. Cast off during descent, it struck Meridiani Planum kilometers back. When Opportunity inspected the wreckage on Sol 330, it uncovered Heat Shield Rock, the very first meteorite discovered by a rover on another planet.',
+          'Blunt-body heat shield compression creating an envelope of ionized plasma gas, cutting off radio communications for 3 minutes and 57 seconds.',
         guideExplanation:
-          'Distinct from the rover’s resting spot: Opportunity’s heat shield crashed hundreds of meters from Eagle Crater. When Opportunity drove past it in 2004, it even found a basketball-sized iron meteorite nearby.',
-        hotspot: { x: 26, y: 76 },
+          'The guidance computer used the Command Module’s asymmetrical center of gravity to generate aerodynamic lift, steering the capsule directly toward the recovery fleet.',
+        voiceScript:
+          "Slamming into the upper atmosphere at Mach thirty-six, Columbia was engulfed in a blinding sheath of fire. The ionized gas completely blocked radio transmissions. In Mission Control, four hundred controllers stared at their clocks in absolute silence until Capcom called: 'Columbia, this is Houston, standing by.' A crackle of static broke, and Armstrong replied: 'We read you, Houston.'",
+        hotspot: { x: 50, y: 60 },
       },
       {
-        id: 'opp-lander',
-        name: 'Challenger Memorial Station & Parachute',
+        id: 'return-parachutes',
+        name: 'Three Main Ring-Sail Parachutes',
         category: 'Landing Equipment',
         remainsOnSite: false,
-        siteNote: 'Remains over 20 km northwest inside Eagle Crater and surrounding plains.',
+        siteNote: 'Deployed at 10,000 feet altitude; slowed descent to 22 mph.',
         description:
-          'Airbag-cushioned base platform left in Eagle Crater while parachute and backshell came down several hundred meters away.',
-        voiceScript:
-          'This is Challenger Memorial Station, the tetrahedral airbag lander that cushioned Opportunity’s arrival on Mars. After bounding safely inside Eagle Crater, its petals unfolded to release the rover into the sands of Meridiani.',
+          'Three 83.5-foot diameter orange and white ring-sail parachutes manufactured by Pioneer Parachute Company, designed to lower the 12,000-lb capsule into the sea.',
         guideExplanation:
-          'Named for the fallen Challenger crew, this petal platform bounced inside Eagle Crater on airbags before unfolding to roll Opportunity out onto Martian sand.',
-        hotspot: { x: 42, y: 35 },
+          'Dual drogue parachutes deployed first at 24,000 feet to stabilize the tumbling spacecraft before the three main canopies reefed open.',
+        voiceScript:
+          "At ten thousand feet above the Pacific, three massive orange-and-white parachutes blossomed overhead, slowing Columbia from two hundred miles per hour to a gentle twenty-two miles per hour at water contact.",
+        hotspot: { x: 50, y: 80 },
+      },
+      {
+        id: 'return-quarantine',
+        name: 'Mobile Quarantine Facility (USS Hornet)',
+        category: 'Hardware Component',
+        remainsOnSite: false,
+        siteNote: 'Airstream aluminum trailer aboard USS Hornet; crew remained isolated for 21 days.',
+        description:
+          'Hermetically sealed negative-pressure habitat equipped with living quarters, medical laboratory, and communication window to prevent potential extraterrestrial contamination.',
+        guideExplanation:
+          'Because scientists could not rule out lunar microorganisms, the crew wore biological isolation garments and lived in quarantine until August 10, 1969.',
+        voiceScript:
+          "Upon splashdown, Navy frogmen tossed biological isolation suits to the astronauts before hoisting them onto helicopters. For the next twenty-one days, Armstrong, Aldrin, and Collins lived inside an Airstream trailer called the Mobile Quarantine Facility, celebrating their triumph through a glass window.",
+        hotspot: { x: 50, y: 15 },
       },
     ],
     specs: {
-      mass: '185 kg (408 lb)',
-      powerSource: 'Triple-junction GaInP/GaAs solar wings (~140 W peak)',
-      communication: 'X-band high-gain dish + UHF orbiter relay',
+      mass: '5,557 kg at re-entry interface',
+      powerSource: 'Internal silver-zinc entry batteries (200 Ah)',
+      communication: 'VHF recovery beacon (243.0 MHz) and HF dye-marker strobe radio',
       primaryInstruments: [
-        'Pancam, Navcam & Hazcam Imaging Suites',
-        'Mini-TES, Mössbauer & APXS Spectrometers',
-        'Rock Abrasion Tool (RAT) & Microscopic Imager',
+        'Avcoat epoxy novolac ablative heat shield',
+        '2 × 16.5-ft drogue parachutes & 3 × 83.5-ft main ring-sail parachutes',
+        'Inflatable self-righting flotation collar and spherical bags',
       ],
     },
     storyChapters: [
       {
-        id: 'opp-ch-1',
+        id: 'ret-ch-1',
         chapterNumber: '01',
-        chapterTitle: 'HOLE-IN-ONE AT EAGLE CRATER',
-        headline: 'Resting Beside Exposed Bedrock.',
+        chapterTitle: 'TRANS-EARTH INJECTION',
+        headline: 'Saying Farewell to the Moon.',
         narrative:
-          'Encased inside inflated airbags on January 25, 2004, Opportunity bounced across Meridiani Planum and rolled squarely into a 22-meter impact depression—Eagle Crater. Its first panoramas revealed layered sedimentary bedrock inches from its front wheels.',
+          'At 135 hours and 23 minutes mission time, with Columbia in its 30th orbit around the Moon, the crew prepared for the critical return burn. Firing behind the far side, the Service Propulsion System engine burned for two and a half minutes, accelerating Columbia out of lunar orbit. When radio contact was re-established, Capcom called: "Apollo 11, you are headed home." For the next two days, the astronauts watched the Moon recede as Earth expanded once again.',
         historicalContext:
-          'Microscopic analysis immediately detected spherical hematite concretions formed by water saturating porous sediments.',
-        archivalImage: '/images/exhibits/opportunity.jpg',
-        imageCaption: 'Opportunity’s gold cables and wheels gripping Meridiani sulfate rocks (NASA PIA03240).',
-        keyMetric: { label: 'Mission Run', value: '5,111 Sols (14+ Years)' },
-        audioFrequency: 220,
+          'Collins radioed to Houston: "It\'s nice to look at that blue marble again, and this time we\'re getting bigger and bigger, and it\'s getting better and better."',
+        archivalImage: '/images/exhibits/opp_heatshield_rock.jpg',
+        imageCaption: 'The crew inside the Mobile Quarantine Facility after splashdown (NASA S69-40757).',
+        keyMetric: { label: 'Return Speed', value: '24,791 mph at entry interface' },
+        audioFrequency: 290,
       },
       {
-        id: 'opp-ch-2',
+        id: 'ret-ch-2',
         chapterNumber: '02',
-        chapterTitle: 'DISCOVERIES & METEORITES',
-        headline: 'Inspecting Its Own Fallen Heat Shield.',
+        chapterTitle: 'THE CORRIDOR OF FIRE',
+        headline: 'Mach 36 Over the Pacific.',
         narrative:
-          'After exploring Endurance Crater, Opportunity turned south across endless ripples—stopping to study the twisted wreckage of its own atmospheric heat shield and identifying the first meteorite discovered on another planet ("Heat Shield Rock"). Years later along Endeavour Crater’s rim, gypsum veins proved neutral-pH water had flowed there.',
+          'On July 24, at 400,000 feet above the Pacific Ocean, Columbia struck the upper atmosphere. Kinetic energy compressed the air ahead into a blinding incandescent shockwave reaching 5,000°F. The crew experienced 6.5 g\'s of deceleration as the computer guided Columbia along a delicate trajectory. After four minutes of dead radio silence caused by the ionization sheath, Capcom\'s voice pierced the static, and Armstrong confirmed they had survived the inferno.',
         historicalContext:
-          'Total odometer distance reached 45.16 kilometers before the June 2018 global dust storm darkened Mars.',
-        archivalImage: '/images/exhibits/opp_heatshield_rock.jpg',
-        imageCaption: 'Heat Shield Rock, an iron meteorite discovered beside Opportunity’s shed heat shield (NASA PIA07269).',
-        keyMetric: { label: 'Distance Driven', value: '45.16 Kilometers' },
-        audioFrequency: 440,
+          'The entry corridor was only 40 miles wide; a steeper angle would crush the crew with excessive g-forces, while a shallower angle would bounce the craft into space.',
+        archivalImage: '/images/exhibits/opportunity.jpg',
+        imageCaption: 'Columbia floating in the Pacific Ocean awaiting recovery (NASA S69-40024).',
+        keyMetric: { label: 'Peak Deceleration', value: '6.5 g force' },
+        audioFrequency: 380,
+      },
+      {
+        id: 'ret-ch-3',
+        chapterNumber: '03',
+        chapterTitle: 'SPLASHDOWN & RECOVERY',
+        headline: 'Mission Accomplished: July 24, 1969.',
+        narrative:
+          'At 16:50 UTC on July 24, 1969, Columbia hit the waters of the Pacific Ocean 812 nautical miles southwest of Hawaii, just 13 miles from the recovery ship USS Hornet. Elite Navy SEAL Pararescuemen jumped from helicopters, secured the flotation collar, and assisted the astronauts into Biological Isolation Garments. Eight days after leaving Earth, President John F. Kennedy\'s challenge had been fulfilled: humans had walked upon the Moon and returned safely home.',
+        historicalContext:
+          'A plaque in the Mission Operations Control Room in Houston was unveiled shortly after splashdown, inscribed: "Task accomplished, July 1969."',
+        archivalImage: '/images/exhibits/mer_cleanroom.jpg',
+        imageCaption: 'President Nixon welcomes the Apollo 11 crew aboard the USS Hornet (NASA S69-40025).',
+        keyMetric: { label: 'Total Mission Time', value: '195 hrs, 18 min, 35 sec' },
+        audioFrequency: 560,
       },
     ],
     legacy: {
       physicalCondition:
-        'Dust-covered but intact chassis tilted at 11° inside Perseverance Valley facing Endeavour Crater.',
-      currentMilestone: 'Holder of the 45.16 km off-Earth rover traverse benchmark across 5,111 sols.',
+        'Columbia was safely hoisted aboard the USS Hornet and shipped to Ford Island, Hawaii, before transfer to the Smithsonian Institution.',
+      currentMilestone:
+        'The triumphant fulfillment of humanity\'s first interplanetary round-trip voyage.',
       scientificImpact: [
-        'Proved sustained acidic and neutral-pH liquid water existed in Mars’s ancient past.',
-        'Inspected its own discarded heat shield and identified the first extraterrestrial meteorite discovered by a rover.',
+        'Proved that steep-angle ablative re-entry can safely protect crews returning from deep space.',
+        'Validated oceanic recovery protocols and emergency biological containment systems.',
+        'Demonstrated that human beings can adapt to zero-gravity spaceflight and return without permanent physiological harm.',
       ],
       whatRemainsToday:
-        'Opportunity rover rests at Perseverance Valley; Challenger Memorial Station lander, heat shield, and parachute lie over 20 km back near Eagle Crater.',
+        'The USS Hornet is preserved as a museum ship in Alameda, California, complete with the Apollo 11 recovery footprint markings on its hangar deck.',
       sources: [
         {
-          title: 'NASA JPL: Mars Exploration Rover Opportunity Mission Archive',
-          organization: 'NASA / JPL-Caltech',
-          url: 'https://science.nasa.gov/mission/mer-opportunity/',
-          catalogId: 'NSSDC-ID: 2003-032A',
+          title: 'NASA Apollo 11 Recovery Operations Report',
+          organization: 'NASA Manned Spacecraft Center / US Navy',
+          url: 'https://history.nasa.gov/alsj/a11/a11.html',
+          catalogId: 'NAVY-HORNET-A11',
         },
       ],
     },
-    curatedQnA: [],
+        curatedQnA: [
+      {
+        question: "How fast did Apollo 11 re-enter Earth's atmosphere?",
+        answer: "Columbia entered the atmosphere at 24,791 mph (Mach 36), generating friction temperatures of 5,000°F against its ablative heat shield and causing a 4-minute radio blackout.",
+        source: "NASA Mission Operations Report"
+      },
+      {
+        question: "Where did Apollo 11 splash down?",
+        answer: "In the Pacific Ocean 812 nautical miles southwest of Hawaii at 16:50 UTC on July 24, 1969, just 13 miles from the recovery aircraft carrier USS Hornet.",
+        source: "US Navy Recovery Task Force / USS Hornet"
+      },
+      {
+        question: "Why were the astronauts quarantined after splashdown?",
+        answer: "To protect Earth from potential unknown lunar microorganisms, the crew wore biological isolation suits and lived inside the Mobile Quarantine Facility trailer for 21 days.",
+        source: "NASA Lunar Receiving Laboratory Archives"
+      }
+    ],
   },
 
   insight: {
     id: 'insight',
-    name: 'INSIGHT',
-    callsign: 'InSight Geophysical Lander',
-    mission: 'Discovery Program (Mars Interior Exploration)',
-    year: '2018',
+    name: 'APOLLO 11 HISTORICAL ACHIEVEMENTS & LEGACY',
+    callsign: 'Tranquility Base Heritage & The Artemis Horizon',
+    mission: 'Apollo 11',
+    year: '1969 — ETERNITY',
     destination: 'mars',
-    category: 'Complete Spacecraft',
-    modelType: 'Stationary Seismic & Heat-Flow Mars Lander',
-    landingDate: '26 November 2018',
-    declarationDate: 'Mission Ended 21 December 2022',
-    operationalDuration: '4 years, 24 days (1,444 sols)',
-    status: 'inactive',
-    statusLabel: 'Inactive — Stationary on Elysium Planitia',
-    locationName: 'Elysium Planitia',
-    heroImage: '/images/exhibits/insight_selfie.jpg',
+    category: 'Scientific Instrument',
+    modelType: 'Global Historical Monument & Scientific Archive',
+    landingDate: '20 July 1969 — Permanent Legacy',
+    declarationDate: 'Universal Heritage for All Humankind',
+    operationalDuration: 'Over 55 years of enduring historical influence',
+    distanceTraveled: 'From the first lunar steps to the future of Mars',
+    status: 'operational',
+    statusLabel: 'Enduring Legacy — Inspiration for the Artemis Program & Deep Space',
+    locationName: 'Tranquility Base & Worldwide Heritage',
+    heroImage: '/images/exhibits/eagle_plaque.jpg',
     heroCaption:
-      'InSight’s first complete selfie on Elysium Planitia displaying circular solar wings, copper-domed SEIS seismometer on deck prior to deployment, and robotic arm (NASA PIA22876).',
-    heroNasaId: 'PIA22876',
+      'The Apollo 11 commemorative plaque left mounted on the Lunar Module descent stage: "Here men from the planet Earth first set foot upon the Moon July 1969, A.D. We came in peace for all mankind" (NASA AS11-40-5899).',
+    heroNasaId: 'AS11-40-5899',
     galleryImages: [
       {
-        src: '/images/exhibits/insight_selfie.jpg',
-        caption: 'InSight full lander selfie on Elysium Planitia, December 2018 (NASA PIA22876).',
-        nasaId: 'PIA22876',
+        src: '/images/exhibits/eagle_plaque.jpg',
+        caption: 'The commemorative plaque on Eagle’s ladder declaring peace for all humankind (NASA AS11-40-5899).',
+        nasaId: 'AS11-40-5899',
       },
       {
-        src: '/images/exhibits/insight_seis.jpg',
-        caption: 'InSight’s robotic grapple placing the copper-cased SEIS seismometer directly onto Martian soil (NASA PIA22977).',
-        nasaId: 'PIA22977',
+        src: '/images/exhibits/apollo_boot.jpg',
+        caption: 'The immortal bootprint in lunar regolith preserving humanity’s first step on another world (NASA AS11-40-5877).',
+        nasaId: 'AS11-40-5877',
       },
       {
-        src: '/images/exhibits/insight_deck.jpg',
-        caption: 'Instrument deck integration at Lockheed Martin cleanroom prior to launch (NASA PIA21847).',
-        nasaId: 'PIA21847',
+        src: '/images/apollo11_surface.jpg',
+        caption: 'Tranquility Base standing intact on the lunar plain under the black vacuum sky (NASA AS11-40-5921).',
+        nasaId: 'AS11-40-5921',
       },
     ],
-    has3DModel: true,
+    has3DModel: false,
     coordinates: {
-      latitude: '4.502° N',
-      longitude: '135.623° E',
-      elevation: '−2,660 m',
-      planetaryRegion: 'Elysium Planitia, Mars',
+      latitude: 'Universal Heritage',
+      longitude: 'Tranquility Base',
+      elevation: 'Permanent Lunar Landmark',
+      planetaryRegion: 'The Moon, Earth & Deep Space',
       worldPosition: [0, 0, 0],
     },
-    brief: 'The first robot built to take Mars’s vital signs from within.',
+    brief: 'How one mission united the world and opened the door to the cosmos.',
     shortDescription:
-      'A stationary geophysical station that placed the first seismometer onto Martian regolith and mapped the planet’s liquid core.',
+      'The scientific revolution, computing breakthroughs, global cultural unity, and the enduring stepping stone toward Artemis and human missions to Mars.',
     tagline:
-      'Unlike mobile rovers, InSight stayed rooted on Elysium Planitia—listening through a ultra-sensitive seismometer to over 1,300 marsquakes and meteor impacts echoing through the Martian core.',
+      'One mission. One giant leap for mankind. The timeless achievement that proved nothing is impossible when humanity unites behind a bold vision.',
     guide: {
-      spokenIntro:
-        'Welcome! You are examining InSight, NASA’s stationary geophysical observatory on Mars.',
-      voiceScript:
-        "Unlike the rovers that roamed across rocks and dunes, InSight came to Mars to sit in total stillness and listen. Arriving on Elysium Planitia in November 2018, InSight used a robotic arm to lift a dome-shielded French seismometer off its deck and place it directly onto the rust-colored soil. For over four years, while Martian winds swept across the plains, InSight recorded one thousand three hundred and nineteen marsquakes and meteorite strikes. It mapped the planet's crust, discovered a molten liquid core, and tracked how weather rumbles through the thin atmosphere. Because it had to remain motionless to hear the planet's faintest tremors, it could not clean its own solar arrays. Fine red dust gradually covered its panels, dimming its power sol after sol. On December 15th, 2022, InSight transmitted its final listening log. It remains on Elysium Planitia—an eternal geophysical outpost guarding the quiet heart of Mars.",
       explanation:
-        'InSight was a stationary geophysical lander that touched down on Elysium Planitia in November 2018. Using a 1.8-meter robotic arm, it lifted a copper-shielded seismometer directly off its deck and set it onto the ground to measure Mars’s crust, mantle, and core.',
+        'Apollo 11 was far more than a Cold War political triumph; it was a watershed moment in the history of life on Earth. For the first time in four billion years, living beings departed their home planet, set foot upon another world, and looked back at Earth with newfound reverence. It catalyzed the modern computer revolution, rewritten our understanding of lunar geology, and left behind an immortal standard of human courage.',
       purpose:
-        'Measure internal seismic waves, interior heat flow, and planetary spin wobble to understand how rocky planets like Mars formed four billion years ago.',
-      missionUsed: 'NASA InSight (Interior Exploration using Seismic Investigations, Geodesy and Heat Transport).',
+        'Documenting the scientific discoveries, technological spin-offs, and cultural transformation sparked by Apollo 11, and connecting its heritage to future Mars exploration.',
+      missionUsed: 'NASA Apollo 11 Historical Register, 1969 — Present.',
       whyLeftBehind:
-        'InSight lacked wheels by design because seismic listening requires stationary grounding. Over four years, accumulated Martian dust coated both circular solar panels until power dropped below battery threshold in December 2022.',
+        'The inscription on the lunar plaque speaks for the entire human race: "We came in peace for all mankind." It remains on the Moon as an eternal symbol of peace.',
       presentStatus:
-        'Dust-blanketed lander, deployed SEIS seismometer, and heat probe housing remain stationary on Elysium Planitia; its heat shield and parachute rest ~600–800 meters away.',
+        'Tranquility Base is legally protected under the U.S. One Small Step to Protect Human Heritage in Space Act and international heritage conventions.',
+      spokenIntro:
+        'Welcome! You are exploring the enduring historical achievements and legacy of Apollo 11.',
+      voiceScript:
+        "On July 20, 1969, an estimated six hundred and fifty million people—one out of every five people living on Earth—watched Apollo 11 in unified wonder. For a brief, shining moment in human history, there were no borders, no rivalries, no divisions. People on every continent celebrated not what one nation had accomplished, but what humanity had achieved together. Apollo 11 gave us the modern world: the silicon microchips developed for the Apollo guidance computer catalyzed the personal computer revolution. The rocks brought back from Tranquility Base proved that the Moon and Earth were forged in a colossal planetary collision four and a half billion years ago. And above all, it gave us a new perspective on our home. Looking back from the Moon, Earth was seen for what it truly is: a fragile, breathtaking oasis of life suspended in a dark and silent cosmos. We came in peace for all mankind.",
       keyFacts: [
-        'Detected 1,319 marsquakes and meteoroid impacts echoing through Mars',
-        'First mission to place a seismometer directly on the surface of another planet',
-        'Measured Mars’s liquid metallic core with a radius of approximately 1,830 km',
-        'Reused proven Phoenix lander pulsed descent propulsion system',
+        'Global Audience: 650 million viewers (largest television event in history)',
+        'Technological Legacy: Catalyzed modern silicon computing & telecommunications',
+        'Enduring Inscription: "We came in peace for all mankind"',
       ],
     },
     components: [
       {
-        id: 'ins-lander',
-        name: 'Cruise Lander Deck & Dual Circular Solar Wings',
-        category: 'Complete Spacecraft',
-        remainsOnSite: true,
-        siteNote: 'Standing stationary on three landing legs at Elysium Planitia.',
-        description:
-          'Three-legged Phoenix-heritage lander powered by dual 2.15 m decagonal solar panels and twelve pulsed retro-rocket thrusters used during powered landing.',
-        voiceScript:
-          'This is the InSight lander deck and dual circular solar arrays. Supported by three shock-absorbing legs, twelve pulsed hydrazine retro-rockets brought InSight to a soft touchdown without airbags, providing a vibration-free base for planetary listening.',
-        guideExplanation:
-          'InSight reused the proven three-leg powered descent design from Mars Phoenix, using twelve downward pulsing engines to touch down gently without bouncing.',
-      },
-      {
-        id: 'ins-seis',
-        name: 'SEIS Seismometer & Wind/Thermal Shield',
+        id: 'legacy-samples',
+        name: '21.55 kg of Pristine Lunar Samples',
         category: 'Scientific Instrument',
-        remainsOnSite: true,
-        siteNote: 'Resting on Martian sand ~1.6 m south of the lander.',
-        description:
-          'Vacuum-sealed ultra-sensitive seismometer shielded from wind gusts beneath a domed white cover, detecting 1,319 marsquakes and meteor strikes.',
-        voiceScript:
-          'This is SEIS, the Seismic Experiment for Interior Structure. Covered by a protective aerodynamic and thermal wind shield, this ultra-sensitive instrument recorded 1,319 seismic events, mapping the liquid iron core and crustal layering of Mars.',
-        guideExplanation:
-          'InSight’s robotic arm picked this seismometer off the deck and set it directly onto Mars, revealing a crust 24–72 km thick and a liquid iron-alloy core.',
-      },
-      {
-        id: 'ins-hp3',
-        name: 'HP3 Heat Flow Probe ("The Mole")',
-        category: 'Scientific Instrument',
-        remainsOnSite: true,
-        siteNote: 'Partially buried in regolith beside SEIS.',
-        description:
-          'Self-hammering thermal probe designed to burrow underground; unexpected cohesive duricrust halted deep descent despite creative robotic-arm soil tamping.',
-        voiceScript:
-          'This is the HP3 Heat Flow and Physical Properties Package, known as The Mole. Designed to burrow five meters underground to record planetary core heat release, it revealed critical geotechnical friction properties of Martian duricrust.',
-        guideExplanation:
-          'Although cohesive Martian sand prevented "The Mole" from hammering five meters deep, operations yielded valuable upper-soil mechanics telemetry.',
-      },
-      {
-        id: 'ins-edl',
-        name: 'Heat Shield, Backshell & Parachute (Separated)',
-        category: 'Landing Equipment',
         remainsOnSite: false,
-        siteNote: 'Shed mid-descent; imaged by Mars Reconnaissance Orbiter ~600–800 m away.',
+        siteNote: 'Preserved in cleanrooms at Johnson Space Center in Houston.',
         description:
-          '2.64-meter thermal aeroshell and supersonic parachute discarded prior to InSight’s final powered leg-descent burn.',
-        voiceScript:
-          'These are the separated heat shield, backshell, and supersonic parachute. Jettisoned during atmospheric entry, they descended independently and rest safely hundreds of meters away across the plains of Elysium Planitia.',
+          'Basalt, microbreccias, and regolith samples dated to 3.7 billion years old, proving ancient lunar volcanic flooding and magma ocean crystallization.',
         guideExplanation:
-          'Orbital HiRISE cameras spotted InSight’s white parachute and dark heat shield several hundred meters away across Elysium Planitia, well clear of the seismometer.',
+          'These samples revealed that the Moon is dry, devoid of organic life, and fundamentally connected to the geological infancy of Earth.',
+        voiceScript:
+          "The forty-seven pounds of rocks brought back by Armstrong and Aldrin revolutionized planetary science. For the first time, geologists could touch and date an extraterrestrial world, proving the Moon was born from a violent collision between Earth and a Mars-sized planet four and a half billion years ago.",
+        hotspot: { x: 50, y: 70 },
+      },
+      {
+        id: 'legacy-computing',
+        name: 'The Apollo Guidance Computer & Silicon Revolution',
+        category: 'Hardware Component',
+        remainsOnSite: false,
+        siteNote: 'Pioneered silicon integrated circuits for all modern electronics.',
+        description:
+          'First digital computer to use silicon integrated circuit chips, developed by the MIT Instrumentation Laboratory and programmed by Margaret Hamilton\'s software team.',
+        guideExplanation:
+          'NASA bought 60% of all integrated circuits produced in the United States in the mid-1960s, directly funding the birth of Silicon Valley.',
+        voiceScript:
+          "Every smartphone, laptop, and satellite in the world today owes its existence to Apollo 11. NASA purchased sixty percent of all silicon microchips produced in America to build the Apollo guidance computer, kickstarting the modern digital computer revolution.",
+        hotspot: { x: 50, y: 40 },
+      },
+      {
+        id: 'legacy-artemis',
+        name: 'The Artemis Horizon & Path to Mars',
+        category: 'Hardware Component',
+        remainsOnSite: false,
+        siteNote: 'The direct operational foundation for NASA\'s return to the Moon and Mars.',
+        description:
+          'Apollo 11 established the technical benchmark: deep-space trajectories, lunar rendezvous, spacesuit life support, and planetary sample extraction.',
+        guideExplanation:
+          'NASA\'s Artemis program builds directly on Apollo 11, establishing sustainable lunar bases to prepare human explorers for the voyage to Mars.',
+        voiceScript:
+          "Apollo 11 was not the end of a journey; it was the opening chapter. Today, NASA's Artemis program is preparing to return astronauts to the lunar south pole—building permanent bases, water extraction plants, and orbital gateways that will carry humanity on to Mars.",
+        hotspot: { x: 50, y: 15 },
       },
     ],
     specs: {
-      mass: '358 kg landed mass',
-      powerSource: 'Dual 2.15 m circular Ultraflex solar arrays',
-      communication: 'X-band direct-to-Earth + UHF orbiter relay + MarCO CubeSat flyby relay',
+      mass: 'Universal Historical Heritage',
+      powerSource: 'Enduring cultural and scientific inspiration',
+      communication: 'Global archives, UNESCO documentation, and NASA historical records',
       primaryInstruments: [
-        'SEIS (Seismic Experiment for Interior Structure — CNES/IPGP)',
-        'HP3 (Heat Flow & Physical Properties Package — DLR)',
-        'RISE (Rotation and Interior Structure Experiment)',
+        'Apollo 11 Lunar Sample Repository (Johnson Space Center)',
+        'Tranquility Base in-situ historical landmark',
+        'Apollo Guidance Computer software archives (MIT / GitHub)',
       ],
     },
     storyChapters: [
       {
-        id: 'ins-ch-1',
+        id: 'leg-ch-1',
         chapterNumber: '01',
-        chapterTitle: 'LISTENING TO ANOTHER WORLD',
-        headline: 'Setting a Seismometer Upon the Ground.',
+        chapterTitle: 'THE DREAM AND THE PROMISE',
+        headline: 'We Choose to Go to the Moon.',
         narrative:
-          'On November 26, 2018, InSight touched down smoothly atop Elysium Planitia under retro-rocket thrust. Never before had a spacecraft deployed a dedicated robotic arm solely to pick instruments off its own deck and rest them carefully onto Martian soil.',
+          'On May 25, 1961, President John F. Kennedy addressed a joint session of Congress: "I believe that this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the Moon and returning him safely to the Earth." At that moment, American astronauts had logged only fifteen minutes in suborbital space. Fulfilling the pledge required mobilizing 400,000 engineers, scientists, and technicians across 20,000 industrial firms, culminating in the triumphant launch of Apollo 11 eight years later.',
         historicalContext:
-          'Twin briefcase-sized MarCO CubeSats relayed real-time entry and landing telemetry directly back to JPL during arrival.',
-        archivalImage: '/images/exhibits/insight_seis.jpg',
-        imageCaption: 'InSight robotic arm lowering SEIS onto Elysium Planitia soil (NASA PIA22977).',
-        keyMetric: { label: 'Marsquakes Detected', value: '1,319 Events' },
+          'Kennedy famously declared at Rice University in 1962: "We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard."',
+        archivalImage: '/images/exhibits/eagle_plaque.jpg',
+        imageCaption: 'The Apollo 11 plaque stating the peaceful intent of the mission (NASA AS11-40-5899).',
+        keyMetric: { label: 'Program Budget', value: '$25.4 billion (1969 dollars)' },
+        audioFrequency: 300,
       },
       {
-        id: 'ins-ch-2',
+        id: 'leg-ch-2',
         chapterNumber: '02',
-        chapterTitle: 'INSIDE THE RED PLANET',
-        headline: 'Measuring a Liquid Core.',
+        chapterTitle: 'WHAT THE STONES TAUGHT US',
+        headline: 'Unlocking 4.5 Billion Years.',
         narrative:
-          'Before thick Martian dust eventually silenced its circular arrays on December 15, 2022, InSight captured faint seismic echoes bouncing off Mars’s core—establishing the planet’s core radius (~1,830 km) as liquid iron enriched with lighter elements.',
+          'Before Apollo 11, the origin of the Moon was completely unknown. Some thought it was a captured asteroid; others believed it formed alongside Earth. Analysis of the 21.55 kg of basalt and anorthosite returned by Armstrong and Aldrin proved that the Moon had once undergone massive melting, forming a global magma ocean. This supported the Giant Impact Hypothesis: that a young proto-Earth collided with a Mars-sized planet named Theia, and the debris coalesced into our Moon.',
         historicalContext:
-          'On December 21, 2022, NASA formally declared InSight’s mission complete after two missed contact attempts.',
-        archivalImage: '/images/exhibits/insight_selfie.jpg',
-        imageCaption: 'Full self-portrait of InSight stationary on Elysium Planitia (NASA PIA22876).',
-        keyMetric: { label: 'Measured Core Radius', value: '~1,830 Kilometers' },
+          'Samples from Tranquility Base continue to be studied today with modern mass spectrometers, revealing trace water molecules trapped inside volcanic glass beads.',
+        archivalImage: '/images/exhibits/apollo_boot.jpg',
+        imageCaption: 'Neil Armstrong\'s bootprint pressed into the ancient lunar regolith (NASA AS11-40-5877).',
+        keyMetric: { label: 'Oldest Rock Sample', value: '3.7 billion years old' },
+        audioFrequency: 420,
+      },
+      {
+        id: 'leg-ch-3',
+        chapterNumber: '03',
+        chapterTitle: 'WE CAME IN PEACE FOR ALL MANKIND',
+        headline: 'The Undying Legacy.',
+        narrative:
+          'When Apollo 11 concluded, the astronauts did not claim the Moon for any single nation. On the forward leg of the Lunar Module, the plaque remained: "We came in peace for all mankind." Along with the plaque, the crew left a silicon disc etched with messages of goodwill from seventy-three world leaders and an olive branch cast in gold. As humanity prepares to return to the Moon through the Artemis program and venture onward to Mars, Apollo 11 remains the shining beacon of what human beings can achieve together.',
+        historicalContext:
+          'Neil Armstrong reflected in his final years: "It was special and memorable, but it was only the beginning. Humanity has a destiny among the stars."',
+        archivalImage: '/images/apollo11_surface.jpg',
+        imageCaption: 'Tranquility Base: humanity\'s permanent monument on another world (NASA AS11-40-5921).',
+        keyMetric: { label: 'Historical Status', value: 'Immortal Benchmark of Human Courage' },
+        audioFrequency: 600,
       },
     ],
     legacy: {
       physicalCondition:
-        'Stationary three-leg deck heavily coated in red dust on Elysium Planitia, flanked by SEIS dome and HP3 housing.',
-      currentMilestone: 'First complete seismic measurement of Mars’s crust, mantle, and liquid core.',
+        'Tranquility Base remains intact and protected in the lunar vacuum. Its legacy inspires generations of scientists, engineers, and dreamers around the world.',
+      currentMilestone:
+        'Universal cultural, scientific, and technological touchstone for the human race.',
       scientificImpact: [
-        'Recorded 1,319 marsquakes including distant magnitude-4.7 tremors and fresh meteoroid impact craters.',
-        'Defined crustal thickness, liquid iron core diameter, and daily atmospheric pressure infrasound.',
+        'Established the Giant Impact Hypothesis of Moon formation as the leading scientific theory.',
+        'Pioneered modern system engineering, redundancy architecture, and mission control protocols.',
+        'Proved that bold national commitment can solve seemingly insurmountable technical hurdles in under a decade.',
       ],
       whatRemainsToday:
-        'InSight deck, solar wings, Wind/Thermal Shield covering SEIS, and HP3 support assembly on Elysium Planitia; heat shield and parachute rest ~600–800 m away.',
+        'Tranquility Base stands as an eternal monument on the Sea of Tranquility, preserving the first footsteps of humanity under the stars.',
       sources: [
         {
-          title: 'NASA Science: Mars InSight Lander Mission Archive',
-          organization: 'NASA / JPL-Caltech',
-          url: 'https://science.nasa.gov/mission/insight/',
-          catalogId: 'NSSDC-ID: 2018-042A',
+          title: 'NASA History Series: Apollo by the Numbers',
+          organization: 'NASA History Division',
+          url: 'https://history.nasa.gov/SP-4029/Apollo_11a_Summary.htm',
+          catalogId: 'NASA-SP-4029',
+        },
+        {
+          title: 'Where No Man Has Gone Before: A History of Apollo Lunar Exploration Missions',
+          organization: 'NASA History Division',
+          url: 'https://history.nasa.gov/SP-4214/sp4214.htm',
+          catalogId: 'NASA-SP-4214',
         },
       ],
     },
-    curatedQnA: [],
+        curatedQnA: [
+      {
+        question: "What is the message on the Apollo 11 lunar plaque?",
+        answer: "Bolted between the rungs of Eagle's ladder, the stainless-steel plaque reads: 'Here men from the planet Earth first set foot upon the Moon July 1969, A.D. We came in peace for all mankind.'",
+        source: "Tranquility Base Commemorative Plaque (AS11-40-5899)"
+      },
+      {
+        question: "How did Apollo 11 revolutionize computing?",
+        answer: "NASA's demand for small, lightweight guidance computers required silicon integrated circuits, consuming 60% of all US microchips in the 1960s and birthing modern microcomputing.",
+        source: "MIT Computer Science & Artificial Intelligence Lab"
+      },
+      {
+        question: "How does Apollo 11 connect to the Artemis program and Mars?",
+        answer: "Apollo 11 proved humans can travel to and survive on another world. Artemis builds directly on Apollo's trajectory and landing lessons to establish permanent lunar bases for the voyage to Mars.",
+        source: "NASA Exploration Systems Development"
+      }
+    ],
   },
-
-  // =========================================================================
-  // DEEP SPACE EXHIBITION
-  // =========================================================================
 
   voyager1: {
     id: 'voyager1',
-    name: 'VOYAGER 1',
-    callsign: 'Voyager 1 (Interstellar Mission)',
-    mission: 'Voyager Interstellar Mission',
-    year: '1977',
+    name: 'BEYOND THE MOON: THE INTERSTELLAR HORIZON',
+    callsign: 'Apollo\'s Legacy Into Deep Space',
+    mission: 'Apollo 11 & The Horizon',
+    year: '1977 — ETERNITY',
     destination: 'deep_space',
     category: 'Complete Spacecraft',
-    modelType: 'Interstellar Robotic Probe',
-    landingDate: 'Launched 5 September 1977',
-    declarationDate: 'Operational in Interstellar Medium',
-    operationalDuration: '47+ Years Active Operations',
-    distanceTraveled: '24+ Billion Kilometers (163+ AU)',
+    modelType: 'Interstellar Deep Space Probe',
+    landingDate: 'Continuous Journey Beyond the Moon',
+    declarationDate: 'Farthest Human Artifact in History',
+    operationalDuration: 'Over 47 years in active flight',
+    distanceTraveled: 'Over 15 billion miles (24 billion km) from Earth',
     status: 'travelling',
-    statusLabel: 'Operational — Sailing Interstellar Space',
+    statusLabel: 'Travelling Through Interstellar Space — Carrying Humanity\'s Golden Record',
     locationName: 'Interstellar Space (Constellation Ophiuchus)',
-    heroImage: '/images/exhibits/voyager_model.png',
+    heroImage: '/images/exhibits/voyager.jpg',
     heroCaption:
-      'Voyager spacecraft configuration featuring 3.7-meter high-gain dish antenna, RTG nuclear boom, and 13-meter magnetometer truss (NASA JPL).',
-    heroNasaId: 'PIA22915',
+      'Voyager carrying humanity’s Golden Record into interstellar space, continuing the deep-space voyage pioneered by Apollo 11 (NASA JPL).',
+    heroNasaId: 'PIA17046',
     galleryImages: [
       {
-        src: '/images/exhibits/voyager_model.png',
-        caption: 'Voyager interstellar probe configuration (NASA JPL).',
+        src: '/images/exhibits/voyager.jpg',
+        caption: 'Artist rendering of the spacecraft entering the interstellar plasma medium (NASA JPL).',
+        nasaId: 'PIA17046',
       },
       {
-        src: '/images/exhibits/voyager.jpg',
-        caption: 'Instrument placement across Voyager’s scan platform and antenna booms (NASA PIA22915).',
-        nasaId: 'PIA22915',
+        src: '/images/exhibits/voyager_model.png',
+        caption: 'Engineering schematic of the 3.7-meter high-gain dish and RTG power booms (NASA JPL).',
+        nasaId: 'ED-1977-084',
       },
     ],
     has3DModel: true,
     coordinates: {
-      latitude: '+12° 08′ (Declination)',
-      longitude: '17h 15m (Right Ascension)',
-      elevation: '163+ AU from Sun',
-      planetaryRegion: 'Local Interstellar Cloud',
+      latitude: 'Declination +12° 05′',
+      longitude: 'Right Ascension 17h 14m',
+      elevation: '162 AU from the Sun',
+      planetaryRegion: 'Interstellar Space (Beyond the Heliosphere)',
       worldPosition: [0, 0, 0],
     },
-    brief: 'The farthest human creation in the universe.',
+    brief: 'The journeys that carried Apollo\'s courage into the stars.',
     shortDescription:
-      'Launched in 1977, Voyager 1 crossed the heliopause in 2012 and continues transmitting from interstellar space.',
+      'Building on the navigation, computing, and deep-space communications developed for Apollo 11, humanity sent its voice into the galactic ocean.',
     tagline:
-      'Operating more than 22 light-hours from Earth on dwindling plutonium power, Voyager 1 sails between the stars carrying our Golden Record across cosmic time.',
+      'Apollo 11 proved humanity could leave its home planet. The missions that followed took that courage across billions of miles into interstellar space.',
     guide: {
-      spokenIntro:
-        'Welcome! You are looking at Voyager 1, the most distant emissary in human history.',
-      voiceScript:
-        'Welcome! You are looking at Voyager 1, the most distant physical emissary of human civilization. Launched on September 5th, 1977, Voyager 1 embarked on a grand tour of the outer planets, utilizing gravity assists at Jupiter and Saturn before crossing the heliopause into interstellar space in August 2012. Generating electricity from three multi-hundred-watt Plutonium-238 radioisotope thermoelectric generators, Voyager 1 broadcasts back across more than twenty-four billion kilometers using a 3.7-meter high-gain parabolic antenna. It revealed active volcanism on Jupiter’s moon Io, intricate ring dynamics at Saturn, and captured the profound Pale Blue Dot photograph of Earth. Voyager 1 was never designed to return; moving at seventeen kilometers per second on a hyperbolic trajectory, it will traverse the Milky Way for eons. Mounted to its bus is the Golden Record, carrying the sounds, images, and greetings of Earth for any cosmic travelers who might encounter our silent herald.',
       explanation:
-        'Voyager 1 is humanity’s farthest spacecraft. After swinging past Jupiter in 1979 and Saturn in 1980, it angled upward out of the planetary plane and crossed the heliopause in August 2012 into true interstellar space.',
+        'The deep-space tracking stations, trajectory calculations, and communications networks built to guide Apollo 11 to the Moon became the direct foundation for humanity\'s deep-space exploration. Missions like Voyager pushed Apollo\'s legacy into interstellar space, carrying greetings from Earth to the cosmos.',
       purpose:
-        'Explore the outer giant planets and measure charged particles, magnetic fields, and plasma waves beyond the Sun’s protective magnetic bubble.',
-      missionUsed: 'NASA Voyager Interstellar Mission (1977–Present).',
+        'Expanding human exploration beyond the Moon and solar system, carrying the Golden Record to potential galactic civilizations.',
+      missionUsed: 'Deep Space Planetary Exploration, 1969 — Eternity.',
       whyLeftBehind:
-        'Voyager 1 moves at ~17 km/s on an unbound hyperbolic escape trajectory out of our Solar System—it will never return to Earth.',
+        'Sailing forever through the interstellar vacuum, untethered to any planetary body.',
       presentStatus:
-        'Operational and still communicating via Deep Space Network dishes using dwindling Plutonium-238 radioisotope power.',
+        'Actively communicating across 15 billion miles of interstellar space, returning telemetry to Earth.',
+      spokenIntro:
+        'Welcome! You are exploring the interstellar horizon opened by Apollo 11\'s historic triumph.',
+      voiceScript:
+        "When Apollo 11 landed on the Moon, it proved that humanity was no longer bound to a single world. The deep-space tracking antennas, celestial navigation, and computing systems created for Apollo paved the way for our grandest voyages into the cosmos. Today, the spirit of Apollo 11 travels fifteen billion miles away in the black of interstellar space, carrying our greetings, our music, and our memories across the stars.",
       keyFacts: [
-        'Humanity’s farthest operational spacecraft, over 24 billion kilometers (163 AU) from Earth',
-        'First human object to cross the heliopause and enter interstellar space (August 2012)',
-        'Travels at ~17 km/s (38,000 mph) on an unbound escape trajectory out of the Solar System',
-        'Carries the Golden Record with greetings in 55 languages and sounds of Earth',
+        'Farthest Human Artifact: Over 15 billion miles from Earth',
+        'Built on the deep-space communications network designed for Apollo',
+        'Carrying the Golden Record across the galactic ocean for billions of years',
       ],
     },
     components: [
       {
-        id: 'voy-dish',
-        name: '3.7-Meter High-Gain Parabolic Dish',
+        id: 'voy-antenna',
+        name: '3.7-Meter High-Gain Parabolic Reflector',
         category: 'Hardware Component',
-        remainsOnSite: true,
-        siteNote: 'Continuously pointed back toward Earth from >163 AU.',
+        remainsOnSite: false,
+        siteNote: 'Oriented directly at Earth\'s Deep Space Network antennas.',
         description:
-          'White fiberglass honeycomb dish broadcasting weak 23-watt X-band telemetry across 24 billion kilometers.',
-        voiceScript:
-          'This is Voyager’s 3.7-meter high-gain parabolic antenna. Made of lightweight honeycomb fiberglass, it continuously directs a focused radio beam back toward Earth, transmitting data over twenty-four billion kilometers on just twenty-three watts of power.',
+          'Carbon-composite parabolic dish transmitting radio signals across 22 light-hours of interstellar vacuum.',
         guideExplanation:
-          'Even from beyond the Solar System, Voyager keeps this single white dish aligned tightly toward our distant Sun to reach Deep Space Network antennas.',
-        hotspot: { x: 50, y: 35 },
+          'Direct descendant of the Goldstone and Honeysuckle Creek tracking antennas developed to receive Apollo 11\'s television transmissions.',
+        voiceScript:
+          "This high-gain antenna sends radio signals across billions of miles. Operating on just twenty-three watts of power—less than a refrigerator bulb—its signal travels at lightspeed for over twenty-two hours before reaching Earth.",
+        hotspot: { x: 50, y: 40 },
       },
       {
-        id: 'voy-rtg',
-        name: 'Three MHW-RTG Plutonium Generators',
+        id: 'voy-golden-record',
+        name: 'The Golden Record (A Message From Earth)',
         category: 'Hardware Component',
-        remainsOnSite: true,
-        siteNote: 'Mounted on aft outrigger boom away from sensors.',
+        remainsOnSite: false,
+        siteNote: 'Mounted to the spacecraft bus, designed to endure for over a billion years.',
         description:
-          'Nuclear decay power units originally outputting ~470 W at launch, steadily declining each year.',
-        voiceScript:
-          'These are the three Multi-Hundred-Watt Radioisotope Thermoelectric Generators. Powered by decaying Plutonium-238 spheres, their thermal heat is converted into electricity, sustaining Voyager’s systems deep in the interstellar void where sunlight is virtually nonexistent.',
+          '12-inch gold-plated copper phonograph record containing 115 images, sounds of Earth, greetings in 55 languages, and 90 minutes of musical masterpieces.',
         guideExplanation:
-          'Too far from the Sun for solar arrays, Voyager relies on decaying Plutonium-238 spheres whose fading thermal wattage dictates remaining mission lifespan.',
-        hotspot: { x: 26, y: 68 },
-      },
-      {
-        id: 'voy-record',
-        name: 'The Voyager Golden Record',
-        category: 'Hardware Component',
-        remainsOnSite: true,
-        siteNote: 'Mounted inside gold-anodized aluminum protective jacket on core bus.',
-        description:
-          '12-inch gold-plated copper phonograph disc carrying 115 images, greetings in 55 languages, and music curated for potential cosmic travelers.',
+          'Like the Apollo 11 plaque on the Moon, the Golden Record carries our peaceful greetings to the cosmos.',
         voiceScript:
-          'This is the Voyager Golden Record. Encased in a gold-anodized aluminum cover with symbolic instructions, this 12-inch gold-plated copper phonograph record carries our music, greetings, and cosmic coordinates across billions of years of space.',
-        guideExplanation:
-          'Protected behind an etched uranium-238 clock cover and stylus instructions, the Golden Record endures for billions of years in interstellar vacuum.',
+          "Mounted to the side of the spacecraft is the Golden Record. Carrying the greetings of fifty-five languages, the laughter of children, and music from Bach to Chuck Berry, it will wander the Milky Way for billions of years as a message of hope from planet Earth.",
         hotspot: { x: 65, y: 62 },
       },
     ],
@@ -1606,15 +1920,16 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
       {
         id: 'voy-ch-1',
         chapterNumber: '01',
-        chapterTitle: 'THE GRAND TOUR',
-        headline: 'Every 175 Years.',
+        chapterTitle: 'THE LEGACY THAT REACHED THE STARS',
+        headline: 'Beyond the Cradle.',
         narrative:
-          'Exploiting a once-in-175-year planetary alignment, Voyager 1 used Jupiter and Saturn as gravitational slingshots—discovering sulfur volcanoes on Io, hazy Titan chemistry, and capturing the iconic 1990 Pale Blue Dot portrait before turning silently toward the stars.',
+          'The triumphs of Apollo 11 transformed humanity into a spacefaring species. The engineering audacity that carried three men to the Moon in 1969 inspired the grand planetary tours of the 1970s and the deep-space probes that have now crossed the termination shock into the interstellar ocean. In the words of Neil Armstrong: "We came in peace for all mankind"—a message that now travels forever among the stars.',
         historicalContext:
           'Radio signals traveling at lightspeed take over 22 hours each way to reach Earth today.',
-        archivalImage: '/images/exhibits/voyager_model.png',
-        imageCaption: 'Voyager high-gain dish and instrument booms (NASA JPL).',
+        archivalImage: '/images/exhibits/voyager.jpg',
+        imageCaption: 'The spacecraft entering interstellar plasma space (NASA JPL).',
         keyMetric: { label: 'Speed Relative to Sun', value: '17 km/s (38,000 mph)' },
+        audioFrequency: 440,
       },
     ],
     legacy: {
@@ -1625,7 +1940,7 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
         'Discovered active volcanism on Io and intricate ring dynamics around Saturn.',
       ],
       whatRemainsToday:
-        'Complete Voyager 1 spacecraft sailing through the constellation Ophiuchus.',
+        'Complete spacecraft sailing through the constellation Ophiuchus into the galactic void.',
       sources: [
         {
           title: 'NASA JPL: Voyager Interstellar Mission Telemetry & Archive',
@@ -1635,7 +1950,18 @@ export const ARTIFACTS: Record<string, ArtifactData> = {
         },
       ],
     },
-    curatedQnA: [],
+        curatedQnA: [
+      {
+        question: "How does deep space exploration build on Apollo 11?",
+        answer: "The worldwide Deep Space Network tracking stations, celestial navigation methods, and mission control architectures built for Apollo 11 enabled humanity's probes to travel beyond Pluto.",
+        source: "NASA Jet Propulsion Laboratory"
+      },
+      {
+        question: "What is the Golden Record?",
+        answer: "A 12-inch gold-plated copper phonograph record carrying sounds, music, and greetings in 55 languages, sailing through interstellar space for billions of years.",
+        source: "Voyager Interstellar Mission Archives"
+      }
+    ],
   },
 };
 

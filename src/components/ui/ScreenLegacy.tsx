@@ -53,21 +53,18 @@ export const ScreenLegacy: React.FC = () => {
 
   const headlines: Record<string, string> = {
     apollo11_eagle: 'Still Standing in the Sea of Tranquility.',
-    apollo_lrv: 'Three Electric Rovers Parked Across Taurus-Littrow and Hadley.',
-    surveyor3: 'Visited by Astronauts Inside Surveyor Crater.',
-    apollo_alsep: 'Listening to the Lunar Interior Across Eight Years.',
-    sojourner: 'The First Six Wheels to Roll Across Ares Vallis.',
-    spirit: 'Hot-Spring Silica Uncovered in Gusev Crater.',
-    opportunity: 'Silence Over Perseverance Valley.',
-    insight: 'Taking Mars’s Vital Signs on Elysium Planitia.',
-    voyager1: 'Sailing the Interstellar Ocean.',
+    apollo_lrv: 'Armstrong, Aldrin, and Collins — The Crew of Apollo 11.',
+    surveyor3: 'Saturn V: The Super-Booster That Propelled Humanity to the Moon.',
+    apollo_alsep: 'First Steps in the Lunar Dust and Science at Tranquility Base.',
+    sojourner: 'Michael Collins and Columbia: Guardian of the High Frontier.',
+    spirit: '240,000 Miles Across the Void: The Journey to the Moon.',
+    opportunity: 'The Fiery Trail of Re-Entry and Pacific Ocean Splashdown.',
+    insight: '"We Came in Peace for All Mankind" — The Enduring Legacy of Apollo 11.',
+    voyager1: 'Sailing Beyond the Moon: The Interstellar Horizon.',
   };
 
   const headline = headlines[artifact.id] || artifact.legacy.currentMilestone;
-  const conclusionNarrative =
-    artifact.id === 'apollo11_eagle'
-      ? 'Over half a century later, in the undisturbed vacuum of Mare Tranquillitatis, the descent stage of Eagle remains intact where it touched down in 1969. With no wind, rain, or liquid water to corrode its frame, the octagonal descent stage, four footpads, ladder, and plaque endure as a permanent milestone of human exploration.'
-      : artifact.legacy.whatRemainsToday;
+  const conclusionNarrative = artifact.legacy.whatRemainsToday;
 
   return (
     <div className="fixed inset-0 z-40 bg-obsidian text-bone overflow-y-auto overflow-x-hidden select-none flex flex-col justify-between">

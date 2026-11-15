@@ -18,12 +18,12 @@ export const ScreenArrival: React.FC = () => {
         <div className="flex items-center space-x-3">
           <div className="w-2 h-2 rounded-full bg-signal" />
           <span className="font-mono text-xs uppercase tracking-wider text-bone font-medium">
-            AFTERLIGHT
+            APOLLO 11
           </span>
         </div>
         <div className="hidden md:flex items-center space-x-6 text-xs font-mono tracking-wider text-stone-secondary">
-          <span>APOLLO 11 · MER-B · INSIGHT</span>
-          <span>SOLAR SYSTEM HISTORICAL REGISTER</span>
+          <span>ARMSTRONG · ALDRIN · COLLINS</span>
+          <span>NASA HISTORICAL MISSION REGISTER</span>
         </div>
       </motion.div>
 
@@ -36,12 +36,12 @@ export const ScreenArrival: React.FC = () => {
           className="space-y-3"
         >
           <span className="font-mono text-xs tracking-wider text-signal uppercase block">
-            INTERACTIVE SPACE ARTIFACT ARCHIVE
+            THE FIRST JOURNEY TO ANOTHER WORLD
           </span>
           <h1 className="font-serif text-5xl sm:text-7xl lg:text-8xl tracking-tight leading-[0.98] text-bone">
-            THEY WENT BEYOND.
+            APOLLO 11.
             <br />
-            <span className="italic font-normal text-bone/90">THEY LEFT A LEGACY.</span>
+            <span className="italic font-normal text-bone/90">ONE GIANT LEAP FOR MANKIND.</span>
           </h1>
         </motion.div>
 
@@ -51,9 +51,9 @@ export const ScreenArrival: React.FC = () => {
           transition={{ duration: 1.4, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           className="max-w-xl text-stone-secondary font-sans text-base md:text-lg leading-relaxed font-light"
         >
-          An interactive archive of the machines that changed our understanding of space.
-          Explore the rovers, landers, and scientific hardware humanity left behind across
-          the Moon and Mars.
+          On July 16, 1969, three American astronauts—Neil Armstrong, Buzz Aldrin, and Michael
+          Collins—embarked aboard the Saturn V rocket to fulfill humanity's oldest dream.
+          Explore the hardware, the astronauts, and the historic sites of the first crewed landing on the Moon.
         </motion.p>
 
         {/* Primary Action Button (Signal Vermilion) */}
@@ -70,7 +70,7 @@ export const ScreenArrival: React.FC = () => {
           >
             <Compass className="w-4 h-4 text-obsidian group-hover:rotate-45 transition-transform duration-300" />
             <span className="font-mono text-xs uppercase tracking-wider font-semibold">
-              BEGIN EXPLORATION
+              ENTER THE MISSION
             </span>
             <ArrowUpRight className="w-4 h-4 text-obsidian group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />
           </button>
@@ -87,16 +87,16 @@ export const ScreenArrival: React.FC = () => {
         <div className="flex items-center space-x-6">
           <span className="flex items-center space-x-1.5">
             <span className="text-lunar">01.</span>
-            <span>THE MOON</span>
+            <span>TRANQUILITY BASE (MOON)</span>
           </span>
           <span className="text-meteorite">•</span>
           <span className="flex items-center space-x-1.5">
             <span className="text-signal">02.</span>
-            <span>MARS</span>
+            <span>COLUMBIA & HORIZON (ORBIT)</span>
           </span>
         </div>
         <div className="mt-3 md:mt-0 text-stone-muted">
-          <span>HISTORICAL SITES ARE PRESERVED IN SITU</span>
+          <span>JULY 16 – JULY 24, 1969 · PRESERVED IN SITU</span>
         </div>
       </motion.div>
     </div>

@@ -106,13 +106,13 @@ export const ScreenExhibition: React.FC = () => {
 
   const headline =
     selectedDestFilter === 'mars'
-      ? 'THE MACHINES THAT EXPLORED ANOTHER WORLD'
-      : 'THE MACHINES WE LEFT BEHIND';
+      ? 'THE FLIGHT CORRIDOR TO ANOTHER WORLD'
+      : 'TRANQUILITY BASE & LUNAR HERITAGE';
 
   const supportingText =
     selectedDestFilter === 'mars'
-      ? 'Discover the mobile geological laboratories that braved dust storms and traversed craters across the Red Planet.'
-      : 'Explore the rovers, landers, and scientific hardware preserved in the undisturbed lunar vacuum.';
+      ? 'Follow the 953,054-mile voyage from Cape Kennedy to lunar orbit and the fiery oceanic return of Command Module Columbia.'
+      : 'Explore humanity\'s first lunar landing site: Lunar Module Eagle, the three astronauts, the Saturn V booster, and the first steps in the lunar dust.';
 
   // Asymmetric 12-column spans matching editorial rhythm
   const getAsymmetricLayout = (index: number) => {

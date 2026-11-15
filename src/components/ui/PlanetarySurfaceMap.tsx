@@ -48,26 +48,24 @@ const SURFACE_SITES: Record<'moon' | 'mars', SiteMarkerData[]> = {
     },
     {
       artifact: ARTIFACTS.apollo_lrv,
-      latDecimal: 26.1322,
-      lonDecimal: 3.6339,
-      xPercent: ((3.6339 + 180) / 360) * 100, // 51.01%
-      yPercent: ((90 - 26.1322) / 180) * 100, // 35.48%
+      latDecimal: 0.6755,
+      lonDecimal: 23.475,
+      xPercent: ((23.475 + 180) / 360) * 100 + 1.2,
+      yPercent: ((90 - 0.6755) / 180) * 100 - 1.2,
     },
     {
       artifact: ARTIFACTS.surveyor3,
-      latDecimal: -3.016,
-      lonDecimal: -23.418,
-      xPercent: ((-23.418 + 180) / 360) * 100, // 43.50%
-      yPercent: ((90 - -3.016) / 180) * 100, // 51.68%
+      latDecimal: 0.670,
+      lonDecimal: 23.468,
+      xPercent: ((23.468 + 180) / 360) * 100 - 1.4,
+      yPercent: ((90 - 0.670) / 180) * 100 + 1.0,
     },
     {
       artifact: ARTIFACTS.apollo_alsep,
-      latDecimal: -3.009,
-      lonDecimal: -23.425,
-      // Apollo 12 ALSEP is 180m from Surveyor 3. We apply a slight visual display offset (+0.8%)
-      // so visitors can cleanly inspect both distinct markers on the overview map.
-      xPercent: ((-23.425 + 180) / 360) * 100 + 0.8,
-      yPercent: ((90 - -3.009) / 180) * 100 - 0.6,
+      latDecimal: 0.6745,
+      lonDecimal: 23.474,
+      xPercent: ((23.474 + 180) / 360) * 100 + 0.5,
+      yPercent: ((90 - 0.6745) / 180) * 100 + 0.6,
     },
   ],
   mars: [
